@@ -1,0 +1,1954 @@
+cortex-p001-cb_001	Neonatal Astrocyte
+cortex-p001-cb_002	Neonatal Neuron 1
+cortex-p001-cb_003	Neonatal Neuron 2
+cortex-p001-cb_004	Unknown
+cortex-p001-cb_005	Neonatal Neuron 2
+cortex-p001-cb_006	Oligodendrocyte Progenitor
+cortex-p001-cb_007	Neonatal Neuron 2
+cortex-p001-cb_008	Neonatal Neuron 1
+cortex-p001-cb_009	Neonatal Neuron 2
+cortex-p001-cb_010	Neonatal Neuron 1
+cortex-p001-cb_011	Unknown
+cortex-p001-cb_012	Neonatal Neuron 1
+cortex-p001-cb_014	Neonatal Neuron 2
+cortex-p001-cb_016	Neonatal Neuron 1
+cortex-p001-cb_017	Unknown
+cortex-p001-cb_019	Neonatal Neuron 1
+cortex-p001-cb_020	Neonatal Neuron 1
+cortex-p001-cb_021	Neonatal Astrocyte
+cortex-p001-cb_022	Neonatal Neuron 1
+cortex-p001-cb_023	Neonatal Neuron 1
+cortex-p001-cb_025	Unknown
+cortex-p001-cb_026	Neonatal Neuron 1
+cortex-p001-cb_028	Neonatal Neuron 2
+cortex-p001-cb_029	Neonatal Neuron 1
+cortex-p001-cb_030	Neonatal Astrocyte
+cortex-p001-cb_034	Unknown
+cortex-p001-cb_035	Unknown
+cortex-p001-cb_036	Neonatal Neuron 1
+cortex-p001-cb_037	Unknown
+cortex-p001-cb_038	Neonatal Neuron 1
+cortex-p001-cb_041	Neonatal Neuron 1
+cortex-p001-cb_042	Neonatal Neuron 1
+cortex-p001-cb_044	Neonatal Neuron 1
+cortex-p001-cb_045	Neonatal Neuron 2
+cortex-p001-cb_046	Neonatal Neuron 1
+cortex-p001-cb_047	Neonatal Neuron 1
+cortex-p001-cb_048	Neonatal Neuron 1
+cortex-p001-cb_056	Neonatal Neuron 2
+cortex-p001-cb_057	Neonatal Neuron 1
+cortex-p001-cb_059	Neonatal Neuron 1
+cortex-p001-cb_060	Neonatal Neuron 1
+cortex-p001-cb_067	Unknown
+cortex-p001-cb_068	Neonatal Neuron 1
+cortex-p001-cb_069	Unknown
+cortex-p001-cb_070	Neonatal Neuron 1
+cortex-p001-cb_071	Neonatal Neuron 1
+cortex-p001-cb_072	Neonatal Neuron 1
+cortex-p001-cb_082	Microglia Etc.
+cortex-p001-cb_083	Neonatal Neuron 1
+cortex-p001-cb_084	Neonatal Neuron 1
+cortex-p001-cb_098	Neonatal Neuron 2
+cortex-p001-cb_100	Neonatal Neuron 2
+cortex-p001-cb_103	Neonatal Neuron 2
+cortex-p001-cb_105	Neonatal Neuron 1
+cortex-p001-cb_106	Neonatal Neuron 2
+cortex-p001-cb_107	Neonatal Neuron 1
+cortex-p001-cb_109	Neonatal Neuron 1
+cortex-p001-cb_112	Neonatal Neuron 1
+cortex-p001-cb_116	Neonatal Neuron 2
+cortex-p001-cb_117	Neonatal Neuron 1
+cortex-p001-cb_118	Neonatal Neuron 1
+cortex-p001-cb_119	Neonatal Neuron 1
+cortex-p001-cb_120	Neonatal Neuron 1
+cortex-p001-cb_121	Neonatal Neuron 1
+cortex-p001-cb_123	Unknown
+cortex-p001-cb_124	Neonatal Neuron 1
+cortex-p001-cb_125	Neonatal Neuron 1
+cortex-p001-cb_126	Unknown
+cortex-p001-cb_127	Hippocampal Pyramidal Cell
+cortex-p001-cb_128	Neonatal Neuron 2
+cortex-p001-cb_129	Neonatal Neuron 2
+cortex-p001-cb_130	Neonatal Neuron 1
+cortex-p001-cb_131	Neonatal Neuron 1
+cortex-p001-cb_132	Neonatal Neuron 1
+cortex-p001-cb_133	Neonatal Neuron 2
+cortex-p001-cb_135	Neonatal Neuron 1
+cortex-p001-cb_136	Neonatal Astrocyte
+cortex-p001-cb_137	Neonatal Neuron 1
+cortex-p001-cb_138	Neonatal Neuron 2
+cortex-p001-cb_139	Neonatal Neuron 2
+cortex-p001-cb_142	Neonatal Neuron 1
+cortex-p001-cb_143	Neonatal Neuron 1
+cortex-p001-cb_144	Neonatal Neuron 1
+cortex-p001-cb_145	Neonatal Neuron 1
+cortex-p001-cb_146	Neonatal Astrocyte
+cortex-p001-cb_149	Neonatal Neuron 1
+cortex-p001-cb_150	Neonatal Neuron 1
+cortex-p001-cb_151	Neonatal Neuron 1
+cortex-p001-cb_153	Neonatal Neuron 1
+cortex-p001-cb_154	Neonatal Neuron 2
+cortex-p001-cb_155	Neonatal Neuron 1
+cortex-p001-cb_156	Neonatal Neuron 1
+cortex-p001-cb_158	Neonatal Neuron 1
+cortex-p001-cb_159	Neonatal Neuron 1
+cortex-p001-cb_160	Neonatal Neuron 1
+cortex-p001-cb_161	Neonatal Neuron 1
+cortex-p001-cb_163	Neonatal Neuron 1
+cortex-p001-cb_164	Unknown
+cortex-p001-cb_165	Unknown
+cortex-p001-cb_166	Neonatal Neuron 1
+cortex-p001-cb_167	Neonatal Neuron 2
+cortex-p001-cb_168	Neonatal Neuron 1
+cortex-p001-cb_171	Neonatal Astrocyte
+cortex-p001-cb_172	Neonatal Neuron 2
+cortex-p001-cb_173	Neonatal Neuron 1
+cortex-p001-cb_174	Neonatal Neuron 1
+cortex-p001-cb_176	Neonatal Neuron 2
+cortex-p001-cb_177	Neonatal Neuron 1
+cortex-p001-cb_178	Neonatal Neuron 2
+cortex-p001-cb_179	Neonatal Neuron 1
+cortex-p001-cb_180	Neonatal Neuron 1
+cortex-p001-cb_185	Neonatal Neuron 2
+cortex-p001-cb_188	Neonatal Neuron 2
+cortex-p001-cb_189	Neonatal Astrocyte
+cortex-p001-cb_190	Neonatal Neuron 1
+cortex-p001-cb_191	Neonatal Neuron 1
+cortex-p001-cb_196	Unknown
+cortex-p001-cb_197	Neonatal Astrocyte
+cortex-p001-cb_198	Neonatal Neuron 1
+cortex-p001-cb_199	Microglia Etc.
+cortex-p001-cb_200	Neonatal Neuron 1
+cortex-p001-cb_201	Neonatal Neuron 2
+cortex-p001-cb_202	Neonatal Neuron 1
+cortex-p001-cb_203	Neonatal Neuron 1
+cortex-p001-cb_204	Neonatal Astrocyte
+cortex-p001-cb_205	Neonatal Neuron 1
+cortex-p001-cb_206	Neonatal Neuron 1
+cortex-p001-cb_207	Neonatal Neuron 1
+cortex-p001-cb_208	Neonatal Neuron 1
+cortex-p001-cb_210	Neonatal Neuron 1
+cortex-p001-cb_211	Neonatal Neuron 1
+cortex-p001-cb_213	Microglia Etc.
+cortex-p001-cb_214	Neonatal Neuron 2
+cortex-p001-cb_215	Neonatal Neuron 1
+cortex-p001-cb_218	Neonatal Neuron 1
+cortex-p001-cb_219	Neonatal Neuron 1
+cortex-p001-cb_220	Neonatal Neuron 1
+cortex-p001-cb_221	Neonatal Neuron 2
+cortex-p001-cb_222	Neonatal Neuron 2
+cortex-p001-cb_223	Neonatal Neuron 1
+cortex-p001-cb_224	Neonatal Neuron 1
+cortex-p001-cb_225	Neonatal Neuron 2
+cortex-p001-cb_226	Unknown
+cortex-p001-cb_227	Neonatal Neuron 2
+cortex-p001-cb_228	Neonatal Neuron 1
+cortex-p001-cb_230	Neonatal Neuron 1
+cortex-p001-cb_231	Neonatal Neuron 1
+cortex-p001-cb_232	Neonatal Neuron 1
+cortex-p001-cb_233	Neonatal Neuron 1
+cortex-p001-cb_234	Neonatal Neuron 1
+cortex-p001-cb_235	Neonatal Neuron 1
+cortex-p001-cb_236	Neonatal Neuron 2
+cortex-p001-cb_237	Neonatal Neuron 1
+cortex-p001-cb_238	Neonatal Neuron 1
+cortex-p001-cb_239	Neonatal Neuron 2
+cortex-p001-cb_240	Neonatal Neuron 1
+cortex-p001-cb_241	Oligodendrocyte Progenitor
+cortex-p001-cb_243	Neonatal Neuron 1
+cortex-p001-cb_244	Neonatal Astrocyte
+cortex-p001-cb_245	Neonatal Neuron 1
+cortex-p001-cb_246	Neonatal Astrocyte
+cortex-p001-cb_247	Neonatal Neuron 1
+cortex-p001-cb_248	Neonatal Neuron 1
+cortex-p001-cb_249	Neonatal Neuron 1
+cortex-p001-cb_250	Neonatal Neuron 1
+cortex-p001-cb_251	Neonatal Neuron 2
+cortex-p001-cb_252	Neonatal Neuron 1
+cortex-p001-cb_253	Neonatal Neuron 1
+cortex-p001-cb_254	Neonatal Neuron 1
+cortex-p001-cb_255	Neonatal Neuron 1
+cortex-p001-cb_256	Neonatal Neuron 1
+cortex-p001-cb_257	Neonatal Astrocyte
+cortex-p001-cb_259	Neonatal Neuron 1
+cortex-p001-cb_260	Neonatal Neuron 1
+cortex-p001-cb_261	Neonatal Neuron 1
+cortex-p001-cb_262	Neonatal Neuron 1
+cortex-p001-cb_263	Oligodendrocyte Progenitor
+cortex-p001-cb_264	Neonatal Neuron 2
+cortex-p001-cb_266	Neonatal Neuron 1
+cortex-p001-cb_267	Neonatal Neuron 1
+cortex-p001-cb_269	Neonatal Neuron 1
+cortex-p001-cb_270	Neonatal Neuron 1
+cortex-p001-cb_271	Neonatal Astrocyte
+cortex-p001-cb_272	Neonatal Astrocyte
+cortex-p001-cb_273	Neonatal Neuron 1
+cortex-p001-cb_274	Neonatal Neuron 2
+cortex-p001-cb_275	Neonatal Neuron 2
+cortex-p001-cb_276	Neonatal Neuron 1
+cortex-p001-cb_281	Unknown
+cortex-p001-cb_285	Neonatal Neuron 2
+cortex-p001-cb_286	Neonatal Neuron 1
+cortex-p001-cb_287	Neonatal Neuron 1
+cortex-p001-cb_288	Neonatal Neuron 2
+cortex-p007-cb_002	Neonatal Neuron 2
+cortex-p007-cb_003	Neonatal Neuron 2
+cortex-p007-cb_004	Microglia Etc.
+cortex-p007-cb_005	Neonatal Neuron 2
+cortex-p007-cb_006	Hippocampal Pyramidal Cell
+cortex-p007-cb_007	Neonatal Neuron 2
+cortex-p007-cb_008	Hippocampal Pyramidal Cell
+cortex-p007-cb_009	Neonatal Neuron 1
+cortex-p007-cb_010	Neonatal Neuron 2
+cortex-p007-cb_011	Neonatal Neuron 2
+cortex-p007-cb_012	Neonatal Neuron 2
+cortex-p007-cb_014	Neonatal Neuron 2
+cortex-p007-cb_015	Neonatal Neuron 2
+cortex-p007-cb_016	Neonatal Neuron 2
+cortex-p007-cb_017	Neonatal Neuron 2
+cortex-p007-cb_018	Neonatal Neuron 2
+cortex-p007-cb_019	Neonatal Neuron 2
+cortex-p007-cb_020	Neonatal Neuron 2
+cortex-p007-cb_021	Neonatal Neuron 2
+cortex-p007-cb_022	Oligodendrocyte Progenitor
+cortex-p007-cb_023	Neonatal Neuron 2
+cortex-p007-cb_025	Oligodendrocyte Progenitor
+cortex-p007-cb_026	Neonatal Neuron 1
+cortex-p007-cb_027	Neonatal Neuron 1
+cortex-p007-cb_028	Neonatal Neuron 2
+cortex-p007-cb_029	Neonatal Neuron 1
+cortex-p007-cb_030	Neonatal Neuron 2
+cortex-p007-cb_031	Neonatal Neuron 2
+cortex-p007-cb_032	Neonatal Neuron 2
+cortex-p007-cb_033	Neonatal Neuron 2
+cortex-p007-cb_034	Neonatal Neuron 2
+cortex-p007-cb_035	Neonatal Neuron 2
+cortex-p007-cb_036	Neonatal Neuron 2
+cortex-p007-cb_037	Neonatal Neuron 1
+cortex-p007-cb_038	Neonatal Neuron 2
+cortex-p007-cb_039	Neonatal Neuron 1
+cortex-p007-cb_040	Oligodendrocyte Progenitor
+cortex-p007-cb_041	Neonatal Neuron 2
+cortex-p007-cb_042	Neonatal Neuron 2
+cortex-p007-cb_043	Neonatal Astrocyte
+cortex-p007-cb_044	Neonatal Neuron 2
+cortex-p007-cb_045	Neonatal Astrocyte
+cortex-p007-cb_046	Neonatal Neuron 1
+cortex-p007-cb_047	Oligodendrocyte Progenitor
+cortex-p007-cb_048	Neonatal Neuron 2
+cortex-p007-cb_049	Neonatal Neuron 1
+cortex-p007-cb_050	Neonatal Neuron 2
+cortex-p007-cb_051	Oligodendrocyte Progenitor
+cortex-p007-cb_052	Neonatal Neuron 2
+cortex-p007-cb_053	Neonatal Neuron 2
+cortex-p007-cb_054	Neonatal Neuron 2
+cortex-p007-cb_055	Neonatal Astrocyte
+cortex-p007-cb_056	Neonatal Neuron 2
+cortex-p007-cb_057	Neonatal Neuron 2
+cortex-p007-cb_058	Neonatal Neuron 2
+cortex-p007-cb_059	Neonatal Neuron 1
+cortex-p007-cb_060	Hippocampal Pyramidal Cell
+cortex-p007-cb_062	Hippocampal Pyramidal Cell
+cortex-p007-cb_064	Hippocampal Pyramidal Cell
+cortex-p007-cb_065	Neonatal Neuron 2
+cortex-p007-cb_066	Neonatal Neuron 2
+cortex-p007-cb_067	Unknown
+cortex-p007-cb_068	Neonatal Astrocyte
+cortex-p007-cb_069	Neonatal Neuron 2
+cortex-p007-cb_070	Neonatal Neuron 2
+cortex-p007-cb_071	Neonatal Neuron 1
+cortex-p007-cb_072	Neonatal Neuron 2
+cortex-p007-cb_077	Neonatal Astrocyte
+cortex-p007-cb_079	Neonatal Neuron 2
+cortex-p007-cb_080	Neonatal Neuron 1
+cortex-p007-cb_081	Neonatal Neuron 2
+cortex-p007-cb_082	Neonatal Neuron 2
+cortex-p007-cb_083	Neonatal Neuron 2
+cortex-p007-cb_084	Neonatal Neuron 2
+cortex-p007-cb_091	Neonatal Neuron 2
+cortex-p007-cb_095	Neonatal Neuron 1
+cortex-p007-cb_096	Neonatal Neuron 2
+cortex-p007-cb_097	Neonatal Neuron 2
+cortex-p007-cb_098	Neonatal Neuron 2
+cortex-p007-cb_099	Neonatal Neuron 2
+cortex-p007-cb_100	Oligodendrocyte Progenitor
+cortex-p007-cb_101	Neonatal Astrocyte
+cortex-p007-cb_102	Cortical L2–5 Pyramidal Cell
+cortex-p007-cb_103	Neonatal Neuron 2
+cortex-p007-cb_104	Neonatal Neuron 2
+cortex-p007-cb_105	Neonatal Neuron 2
+cortex-p007-cb_106	Neonatal Neuron 2
+cortex-p007-cb_107	Neonatal Neuron 1
+cortex-p007-cb_108	Neonatal Neuron 2
+cortex-p007-cb_109	Neonatal Neuron 1
+cortex-p007-cb_110	Neonatal Neuron 2
+cortex-p007-cb_112	Neonatal Neuron 2
+cortex-p007-cb_113	Hippocampal Pyramidal Cell
+cortex-p007-cb_114	Neonatal Neuron 1
+cortex-p007-cb_115	Neonatal Neuron 2
+cortex-p007-cb_116	Neonatal Neuron 2
+cortex-p007-cb_117	Neonatal Neuron 2
+cortex-p007-cb_118	Neonatal Neuron 2
+cortex-p007-cb_119	Neonatal Neuron 2
+cortex-p007-cb_120	Oligodendrocyte Progenitor
+cortex-p007-cb_121	Neonatal Neuron 2
+cortex-p007-cb_122	Neonatal Neuron 2
+cortex-p007-cb_123	Neonatal Neuron 2
+cortex-p007-cb_125	Oligodendrocyte Progenitor
+cortex-p007-cb_126	Neonatal Neuron 2
+cortex-p007-cb_127	Neonatal Neuron 2
+cortex-p007-cb_129	Neonatal Neuron 2
+cortex-p007-cb_130	Neonatal Astrocyte
+cortex-p007-cb_131	Neonatal Neuron 2
+cortex-p007-cb_132	Neonatal Neuron 2
+cortex-p007-cb_133	Neonatal Neuron 1
+cortex-p007-cb_134	Neonatal Neuron 1
+cortex-p007-cb_135	Hippocampal Pyramidal Cell
+cortex-p007-cb_136	Neonatal Neuron 2
+cortex-p007-cb_138	Neonatal Neuron 1
+cortex-p007-cb_139	Neonatal Neuron 1
+cortex-p007-cb_140	Neonatal Neuron 2
+cortex-p007-cb_141	Neonatal Neuron 2
+cortex-p007-cb_142	Neonatal Neuron 2
+cortex-p007-cb_143	Neonatal Astrocyte
+cortex-p007-cb_144	Neonatal Neuron 2
+cortex-p007-cb_145	Hippocampal Pyramidal Cell
+cortex-p007-cb_146	Neonatal Neuron 1
+cortex-p007-cb_149	Oligodendrocyte Progenitor
+cortex-p007-cb_150	Neonatal Neuron 2
+cortex-p007-cb_151	Neonatal Neuron 2
+cortex-p007-cb_152	Neonatal Neuron 2
+cortex-p007-cb_153	Neonatal Neuron 2
+cortex-p007-cb_155	Neonatal Neuron 2
+cortex-p007-cb_156	Neonatal Neuron 2
+cortex-p007-cb_158	Neonatal Astrocyte
+cortex-p007-cb_161	Neonatal Neuron 1
+cortex-p007-cb_162	Neonatal Astrocyte
+cortex-p007-cb_163	Oligodendrocyte Progenitor
+cortex-p007-cb_166	Oligodendrocyte Progenitor
+cortex-p007-cb_167	Hippocampal Pyramidal Cell
+cortex-p007-cb_168	Neonatal Neuron 2
+cortex-p007-cb_173	Neonatal Neuron 1
+cortex-p007-cb_174	Neonatal Neuron 2
+cortex-p007-cb_175	Neonatal Neuron 2
+cortex-p007-cb_178	Neonatal Neuron 2
+cortex-p007-cb_179	Oligodendrocyte Progenitor
+cortex-p007-cb_180	Neonatal Neuron 2
+cortex-p007-cb_185	Neonatal Neuron 2
+cortex-p007-cb_186	Neonatal Neuron 2
+cortex-p007-cb_187	Neonatal Neuron 2
+cortex-p007-cb_188	Neonatal Astrocyte
+cortex-p007-cb_189	Neonatal Neuron 1
+cortex-p007-cb_191	Neonatal Neuron 1
+cortex-p007-cb_192	Neonatal Neuron 2
+cortex-p028-cb_001	Neonatal Astrocyte
+cortex-p028-cb_002	Unknown
+cortex-p028-cb_003	Mature Oligodendrocyte
+cortex-p028-cb_004	Microglia Etc.
+cortex-p028-cb_005	Oligodendrocyte Progenitor
+cortex-p028-cb_006	Mature Oligodendrocyte
+cortex-p028-cb_007	Microglia Etc.
+cortex-p028-cb_008	Adult Astrocyte
+cortex-p028-cb_009	Interneuron
+cortex-p028-cb_010	Interneuron
+cortex-p028-cb_012	Microglia Etc.
+cortex-p028-cb_013	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_014	Adult Astrocyte
+cortex-p028-cb_015	Oligodendrocyte Progenitor
+cortex-p028-cb_016	Unknown
+cortex-p028-cb_017	Cortical L6 Pyramidal Cell
+cortex-p028-cb_020	Oligodendrocyte Progenitor
+cortex-p028-cb_021	Adult Astrocyte
+cortex-p028-cb_022	Unknown
+cortex-p028-cb_024	Adult Astrocyte
+cortex-p028-cb_025	Microglia Etc.
+cortex-p028-cb_026	Mature Oligodendrocyte
+cortex-p028-cb_027	Unknown
+cortex-p028-cb_028	Interneuron
+cortex-p028-cb_029	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_030	Oligodendrocyte Progenitor
+cortex-p028-cb_031	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_032	Medium Spiny Neuron
+cortex-p028-cb_033	Microglia Etc.
+cortex-p028-cb_034	Oligodendrocyte Progenitor
+cortex-p028-cb_036	Adult Astrocyte
+cortex-p028-cb_038	Microglia Etc.
+cortex-p028-cb_039	Microglia Etc.
+cortex-p028-cb_041	Microglia Etc.
+cortex-p028-cb_042	Oligodendrocyte Progenitor
+cortex-p028-cb_044	Neonatal Neuron 1
+cortex-p028-cb_045	Microglia Etc.
+cortex-p028-cb_046	Adult Astrocyte
+cortex-p028-cb_047	Interneuron
+cortex-p028-cb_048	Unknown
+cortex-p028-cb_049	Neonatal Neuron 1
+cortex-p028-cb_050	Interneuron
+cortex-p028-cb_051	Unknown
+cortex-p028-cb_053	Interneuron
+cortex-p028-cb_054	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_055	Oligodendrocyte Progenitor
+cortex-p028-cb_056	Medium Spiny Neuron
+cortex-p028-cb_057	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_058	Adult Astrocyte
+cortex-p028-cb_059	Interneuron
+cortex-p028-cb_060	Mature Oligodendrocyte
+cortex-p028-cb_061	Microglia Etc.
+cortex-p028-cb_062	Hippocampal Pyramidal Cell
+cortex-p028-cb_063	Mature Oligodendrocyte
+cortex-p028-cb_064	Oligodendrocyte Progenitor
+cortex-p028-cb_065	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_066	Microglia Etc.
+cortex-p028-cb_067	Hippocampal Pyramidal Cell
+cortex-p028-cb_068	Neonatal Astrocyte
+cortex-p028-cb_069	Microglia Etc.
+cortex-p028-cb_070	Interneuron
+cortex-p028-cb_071	Oligodendrocyte Progenitor
+cortex-p028-cb_072	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_073	Hippocampal Pyramidal Cell
+cortex-p028-cb_075	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_076	Interneuron
+cortex-p028-cb_077	Mature Oligodendrocyte
+cortex-p028-cb_078	Cortical L6 Pyramidal Cell
+cortex-p028-cb_079	Interneuron
+cortex-p028-cb_080	Unknown
+cortex-p028-cb_081	Hippocampal Pyramidal Cell
+cortex-p028-cb_082	Mature Oligodendrocyte
+cortex-p028-cb_083	Oligodendrocyte Progenitor
+cortex-p028-cb_084	Adult Astrocyte
+cortex-p028-cb_085	Oligodendrocyte Progenitor
+cortex-p028-cb_086	Microglia Etc.
+cortex-p028-cb_087	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_088	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_089	Oligodendrocyte Progenitor
+cortex-p028-cb_090	Microglia Etc.
+cortex-p028-cb_091	Oligodendrocyte Progenitor
+cortex-p028-cb_093	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_094	Oligodendrocyte Progenitor
+cortex-p028-cb_095	Oligodendrocyte Progenitor
+cortex-p028-cb_096	Microglia Etc.
+cortex-p028-cb_097	Adult Astrocyte
+cortex-p028-cb_098	Mature Oligodendrocyte
+cortex-p028-cb_099	Microglia Etc.
+cortex-p028-cb_100	Interneuron
+cortex-p028-cb_101	Oligodendrocyte Progenitor
+cortex-p028-cb_102	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_103	Oligodendrocyte Progenitor
+cortex-p028-cb_104	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_105	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_106	Cortical L6 Pyramidal Cell
+cortex-p028-cb_107	Microglia Etc.
+cortex-p028-cb_108	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_109	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_110	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_111	Cortical L6 Pyramidal Cell
+cortex-p028-cb_112	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_113	Adult Astrocyte
+cortex-p028-cb_114	Oligodendrocyte Progenitor
+cortex-p028-cb_115	Oligodendrocyte Progenitor
+cortex-p028-cb_116	Cortical L6 Pyramidal Cell
+cortex-p028-cb_117	Cortical L6 Pyramidal Cell
+cortex-p028-cb_118	Interneuron
+cortex-p028-cb_119	Oligodendrocyte Progenitor
+cortex-p028-cb_120	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_121	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_122	Adult Astrocyte
+cortex-p028-cb_123	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_124	Interneuron
+cortex-p028-cb_125	Mature Oligodendrocyte
+cortex-p028-cb_126	Mature Oligodendrocyte
+cortex-p028-cb_127	Interneuron
+cortex-p028-cb_129	Oligodendrocyte Progenitor
+cortex-p028-cb_130	Medium Spiny Neuron
+cortex-p028-cb_131	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_132	Adult Astrocyte
+cortex-p028-cb_133	Interneuron
+cortex-p028-cb_135	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_137	Microglia Etc.
+cortex-p028-cb_138	Oligodendrocyte Progenitor
+cortex-p028-cb_140	Mature Oligodendrocyte
+cortex-p028-cb_141	Mature Oligodendrocyte
+cortex-p028-cb_142	Medium Spiny Neuron
+cortex-p028-cb_143	Mature Oligodendrocyte
+cortex-p028-cb_144	Adult Astrocyte
+cortex-p028-cb_145	Mature Oligodendrocyte
+cortex-p028-cb_146	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_147	Microglia Etc.
+cortex-p028-cb_148	Cortical L6 Pyramidal Cell
+cortex-p028-cb_149	Adult Astrocyte
+cortex-p028-cb_150	Neonatal Astrocyte
+cortex-p028-cb_151	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_152	Neonatal Astrocyte
+cortex-p028-cb_153	Interneuron
+cortex-p028-cb_154	Hippocampal Pyramidal Cell
+cortex-p028-cb_155	Microglia Etc.
+cortex-p028-cb_156	Microglia Etc.
+cortex-p028-cb_157	Microglia Etc.
+cortex-p028-cb_158	Microglia Etc.
+cortex-p028-cb_159	Oligodendrocyte Progenitor
+cortex-p028-cb_160	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_161	Hippocampal Pyramidal Cell
+cortex-p028-cb_162	Mature Oligodendrocyte
+cortex-p028-cb_163	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_164	Oligodendrocyte Progenitor
+cortex-p028-cb_166	Cortical L6 Pyramidal Cell
+cortex-p028-cb_167	Oligodendrocyte Progenitor
+cortex-p028-cb_168	Cortical L6 Pyramidal Cell
+cortex-p028-cb_169	Microglia Etc.
+cortex-p028-cb_170	Medium Spiny Neuron
+cortex-p028-cb_171	Adult Astrocyte
+cortex-p028-cb_172	Microglia Etc.
+cortex-p028-cb_173	Unknown
+cortex-p028-cb_174	Oligodendrocyte Progenitor
+cortex-p028-cb_175	Adult Astrocyte
+cortex-p028-cb_176	Hippocampal Pyramidal Cell
+cortex-p028-cb_177	Medium Spiny Neuron
+cortex-p028-cb_178	Neonatal Astrocyte
+cortex-p028-cb_179	Medium Spiny Neuron
+cortex-p028-cb_180	Mature Oligodendrocyte
+cortex-p028-cb_181	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_182	Oligodendrocyte Progenitor
+cortex-p028-cb_183	Oligodendrocyte Progenitor
+cortex-p028-cb_184	Oligodendrocyte Progenitor
+cortex-p028-cb_185	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_186	Neonatal Neuron 1
+cortex-p028-cb_187	Microglia Etc.
+cortex-p028-cb_188	Interneuron
+cortex-p028-cb_189	Mature Oligodendrocyte
+cortex-p028-cb_190	Mature Oligodendrocyte
+cortex-p028-cb_191	Mature Oligodendrocyte
+cortex-p028-cb_192	Cortical L6 Pyramidal Cell
+cortex-p028-cb_193	Microglia Etc.
+cortex-p028-cb_194	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_195	Oligodendrocyte Progenitor
+cortex-p028-cb_196	Adult Astrocyte
+cortex-p028-cb_197	Cortical L6 Pyramidal Cell
+cortex-p028-cb_198	Hippocampal Pyramidal Cell
+cortex-p028-cb_199	Adult Astrocyte
+cortex-p028-cb_200	Interneuron
+cortex-p028-cb_201	Adult Astrocyte
+cortex-p028-cb_202	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_203	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_204	Microglia Etc.
+cortex-p028-cb_205	Mature Oligodendrocyte
+cortex-p028-cb_206	Microglia Etc.
+cortex-p028-cb_207	Neonatal Astrocyte
+cortex-p028-cb_208	Microglia Etc.
+cortex-p028-cb_209	Medium Spiny Neuron
+cortex-p028-cb_210	Oligodendrocyte Progenitor
+cortex-p028-cb_211	Interneuron
+cortex-p028-cb_212	Microglia Etc.
+cortex-p028-cb_213	Oligodendrocyte Progenitor
+cortex-p028-cb_214	Adult Astrocyte
+cortex-p028-cb_215	Microglia Etc.
+cortex-p028-cb_216	Neonatal Astrocyte
+cortex-p028-cb_217	Microglia Etc.
+cortex-p028-cb_219	Mature Oligodendrocyte
+cortex-p028-cb_220	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_221	Microglia Etc.
+cortex-p028-cb_222	Unknown
+cortex-p028-cb_223	Neonatal Astrocyte
+cortex-p028-cb_224	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_225	Microglia Etc.
+cortex-p028-cb_226	Microglia Etc.
+cortex-p028-cb_227	Microglia Etc.
+cortex-p028-cb_228	Microglia Etc.
+cortex-p028-cb_229	Microglia Etc.
+cortex-p028-cb_230	Microglia Etc.
+cortex-p028-cb_231	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_232	Interneuron
+cortex-p028-cb_233	Cortical L6 Pyramidal Cell
+cortex-p028-cb_234	Cortical L2–5 Pyramidal Cell
+cortex-p028-cb_235	Neonatal Astrocyte
+cortex-p028-cb_236	Oligodendrocyte Progenitor
+cortex-p028-cb_237	Interneuron
+cortex-p028-cb_238	Hippocampal Pyramidal Cell
+cortex-p028-cb_239	Mature Oligodendrocyte
+cortex-p056-cb_001	Mature Oligodendrocyte
+cortex-p056-cb_002	Mature Oligodendrocyte
+cortex-p056-cb_003	Mature Oligodendrocyte
+cortex-p056-cb_004	Mature Oligodendrocyte
+cortex-p056-cb_005	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_006	Microglia Etc.
+cortex-p056-cb_007	Microglia Etc.
+cortex-p056-cb_008	Oligodendrocyte Progenitor
+cortex-p056-cb_009	Cortical L6 Pyramidal Cell
+cortex-p056-cb_010	Interneuron
+cortex-p056-cb_011	Cortical L6 Pyramidal Cell
+cortex-p056-cb_012	Adult Astrocyte
+cortex-p056-cb_013	Microglia Etc.
+cortex-p056-cb_014	Microglia Etc.
+cortex-p056-cb_015	Mature Oligodendrocyte
+cortex-p056-cb_016	Mature Oligodendrocyte
+cortex-p056-cb_018	Oligodendrocyte Progenitor
+cortex-p056-cb_019	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_020	Mature Oligodendrocyte
+cortex-p056-cb_022	Mature Oligodendrocyte
+cortex-p056-cb_023	Interneuron
+cortex-p056-cb_024	Adult Astrocyte
+cortex-p056-cb_025	Interneuron
+cortex-p056-cb_026	Neonatal Neuron 1
+cortex-p056-cb_027	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_028	Hippocampal Pyramidal Cell
+cortex-p056-cb_029	Oligodendrocyte Progenitor
+cortex-p056-cb_030	Cortical L6 Pyramidal Cell
+cortex-p056-cb_031	Adult Astrocyte
+cortex-p056-cb_032	Mature Oligodendrocyte
+cortex-p056-cb_033	Oligodendrocyte Progenitor
+cortex-p056-cb_034	Mature Oligodendrocyte
+cortex-p056-cb_035	Adult Astrocyte
+cortex-p056-cb_036	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_037	Mature Oligodendrocyte
+cortex-p056-cb_038	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_039	Microglia Etc.
+cortex-p056-cb_040	Microglia Etc.
+cortex-p056-cb_041	Adult Astrocyte
+cortex-p056-cb_042	Hippocampal Pyramidal Cell
+cortex-p056-cb_043	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_044	Mature Oligodendrocyte
+cortex-p056-cb_045	Interneuron
+cortex-p056-cb_046	Interneuron
+cortex-p056-cb_047	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_048	Adult Astrocyte
+cortex-p056-cb_049	Oligodendrocyte Progenitor
+cortex-p056-cb_050	Mature Oligodendrocyte
+cortex-p056-cb_051	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_052	Interneuron
+cortex-p056-cb_053	Hippocampal Pyramidal Cell
+cortex-p056-cb_054	Mature Oligodendrocyte
+cortex-p056-cb_055	Mature Oligodendrocyte
+cortex-p056-cb_056	Mature Oligodendrocyte
+cortex-p056-cb_057	Mature Oligodendrocyte
+cortex-p056-cb_058	Mature Oligodendrocyte
+cortex-p056-cb_060	Mature Oligodendrocyte
+cortex-p056-cb_061	Microglia Etc.
+cortex-p056-cb_062	Microglia Etc.
+cortex-p056-cb_063	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_064	Interneuron
+cortex-p056-cb_065	Mature Oligodendrocyte
+cortex-p056-cb_066	Hippocampal Pyramidal Cell
+cortex-p056-cb_067	Adult Astrocyte
+cortex-p056-cb_068	Interneuron
+cortex-p056-cb_069	Cortical L6 Pyramidal Cell
+cortex-p056-cb_071	Mature Oligodendrocyte
+cortex-p056-cb_072	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_073	Oligodendrocyte Progenitor
+cortex-p056-cb_074	Oligodendrocyte Progenitor
+cortex-p056-cb_076	Microglia Etc.
+cortex-p056-cb_077	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_078	Hippocampal Pyramidal Cell
+cortex-p056-cb_079	Mature Oligodendrocyte
+cortex-p056-cb_080	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_081	Mature Oligodendrocyte
+cortex-p056-cb_082	Interneuron
+cortex-p056-cb_083	Mature Oligodendrocyte
+cortex-p056-cb_084	Hippocampal Pyramidal Cell
+cortex-p056-cb_085	Interneuron
+cortex-p056-cb_086	Mature Oligodendrocyte
+cortex-p056-cb_090	Unknown
+cortex-p056-cb_092	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_093	Oligodendrocyte Progenitor
+cortex-p056-cb_094	Interneuron
+cortex-p056-cb_095	Mature Oligodendrocyte
+cortex-p056-cb_096	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_097	Interneuron
+cortex-p056-cb_098	Adult Astrocyte
+cortex-p056-cb_100	Microglia Etc.
+cortex-p056-cb_101	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_102	Mature Oligodendrocyte
+cortex-p056-cb_103	Cortical L6 Pyramidal Cell
+cortex-p056-cb_104	Mature Oligodendrocyte
+cortex-p056-cb_105	Microglia Etc.
+cortex-p056-cb_107	Neonatal Neuron 1
+cortex-p056-cb_108	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_109	Mature Oligodendrocyte
+cortex-p056-cb_110	Mature Oligodendrocyte
+cortex-p056-cb_111	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_112	Mature Oligodendrocyte
+cortex-p056-cb_113	Cortical L6 Pyramidal Cell
+cortex-p056-cb_115	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_116	Microglia Etc.
+cortex-p056-cb_117	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_118	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_119	Oligodendrocyte Progenitor
+cortex-p056-cb_120	Adult Astrocyte
+cortex-p056-cb_121	Interneuron
+cortex-p056-cb_122	Mature Oligodendrocyte
+cortex-p056-cb_123	Mature Oligodendrocyte
+cortex-p056-cb_124	Hippocampal Pyramidal Cell
+cortex-p056-cb_125	Mature Oligodendrocyte
+cortex-p056-cb_128	Mature Oligodendrocyte
+cortex-p056-cb_129	Adult Astrocyte
+cortex-p056-cb_130	Adult Astrocyte
+cortex-p056-cb_131	Medium Spiny Neuron
+cortex-p056-cb_132	Medium Spiny Neuron
+cortex-p056-cb_133	Microglia Etc.
+cortex-p056-cb_134	Microglia Etc.
+cortex-p056-cb_135	Microglia Etc.
+cortex-p056-cb_136	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_137	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_138	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_139	Neonatal Astrocyte
+cortex-p056-cb_140	Interneuron
+cortex-p056-cb_141	Mature Oligodendrocyte
+cortex-p056-cb_142	Mature Oligodendrocyte
+cortex-p056-cb_143	Mature Oligodendrocyte
+cortex-p056-cb_144	Cortical L6 Pyramidal Cell
+cortex-p056-cb_145	Mature Oligodendrocyte
+cortex-p056-cb_146	Interneuron
+cortex-p056-cb_147	Mature Oligodendrocyte
+cortex-p056-cb_148	Cortical L6 Pyramidal Cell
+cortex-p056-cb_149	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_150	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_151	Mature Oligodendrocyte
+cortex-p056-cb_152	Interneuron
+cortex-p056-cb_153	Oligodendrocyte Progenitor
+cortex-p056-cb_154	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_156	Oligodendrocyte Progenitor
+cortex-p056-cb_157	Cortical L6 Pyramidal Cell
+cortex-p056-cb_158	Microglia Etc.
+cortex-p056-cb_159	Interneuron
+cortex-p056-cb_160	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_161	Adult Astrocyte
+cortex-p056-cb_162	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_163	Medium Spiny Neuron
+cortex-p056-cb_164	Oligodendrocyte Progenitor
+cortex-p056-cb_165	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_166	Adult Astrocyte
+cortex-p056-cb_167	Microglia Etc.
+cortex-p056-cb_168	Adult Astrocyte
+cortex-p056-cb_170	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_171	Interneuron
+cortex-p056-cb_173	Mature Oligodendrocyte
+cortex-p056-cb_174	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_175	Microglia Etc.
+cortex-p056-cb_176	Mature Oligodendrocyte
+cortex-p056-cb_177	Interneuron
+cortex-p056-cb_178	Mature Oligodendrocyte
+cortex-p056-cb_179	Microglia Etc.
+cortex-p056-cb_180	Mature Oligodendrocyte
+cortex-p056-cb_184	Interneuron
+cortex-p056-cb_185	Unknown
+cortex-p056-cb_186	Microglia Etc.
+cortex-p056-cb_187	Interneuron
+cortex-p056-cb_188	Mature Oligodendrocyte
+cortex-p056-cb_189	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_190	Microglia Etc.
+cortex-p056-cb_191	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_192	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_193	Oligodendrocyte Progenitor
+cortex-p056-cb_194	Hippocampal Pyramidal Cell
+cortex-p056-cb_195	Interneuron
+cortex-p056-cb_196	Mature Oligodendrocyte
+cortex-p056-cb_200	Mature Oligodendrocyte
+cortex-p056-cb_201	Medium Spiny Neuron
+cortex-p056-cb_202	Unknown
+cortex-p056-cb_203	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_204	Microglia Etc.
+cortex-p056-cb_205	Cortical L6 Pyramidal Cell
+cortex-p056-cb_206	Mature Oligodendrocyte
+cortex-p056-cb_207	Oligodendrocyte Progenitor
+cortex-p056-cb_208	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_209	Mature Oligodendrocyte
+cortex-p056-cb_210	Unknown
+cortex-p056-cb_211	Neonatal Neuron 1
+cortex-p056-cb_212	Mature Oligodendrocyte
+cortex-p056-cb_213	Hippocampal Pyramidal Cell
+cortex-p056-cb_214	Mature Oligodendrocyte
+cortex-p056-cb_216	Microglia Etc.
+cortex-p056-cb_217	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_218	Microglia Etc.
+cortex-p056-cb_219	Interneuron
+cortex-p056-cb_220	Hippocampal Pyramidal Cell
+cortex-p056-cb_221	Microglia Etc.
+cortex-p056-cb_222	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_223	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_224	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_225	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_226	Microglia Etc.
+cortex-p056-cb_227	Microglia Etc.
+cortex-p056-cb_228	Medium Spiny Neuron
+cortex-p056-cb_229	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_230	Cortical L6 Pyramidal Cell
+cortex-p056-cb_231	Mature Oligodendrocyte
+cortex-p056-cb_232	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_233	Mature Oligodendrocyte
+cortex-p056-cb_234	Mature Oligodendrocyte
+cortex-p056-cb_235	Microglia Etc.
+cortex-p056-cb_237	Mature Oligodendrocyte
+cortex-p056-cb_238	Interneuron
+cortex-p056-cb_239	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_240	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_241	Mature Oligodendrocyte
+cortex-p056-cb_242	Mature Oligodendrocyte
+cortex-p056-cb_244	Interneuron
+cortex-p056-cb_245	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_246	Oligodendrocyte Progenitor
+cortex-p056-cb_247	Microglia Etc.
+cortex-p056-cb_248	Mature Oligodendrocyte
+cortex-p056-cb_250	Mature Oligodendrocyte
+cortex-p056-cb_251	Oligodendrocyte Progenitor
+cortex-p056-cb_252	Oligodendrocyte Progenitor
+cortex-p056-cb_253	Mature Oligodendrocyte
+cortex-p056-cb_254	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_255	Mature Oligodendrocyte
+cortex-p056-cb_256	Microglia Etc.
+cortex-p056-cb_257	Cortical L2–5 Pyramidal Cell
+cortex-p056-cb_258	Unknown
+cortex-p056-cb_259	Microglia Etc.
+cortex-p056-cb_260	Hippocampal Granule Cell
+cortex-p056-cb_261	Cortical L6 Pyramidal Cell
+cortex-p056-cb_262	Adult Astrocyte
+cortex-p056-cb_263	Medium Spiny Neuron
+cortex-p056-cb_264	Oligodendrocyte Progenitor
+cortex-p056-cb_266	Microglia Etc.
+cortex-p056-cb_267	Microglia Etc.
+cortex-p056-cb_268	Hippocampal Pyramidal Cell
+cortex-p056-cb_269	Mature Oligodendrocyte
+cortex-p056-cb_270	Medium Spiny Neuron
+cortex-p056-cb_271	Medium Spiny Neuron
+cortex-p056-cb_272	Mature Oligodendrocyte
+cortex-p056-cb_274	Oligodendrocyte Progenitor
+cortex-p056-cb_275	Mature Oligodendrocyte
+cortex-p056-cb_276	Cortical L6 Pyramidal Cell
+cortex-p056-cb_284	Adult Astrocyte
+cortex-p056-cb_285	Unknown
+cortex-p056-cb_287	Cortical L6 Pyramidal Cell
+cortex-p056-cb_288	Hippocampal Pyramidal Cell
+cortex-p309-bc_001	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_002	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_003	Interneuron
+cortex-p309-bc_004	Interneuron
+cortex-p309-bc_005	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_006	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_007	Cortical L6 Pyramidal Cell
+cortex-p309-bc_008	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_009	Cortical L6 Pyramidal Cell
+cortex-p309-bc_010	Hippocampal Pyramidal Cell
+cortex-p309-bc_011	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_013	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_014	Cortical L6 Pyramidal Cell
+cortex-p309-bc_015	Unknown
+cortex-p309-bc_016	Microglia Etc.
+cortex-p309-bc_017	Interneuron
+cortex-p309-bc_018	Interneuron
+cortex-p309-bc_019	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_020	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_021	Mature Oligodendrocyte
+cortex-p309-bc_022	Cortical L6 Pyramidal Cell
+cortex-p309-bc_023	Adult Astrocyte
+cortex-p309-bc_024	Interneuron
+cortex-p309-bc_026	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_028	Cortical L6 Pyramidal Cell
+cortex-p309-bc_029	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_030	Adult Astrocyte
+cortex-p309-bc_031	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_032	Oligodendrocyte Progenitor
+cortex-p309-bc_033	Interneuron
+cortex-p309-bc_034	Mature Oligodendrocyte
+cortex-p309-bc_035	Adult Astrocyte
+cortex-p309-bc_036	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_037	Hippocampal Pyramidal Cell
+cortex-p309-bc_038	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_039	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_040	Medium Spiny Neuron
+cortex-p309-bc_041	Medium Spiny Neuron
+cortex-p309-bc_044	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_045	Interneuron
+cortex-p309-bc_046	Cortical L6 Pyramidal Cell
+cortex-p309-bc_047	Medium Spiny Neuron
+cortex-p309-bc_048	Cortical L6 Pyramidal Cell
+cortex-p309-bc_050	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_051	Hippocampal Pyramidal Cell
+cortex-p309-bc_052	Medium Spiny Neuron
+cortex-p309-bc_054	Interneuron
+cortex-p309-bc_055	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_056	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_058	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_062	Oligodendrocyte Progenitor
+cortex-p309-bc_063	Microglia Etc.
+cortex-p309-bc_064	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_066	Cortical L6 Pyramidal Cell
+cortex-p309-bc_067	Hippocampal Pyramidal Cell
+cortex-p309-bc_068	Hippocampal Pyramidal Cell
+cortex-p309-bc_070	Hippocampal Granule Cell
+cortex-p309-bc_072	Interneuron
+cortex-p309-bc_079	Interneuron
+cortex-p309-bc_080	Cortical L6 Pyramidal Cell
+cortex-p309-bc_082	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_083	Interneuron
+cortex-p309-bc_093	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_096	Interneuron
+cortex-p309-bc_097	Cortical L6 Pyramidal Cell
+cortex-p309-bc_098	Interneuron
+cortex-p309-bc_099	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_100	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_101	Interneuron
+cortex-p309-bc_102	Cortical L6 Pyramidal Cell
+cortex-p309-bc_103	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_104	Adult Astrocyte
+cortex-p309-bc_105	Cortical L6 Pyramidal Cell
+cortex-p309-bc_106	Cortical L6 Pyramidal Cell
+cortex-p309-bc_107	Medium Spiny Neuron
+cortex-p309-bc_108	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_109	Adult Astrocyte
+cortex-p309-bc_111	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_112	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_113	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_114	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_116	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_117	Cortical L6 Pyramidal Cell
+cortex-p309-bc_118	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_119	Interneuron
+cortex-p309-bc_120	Interneuron
+cortex-p309-bc_121	Cortical L6 Pyramidal Cell
+cortex-p309-bc_122	Adult Astrocyte
+cortex-p309-bc_124	Hippocampal Pyramidal Cell
+cortex-p309-bc_127	Cortical L6 Pyramidal Cell
+cortex-p309-bc_128	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_129	Oligodendrocyte Progenitor
+cortex-p309-bc_130	Medium Spiny Neuron
+cortex-p309-bc_131	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_133	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_134	Cortical L6 Pyramidal Cell
+cortex-p309-bc_135	Hippocampal Pyramidal Cell
+cortex-p309-bc_136	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_138	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_139	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_140	Interneuron
+cortex-p309-bc_141	Medium Spiny Neuron
+cortex-p309-bc_142	Medium Spiny Neuron
+cortex-p309-bc_143	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_144	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_146	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_148	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_149	Neonatal Neuron 1
+cortex-p309-bc_150	Interneuron
+cortex-p309-bc_151	Microglia Etc.
+cortex-p309-bc_152	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_153	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_154	Medium Spiny Neuron
+cortex-p309-bc_155	Hippocampal Pyramidal Cell
+cortex-p309-bc_156	Microglia Etc.
+cortex-p309-bc_158	Cortical L6 Pyramidal Cell
+cortex-p309-bc_159	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_160	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_161	Adult Astrocyte
+cortex-p309-bc_165	Mature Oligodendrocyte
+cortex-p309-bc_166	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_167	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_168	Interneuron
+cortex-p309-bc_174	Interneuron
+cortex-p309-bc_175	Interneuron
+cortex-p309-bc_178	Unknown
+cortex-p309-bc_179	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_180	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_189	Interneuron
+cortex-p309-bc_191	Cortical L2–5 Pyramidal Cell
+cortex-p309-bc_192	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_001	Cortical L6 Pyramidal Cell
+cortex-p347-cb_002	Cortical L6 Pyramidal Cell
+cortex-p347-cb_004	Interneuron
+cortex-p347-cb_005	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_006	Medium Spiny Neuron
+cortex-p347-cb_007	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_009	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_010	Medium Spiny Neuron
+cortex-p347-cb_011	Medium Spiny Neuron
+cortex-p347-cb_012	Cortical L6 Pyramidal Cell
+cortex-p347-cb_013	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_016	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_017	Interneuron
+cortex-p347-cb_018	Medium Spiny Neuron
+cortex-p347-cb_020	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_022	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_023	Oligodendrocyte Progenitor
+cortex-p347-cb_024	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_025	Adult Astrocyte
+cortex-p347-cb_026	Mature Oligodendrocyte
+cortex-p347-cb_027	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_028	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_029	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_031	Hippocampal Pyramidal Cell
+cortex-p347-cb_032	Cortical L6 Pyramidal Cell
+cortex-p347-cb_033	Cortical L6 Pyramidal Cell
+cortex-p347-cb_034	Adult Astrocyte
+cortex-p347-cb_035	Interneuron
+cortex-p347-cb_036	Hippocampal Pyramidal Cell
+cortex-p347-cb_038	Cortical L6 Pyramidal Cell
+cortex-p347-cb_040	Hippocampal Pyramidal Cell
+cortex-p347-cb_041	Hippocampal Pyramidal Cell
+cortex-p347-cb_042	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_044	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_045	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_046	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_047	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_050	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_051	Cortical L6 Pyramidal Cell
+cortex-p347-cb_053	Interneuron
+cortex-p347-cb_054	Mature Oligodendrocyte
+cortex-p347-cb_055	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_056	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_057	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_058	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_059	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_060	Medium Spiny Neuron
+cortex-p347-cb_061	Medium Spiny Neuron
+cortex-p347-cb_066	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_067	Cortical L6 Pyramidal Cell
+cortex-p347-cb_068	Interneuron
+cortex-p347-cb_069	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_070	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_072	Cortical L6 Pyramidal Cell
+cortex-p347-cb_079	Cortical L6 Pyramidal Cell
+cortex-p347-cb_080	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_081	Cortical L6 Pyramidal Cell
+cortex-p347-cb_082	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_083	Hippocampal Pyramidal Cell
+cortex-p347-cb_084	Cortical L6 Pyramidal Cell
+cortex-p347-cb_085	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_089	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_090	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_092	Adult Astrocyte
+cortex-p347-cb_093	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_095	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_096	Cortical L6 Pyramidal Cell
+cortex-p347-cb_097	Cortical L6 Pyramidal Cell
+cortex-p347-cb_098	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_099	Adult Astrocyte
+cortex-p347-cb_102	Interneuron
+cortex-p347-cb_103	Cortical L6 Pyramidal Cell
+cortex-p347-cb_104	Cortical L6 Pyramidal Cell
+cortex-p347-cb_105	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_106	Medium Spiny Neuron
+cortex-p347-cb_107	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_108	Adult Astrocyte
+cortex-p347-cb_109	Hippocampal Pyramidal Cell
+cortex-p347-cb_110	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_111	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_112	Medium Spiny Neuron
+cortex-p347-cb_113	Cortical L6 Pyramidal Cell
+cortex-p347-cb_114	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_116	Cortical L6 Pyramidal Cell
+cortex-p347-cb_117	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_118	Medium Spiny Neuron
+cortex-p347-cb_119	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_120	Adult Astrocyte
+cortex-p347-cb_121	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_122	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_123	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_124	Cortical L6 Pyramidal Cell
+cortex-p347-cb_125	Medium Spiny Neuron
+cortex-p347-cb_126	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_128	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_129	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_130	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_131	Medium Spiny Neuron
+cortex-p347-cb_132	Hippocampal Pyramidal Cell
+cortex-p347-cb_134	Mature Oligodendrocyte
+cortex-p347-cb_137	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_138	Cortical L6 Pyramidal Cell
+cortex-p347-cb_139	Oligodendrocyte Progenitor
+cortex-p347-cb_140	Hippocampal Pyramidal Cell
+cortex-p347-cb_141	Cortical L6 Pyramidal Cell
+cortex-p347-cb_142	Interneuron
+cortex-p347-cb_143	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_146	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_149	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_150	Mature Oligodendrocyte
+cortex-p347-cb_151	Hippocampal Pyramidal Cell
+cortex-p347-cb_152	Mature Oligodendrocyte
+cortex-p347-cb_153	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_154	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_155	Interneuron
+cortex-p347-cb_156	Cortical L6 Pyramidal Cell
+cortex-p347-cb_157	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_162	Hippocampal Pyramidal Cell
+cortex-p347-cb_165	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_166	Mature Oligodendrocyte
+cortex-p347-cb_167	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_177	Adult Astrocyte
+cortex-p347-cb_178	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_180	Medium Spiny Neuron
+cortex-p347-cb_187	Interneuron
+cortex-p347-cb_188	Cortical L2–5 Pyramidal Cell
+cortex-p347-cb_191	Hippocampal Pyramidal Cell
+cortex-p347-cb_192	Cortical L2–5 Pyramidal Cell
+hippocampus-p001-cb_002	Neonatal Neuron 1
+hippocampus-p001-cb_003	Neonatal Neuron 1
+hippocampus-p001-cb_004	Neonatal Neuron 1
+hippocampus-p001-cb_005	Unknown
+hippocampus-p001-cb_006	Neonatal Neuron 1
+hippocampus-p001-cb_009	Neonatal Astrocyte
+hippocampus-p001-cb_010	Neonatal Neuron 1
+hippocampus-p001-cb_011	Neonatal Neuron 1
+hippocampus-p001-cb_012	Neonatal Neuron 1
+hippocampus-p001-cb_013	Neonatal Neuron 1
+hippocampus-p001-cb_014	Neonatal Neuron 1
+hippocampus-p001-cb_015	Neonatal Astrocyte
+hippocampus-p001-cb_017	Neonatal Neuron 1
+hippocampus-p001-cb_018	Neonatal Neuron 1
+hippocampus-p001-cb_019	Neonatal Neuron 1
+hippocampus-p001-cb_020	Neonatal Neuron 1
+hippocampus-p001-cb_021	Oligodendrocyte Progenitor
+hippocampus-p001-cb_022	Neonatal Astrocyte
+hippocampus-p001-cb_023	Neonatal Astrocyte
+hippocampus-p001-cb_026	Neonatal Neuron 1
+hippocampus-p001-cb_027	Neonatal Neuron 1
+hippocampus-p001-cb_028	Neonatal Neuron 1
+hippocampus-p001-cb_029	Neonatal Neuron 2
+hippocampus-p001-cb_030	Neonatal Neuron 1
+hippocampus-p001-cb_031	Neonatal Neuron 1
+hippocampus-p001-cb_032	Neonatal Neuron 1
+hippocampus-p001-cb_033	Neonatal Neuron 1
+hippocampus-p001-cb_034	Neonatal Neuron 1
+hippocampus-p001-cb_038	Neonatal Neuron 1
+hippocampus-p001-cb_040	Neonatal Astrocyte
+hippocampus-p001-cb_041	Neonatal Neuron 1
+hippocampus-p001-cb_042	Neonatal Neuron 1
+hippocampus-p001-cb_043	Neonatal Neuron 1
+hippocampus-p001-cb_044	Neonatal Neuron 1
+hippocampus-p001-cb_045	Neonatal Astrocyte
+hippocampus-p001-cb_046	Neonatal Neuron 1
+hippocampus-p001-cb_047	Neonatal Neuron 1
+hippocampus-p001-cb_054	Neonatal Neuron 1
+hippocampus-p001-cb_055	Neonatal Neuron 1
+hippocampus-p001-cb_056	Neonatal Neuron 1
+hippocampus-p001-cb_057	Neonatal Neuron 2
+hippocampus-p001-cb_059	Neonatal Neuron 1
+hippocampus-p001-cb_060	Neonatal Neuron 2
+hippocampus-p001-cb_063	Neonatal Neuron 2
+hippocampus-p001-cb_065	Neonatal Neuron 1
+hippocampus-p001-cb_067	Neonatal Neuron 2
+hippocampus-p001-cb_068	Neonatal Neuron 1
+hippocampus-p001-cb_069	Neonatal Neuron 1
+hippocampus-p001-cb_070	Neonatal Neuron 1
+hippocampus-p001-cb_071	Neonatal Astrocyte
+hippocampus-p001-cb_072	Neonatal Neuron 1
+hippocampus-p001-cb_079	Neonatal Neuron 1
+hippocampus-p001-cb_082	Neonatal Neuron 2
+hippocampus-p001-cb_083	Neonatal Neuron 2
+hippocampus-p001-cb_084	Neonatal Neuron 1
+hippocampus-p001-cb_097	Neonatal Neuron 1
+hippocampus-p001-cb_098	Neonatal Neuron 1
+hippocampus-p001-cb_099	Neonatal Neuron 1
+hippocampus-p001-cb_100	Neonatal Neuron 1
+hippocampus-p001-cb_101	Neonatal Neuron 2
+hippocampus-p001-cb_102	Neonatal Neuron 1
+hippocampus-p001-cb_103	Neonatal Neuron 1
+hippocampus-p001-cb_104	Neonatal Neuron 1
+hippocampus-p001-cb_105	Neonatal Neuron 1
+hippocampus-p001-cb_106	Neonatal Neuron 1
+hippocampus-p001-cb_108	Neonatal Neuron 2
+hippocampus-p001-cb_109	Neonatal Neuron 1
+hippocampus-p001-cb_110	Neonatal Neuron 2
+hippocampus-p001-cb_111	Neonatal Neuron 1
+hippocampus-p001-cb_112	Neonatal Neuron 1
+hippocampus-p001-cb_113	Neonatal Neuron 1
+hippocampus-p001-cb_114	Neonatal Neuron 1
+hippocampus-p001-cb_115	Neonatal Neuron 1
+hippocampus-p001-cb_116	Neonatal Neuron 1
+hippocampus-p001-cb_117	Neonatal Astrocyte
+hippocampus-p001-cb_118	Neonatal Neuron 1
+hippocampus-p001-cb_119	Neonatal Neuron 1
+hippocampus-p001-cb_120	Neonatal Neuron 1
+hippocampus-p001-cb_121	Neonatal Neuron 2
+hippocampus-p001-cb_122	Neonatal Neuron 2
+hippocampus-p001-cb_123	Neonatal Neuron 1
+hippocampus-p001-cb_124	Neonatal Neuron 1
+hippocampus-p001-cb_125	Neonatal Neuron 1
+hippocampus-p001-cb_126	Neonatal Neuron 1
+hippocampus-p001-cb_127	Neonatal Neuron 1
+hippocampus-p001-cb_128	Unknown
+hippocampus-p001-cb_129	Neonatal Neuron 1
+hippocampus-p001-cb_131	Neonatal Neuron 1
+hippocampus-p001-cb_132	Neonatal Astrocyte
+hippocampus-p001-cb_133	Neonatal Neuron 1
+hippocampus-p001-cb_134	Neonatal Neuron 1
+hippocampus-p001-cb_135	Neonatal Neuron 1
+hippocampus-p001-cb_136	Neonatal Neuron 1
+hippocampus-p001-cb_137	Neonatal Neuron 2
+hippocampus-p001-cb_139	Neonatal Neuron 1
+hippocampus-p001-cb_140	Neonatal Neuron 1
+hippocampus-p001-cb_141	Neonatal Neuron 1
+hippocampus-p001-cb_142	Neonatal Neuron 2
+hippocampus-p001-cb_143	Neonatal Neuron 1
+hippocampus-p001-cb_144	Neonatal Neuron 1
+hippocampus-p001-cb_145	Neonatal Neuron 1
+hippocampus-p001-cb_146	Neonatal Neuron 1
+hippocampus-p001-cb_147	Neonatal Neuron 1
+hippocampus-p001-cb_148	Neonatal Neuron 1
+hippocampus-p001-cb_149	Neonatal Neuron 1
+hippocampus-p001-cb_150	Neonatal Neuron 1
+hippocampus-p001-cb_151	Neonatal Neuron 1
+hippocampus-p001-cb_152	Neonatal Neuron 1
+hippocampus-p001-cb_153	Oligodendrocyte Progenitor
+hippocampus-p001-cb_154	Neonatal Astrocyte
+hippocampus-p001-cb_155	Neonatal Neuron 1
+hippocampus-p001-cb_156	Neonatal Neuron 1
+hippocampus-p001-cb_157	Neonatal Neuron 1
+hippocampus-p001-cb_160	Neonatal Neuron 2
+hippocampus-p001-cb_161	Neonatal Astrocyte
+hippocampus-p001-cb_162	Neonatal Neuron 1
+hippocampus-p001-cb_163	Neonatal Neuron 1
+hippocampus-p001-cb_164	Neonatal Neuron 1
+hippocampus-p001-cb_165	Neonatal Astrocyte
+hippocampus-p001-cb_166	Neonatal Neuron 1
+hippocampus-p001-cb_167	Neonatal Neuron 1
+hippocampus-p001-cb_168	Neonatal Astrocyte
+hippocampus-p001-cb_171	Neonatal Astrocyte
+hippocampus-p001-cb_172	Neonatal Astrocyte
+hippocampus-p001-cb_173	Neonatal Neuron 2
+hippocampus-p001-cb_174	Neonatal Neuron 2
+hippocampus-p001-cb_175	Neonatal Neuron 2
+hippocampus-p001-cb_176	Neonatal Neuron 1
+hippocampus-p001-cb_177	Neonatal Neuron 2
+hippocampus-p001-cb_180	Neonatal Neuron 1
+hippocampus-p001-cb_182	Neonatal Astrocyte
+hippocampus-p001-cb_187	Neonatal Neuron 1
+hippocampus-p001-cb_188	Neonatal Neuron 2
+hippocampus-p001-cb_189	Neonatal Neuron 1
+hippocampus-p001-cb_191	Neonatal Neuron 2
+hippocampus-p001-cb_192	Neonatal Neuron 1
+hippocampus-p001-cb_193	Neonatal Neuron 1
+hippocampus-p001-cb_194	Neonatal Neuron 1
+hippocampus-p001-cb_195	Neonatal Neuron 2
+hippocampus-p001-cb_196	Neonatal Neuron 1
+hippocampus-p001-cb_198	Neonatal Neuron 1
+hippocampus-p001-cb_199	Neonatal Astrocyte
+hippocampus-p001-cb_200	Neonatal Neuron 1
+hippocampus-p001-cb_201	Unknown
+hippocampus-p001-cb_202	Neonatal Neuron 2
+hippocampus-p001-cb_203	Neonatal Neuron 2
+hippocampus-p001-cb_204	Neonatal Neuron 1
+hippocampus-p001-cb_205	Neonatal Neuron 1
+hippocampus-p001-cb_207	Neonatal Neuron 1
+hippocampus-p001-cb_208	Neonatal Neuron 2
+hippocampus-p001-cb_209	Neonatal Neuron 1
+hippocampus-p001-cb_210	Neonatal Neuron 2
+hippocampus-p001-cb_212	Neonatal Neuron 1
+hippocampus-p001-cb_213	Neonatal Neuron 1
+hippocampus-p001-cb_214	Neonatal Neuron 2
+hippocampus-p001-cb_215	Neonatal Neuron 1
+hippocampus-p001-cb_217	Neonatal Neuron 1
+hippocampus-p001-cb_218	Neonatal Neuron 1
+hippocampus-p001-cb_219	Neonatal Neuron 1
+hippocampus-p001-cb_220	Neonatal Neuron 1
+hippocampus-p001-cb_221	Neonatal Neuron 2
+hippocampus-p001-cb_222	Neonatal Neuron 1
+hippocampus-p001-cb_223	Neonatal Astrocyte
+hippocampus-p001-cb_224	Neonatal Neuron 1
+hippocampus-p001-cb_225	Neonatal Neuron 1
+hippocampus-p001-cb_226	Neonatal Neuron 1
+hippocampus-p001-cb_227	Neonatal Neuron 2
+hippocampus-p001-cb_228	Microglia Etc.
+hippocampus-p001-cb_229	Oligodendrocyte Progenitor
+hippocampus-p001-cb_230	Neonatal Neuron 1
+hippocampus-p001-cb_232	Neonatal Astrocyte
+hippocampus-p001-cb_233	Neonatal Neuron 1
+hippocampus-p001-cb_234	Neonatal Neuron 1
+hippocampus-p001-cb_235	Neonatal Neuron 2
+hippocampus-p001-cb_236	Neonatal Neuron 1
+hippocampus-p001-cb_237	Oligodendrocyte Progenitor
+hippocampus-p001-cb_238	Neonatal Neuron 2
+hippocampus-p001-cb_239	Neonatal Neuron 1
+hippocampus-p001-cb_240	Neonatal Neuron 1
+hippocampus-p001-cb_242	Neonatal Neuron 1
+hippocampus-p001-cb_243	Neonatal Neuron 1
+hippocampus-p001-cb_244	Neonatal Neuron 1
+hippocampus-p001-cb_245	Neonatal Neuron 1
+hippocampus-p001-cb_246	Neonatal Astrocyte
+hippocampus-p001-cb_247	Neonatal Neuron 2
+hippocampus-p001-cb_248	Neonatal Neuron 1
+hippocampus-p001-cb_249	Neonatal Neuron 1
+hippocampus-p001-cb_250	Neonatal Neuron 1
+hippocampus-p001-cb_251	Neonatal Neuron 1
+hippocampus-p001-cb_252	Neonatal Neuron 1
+hippocampus-p001-cb_254	Neonatal Neuron 1
+hippocampus-p001-cb_255	Neonatal Neuron 1
+hippocampus-p001-cb_256	Neonatal Neuron 1
+hippocampus-p001-cb_258	Neonatal Neuron 2
+hippocampus-p001-cb_259	Neonatal Neuron 1
+hippocampus-p001-cb_260	Neonatal Astrocyte
+hippocampus-p001-cb_261	Neonatal Neuron 1
+hippocampus-p001-cb_262	Neonatal Neuron 1
+hippocampus-p001-cb_263	Neonatal Neuron 1
+hippocampus-p001-cb_264	Neonatal Neuron 1
+hippocampus-p001-cb_266	Neonatal Neuron 2
+hippocampus-p001-cb_270	Neonatal Astrocyte
+hippocampus-p001-cb_271	Neonatal Neuron 1
+hippocampus-p001-cb_272	Neonatal Astrocyte
+hippocampus-p001-cb_273	Neonatal Neuron 1
+hippocampus-p001-cb_274	Neonatal Astrocyte
+hippocampus-p001-cb_275	Neonatal Neuron 1
+hippocampus-p001-cb_276	Neonatal Neuron 1
+hippocampus-p001-cb_282	Neonatal Neuron 1
+hippocampus-p001-cb_287	Neonatal Astrocyte
+hippocampus-p001-cb_288	Neonatal Neuron 1
+hippocampus-p007-cb_001	Neonatal Neuron 1
+hippocampus-p007-cb_002	Neonatal Neuron 2
+hippocampus-p007-cb_003	Neonatal Neuron 1
+hippocampus-p007-cb_004	Neonatal Neuron 2
+hippocampus-p007-cb_005	Neonatal Neuron 1
+hippocampus-p007-cb_006	Neonatal Neuron 2
+hippocampus-p007-cb_007	Neonatal Neuron 1
+hippocampus-p007-cb_008	Neonatal Neuron 1
+hippocampus-p007-cb_009	Neonatal Astrocyte
+hippocampus-p007-cb_010	Neonatal Neuron 2
+hippocampus-p007-cb_011	Neonatal Neuron 1
+hippocampus-p007-cb_012	Neonatal Neuron 2
+hippocampus-p007-cb_013	Neonatal Neuron 1
+hippocampus-p007-cb_014	Neonatal Neuron 1
+hippocampus-p007-cb_015	Neonatal Neuron 2
+hippocampus-p007-cb_017	Neonatal Neuron 1
+hippocampus-p007-cb_018	Neonatal Neuron 2
+hippocampus-p007-cb_019	Neonatal Astrocyte
+hippocampus-p007-cb_020	Neonatal Neuron 2
+hippocampus-p007-cb_021	Neonatal Neuron 1
+hippocampus-p007-cb_022	Oligodendrocyte Progenitor
+hippocampus-p007-cb_023	Neonatal Neuron 2
+hippocampus-p007-cb_024	Neonatal Neuron 1
+hippocampus-p007-cb_025	Neonatal Neuron 1
+hippocampus-p007-cb_026	Neonatal Neuron 2
+hippocampus-p007-cb_028	Neonatal Neuron 2
+hippocampus-p007-cb_029	Neonatal Neuron 1
+hippocampus-p007-cb_030	Neonatal Neuron 2
+hippocampus-p007-cb_031	Neonatal Neuron 2
+hippocampus-p007-cb_032	Unknown
+hippocampus-p007-cb_033	Unknown
+hippocampus-p007-cb_034	Neonatal Neuron 2
+hippocampus-p007-cb_035	Neonatal Neuron 2
+hippocampus-p007-cb_036	Neonatal Neuron 1
+hippocampus-p007-cb_038	Neonatal Neuron 1
+hippocampus-p007-cb_040	Neonatal Neuron 2
+hippocampus-p007-cb_041	Neonatal Neuron 1
+hippocampus-p007-cb_042	Neonatal Astrocyte
+hippocampus-p007-cb_043	Neonatal Neuron 2
+hippocampus-p007-cb_044	Neonatal Neuron 2
+hippocampus-p007-cb_045	Neonatal Neuron 1
+hippocampus-p007-cb_046	Microglia Etc.
+hippocampus-p007-cb_047	Neonatal Neuron 2
+hippocampus-p007-cb_048	Neonatal Neuron 2
+hippocampus-p007-cb_049	Neonatal Neuron 2
+hippocampus-p007-cb_050	Neonatal Neuron 2
+hippocampus-p007-cb_051	Neonatal Neuron 2
+hippocampus-p007-cb_053	Neonatal Neuron 1
+hippocampus-p007-cb_054	Neonatal Astrocyte
+hippocampus-p007-cb_055	Neonatal Neuron 2
+hippocampus-p007-cb_056	Neonatal Astrocyte
+hippocampus-p007-cb_057	Neonatal Neuron 2
+hippocampus-p007-cb_058	Neonatal Neuron 2
+hippocampus-p007-cb_059	Neonatal Neuron 2
+hippocampus-p007-cb_061	Oligodendrocyte Progenitor
+hippocampus-p007-cb_066	Neonatal Neuron 1
+hippocampus-p007-cb_069	Oligodendrocyte Progenitor
+hippocampus-p007-cb_070	Neonatal Neuron 1
+hippocampus-p007-cb_071	Neonatal Neuron 2
+hippocampus-p007-cb_072	Neonatal Neuron 2
+hippocampus-p007-cb_079	Neonatal Neuron 1
+hippocampus-p007-cb_081	Neonatal Neuron 2
+hippocampus-p007-cb_082	Neonatal Neuron 1
+hippocampus-p007-cb_083	Neonatal Astrocyte
+hippocampus-p007-cb_084	Oligodendrocyte Progenitor
+hippocampus-p007-cb_091	Neonatal Neuron 1
+hippocampus-p007-cb_094	Neonatal Neuron 2
+hippocampus-p007-cb_096	Neonatal Astrocyte
+hippocampus-p007-cb_097	Neonatal Neuron 1
+hippocampus-p007-cb_098	Oligodendrocyte Progenitor
+hippocampus-p007-cb_099	Neonatal Neuron 2
+hippocampus-p007-cb_100	Neonatal Neuron 2
+hippocampus-p007-cb_101	Neonatal Neuron 2
+hippocampus-p007-cb_102	Neonatal Neuron 1
+hippocampus-p007-cb_103	Neonatal Neuron 2
+hippocampus-p007-cb_104	Neonatal Neuron 1
+hippocampus-p007-cb_105	Neonatal Neuron 2
+hippocampus-p007-cb_106	Neonatal Astrocyte
+hippocampus-p007-cb_107	Neonatal Neuron 2
+hippocampus-p007-cb_108	Neonatal Neuron 2
+hippocampus-p007-cb_109	Oligodendrocyte Progenitor
+hippocampus-p007-cb_110	Neonatal Neuron 2
+hippocampus-p007-cb_111	Hippocampal Pyramidal Cell
+hippocampus-p007-cb_112	Neonatal Neuron 1
+hippocampus-p007-cb_114	Neonatal Neuron 2
+hippocampus-p007-cb_115	Neonatal Neuron 1
+hippocampus-p007-cb_117	Neonatal Astrocyte
+hippocampus-p007-cb_118	Microglia Etc.
+hippocampus-p007-cb_120	Microglia Etc.
+hippocampus-p007-cb_123	Neonatal Neuron 2
+hippocampus-p007-cb_124	Neonatal Neuron 2
+hippocampus-p007-cb_125	Neonatal Neuron 2
+hippocampus-p007-cb_126	Neonatal Neuron 2
+hippocampus-p007-cb_127	Oligodendrocyte Progenitor
+hippocampus-p007-cb_129	Neonatal Neuron 1
+hippocampus-p007-cb_130	Hippocampal Pyramidal Cell
+hippocampus-p007-cb_131	Neonatal Neuron 1
+hippocampus-p007-cb_133	Oligodendrocyte Progenitor
+hippocampus-p007-cb_134	Neonatal Neuron 1
+hippocampus-p007-cb_135	Neonatal Neuron 1
+hippocampus-p007-cb_136	Neonatal Neuron 2
+hippocampus-p007-cb_137	Neonatal Neuron 2
+hippocampus-p007-cb_138	Neonatal Neuron 2
+hippocampus-p007-cb_139	Neonatal Neuron 2
+hippocampus-p007-cb_140	Neonatal Neuron 1
+hippocampus-p007-cb_141	Neonatal Neuron 1
+hippocampus-p007-cb_142	Adult Astrocyte
+hippocampus-p007-cb_143	Neonatal Neuron 1
+hippocampus-p007-cb_144	Neonatal Neuron 2
+hippocampus-p007-cb_145	Neonatal Neuron 2
+hippocampus-p007-cb_146	Neonatal Neuron 1
+hippocampus-p007-cb_148	Neonatal Neuron 2
+hippocampus-p007-cb_149	Oligodendrocyte Progenitor
+hippocampus-p007-cb_150	Neonatal Neuron 2
+hippocampus-p007-cb_151	Neonatal Astrocyte
+hippocampus-p007-cb_152	Neonatal Neuron 2
+hippocampus-p007-cb_153	Oligodendrocyte Progenitor
+hippocampus-p007-cb_154	Neonatal Neuron 2
+hippocampus-p007-cb_155	Neonatal Neuron 1
+hippocampus-p007-cb_156	Neonatal Neuron 1
+hippocampus-p007-cb_157	Neonatal Neuron 1
+hippocampus-p007-cb_159	Oligodendrocyte Progenitor
+hippocampus-p007-cb_160	Neonatal Neuron 2
+hippocampus-p007-cb_161	Neonatal Neuron 1
+hippocampus-p007-cb_162	Neonatal Neuron 2
+hippocampus-p007-cb_163	Neonatal Neuron 2
+hippocampus-p007-cb_164	Neonatal Astrocyte
+hippocampus-p007-cb_165	Neonatal Neuron 1
+hippocampus-p007-cb_166	Neonatal Neuron 1
+hippocampus-p007-cb_167	Neonatal Neuron 2
+hippocampus-p007-cb_168	Neonatal Neuron 1
+hippocampus-p007-cb_169	Neonatal Astrocyte
+hippocampus-p007-cb_170	Neonatal Neuron 2
+hippocampus-p007-cb_171	Neonatal Neuron 2
+hippocampus-p007-cb_172	Neonatal Neuron 1
+hippocampus-p007-cb_173	Oligodendrocyte Progenitor
+hippocampus-p007-cb_174	Neonatal Neuron 2
+hippocampus-p007-cb_175	Neonatal Neuron 2
+hippocampus-p007-cb_176	Neonatal Neuron 1
+hippocampus-p007-cb_177	Neonatal Neuron 1
+hippocampus-p007-cb_178	Neonatal Neuron 2
+hippocampus-p007-cb_179	Neonatal Neuron 2
+hippocampus-p007-cb_180	Neonatal Neuron 2
+hippocampus-p007-cb_183	Neonatal Astrocyte
+hippocampus-p007-cb_184	Neonatal Neuron 2
+hippocampus-p007-cb_185	Microglia Etc.
+hippocampus-p007-cb_186	Neonatal Neuron 2
+hippocampus-p007-cb_188	Neonatal Neuron 1
+hippocampus-p007-cb_189	Neonatal Neuron 2
+hippocampus-p007-cb_190	Neonatal Neuron 2
+hippocampus-p007-cb_191	Neonatal Neuron 2
+hippocampus-p007-cb_192	Neonatal Neuron 1
+hippocampus-p028-cb_003	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_006	Adult Astrocyte
+hippocampus-p028-cb_007	Neonatal Neuron 2
+hippocampus-p028-cb_008	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_009	Mature Oligodendrocyte
+hippocampus-p028-cb_011	Microglia Etc.
+hippocampus-p028-cb_012	Hippocampal Granule Cell
+hippocampus-p028-cb_013	Hippocampal Granule Cell
+hippocampus-p028-cb_015	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_016	Cortical L2–5 Pyramidal Cell
+hippocampus-p028-cb_017	Adult Astrocyte
+hippocampus-p028-cb_018	Hippocampal Granule Cell
+hippocampus-p028-cb_019	Neonatal Neuron 1
+hippocampus-p028-cb_021	Mature Oligodendrocyte
+hippocampus-p028-cb_023	Adult Astrocyte
+hippocampus-p028-cb_024	Cortical L2–5 Pyramidal Cell
+hippocampus-p028-cb_025	Cortical L2–5 Pyramidal Cell
+hippocampus-p028-cb_026	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_027	Oligodendrocyte Progenitor
+hippocampus-p028-cb_029	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_030	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_031	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_033	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_034	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_035	Hippocampal Granule Cell
+hippocampus-p028-cb_036	Oligodendrocyte Progenitor
+hippocampus-p028-cb_037	Hippocampal Granule Cell
+hippocampus-p028-cb_038	Oligodendrocyte Progenitor
+hippocampus-p028-cb_039	Hippocampal Granule Cell
+hippocampus-p028-cb_040	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_041	Hippocampal Granule Cell
+hippocampus-p028-cb_042	Hippocampal Granule Cell
+hippocampus-p028-cb_043	Hippocampal Granule Cell
+hippocampus-p028-cb_044	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_045	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_046	Microglia Etc.
+hippocampus-p028-cb_047	Mature Oligodendrocyte
+hippocampus-p028-cb_048	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_049	Hippocampal Granule Cell
+hippocampus-p028-cb_050	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_051	Hippocampal Granule Cell
+hippocampus-p028-cb_052	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_053	Cortical L6 Pyramidal Cell
+hippocampus-p028-cb_054	Adult Astrocyte
+hippocampus-p028-cb_055	Mature Oligodendrocyte
+hippocampus-p028-cb_057	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_058	Unknown
+hippocampus-p028-cb_059	Microglia Etc.
+hippocampus-p028-cb_060	Oligodendrocyte Progenitor
+hippocampus-p028-cb_061	Mature Oligodendrocyte
+hippocampus-p028-cb_062	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_063	Microglia Etc.
+hippocampus-p028-cb_064	Mature Oligodendrocyte
+hippocampus-p028-cb_066	Adult Astrocyte
+hippocampus-p028-cb_067	Cortical L6 Pyramidal Cell
+hippocampus-p028-cb_068	Hippocampal Granule Cell
+hippocampus-p028-cb_069	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_070	Hippocampal Granule Cell
+hippocampus-p028-cb_071	Oligodendrocyte Progenitor
+hippocampus-p028-cb_072	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_073	Hippocampal Granule Cell
+hippocampus-p028-cb_074	Neonatal Neuron 2
+hippocampus-p028-cb_075	Hippocampal Granule Cell
+hippocampus-p028-cb_076	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_077	Oligodendrocyte Progenitor
+hippocampus-p028-cb_078	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_079	Hippocampal Granule Cell
+hippocampus-p028-cb_081	Adult Astrocyte
+hippocampus-p028-cb_082	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_083	Adult Astrocyte
+hippocampus-p028-cb_086	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_087	Interneuron
+hippocampus-p028-cb_088	Neonatal Neuron 2
+hippocampus-p028-cb_089	Neonatal Neuron 2
+hippocampus-p028-cb_090	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_091	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_092	Hippocampal Pyramidal Cell
+hippocampus-p028-cb_094	Adult Astrocyte
+hippocampus-p028-cb_095	Interneuron
+hippocampus-p028-cb_096	Neonatal Neuron 1
+hippocampus-p056-cb_001	Hippocampal Granule Cell
+hippocampus-p056-cb_003	Mature Oligodendrocyte
+hippocampus-p056-cb_004	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_005	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_006	Oligodendrocyte Progenitor
+hippocampus-p056-cb_007	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_008	Adult Astrocyte
+hippocampus-p056-cb_009	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_010	Mature Oligodendrocyte
+hippocampus-p056-cb_011	Interneuron
+hippocampus-p056-cb_012	Hippocampal Granule Cell
+hippocampus-p056-cb_013	Mature Oligodendrocyte
+hippocampus-p056-cb_014	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_015	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_016	Adult Astrocyte
+hippocampus-p056-cb_017	Neonatal Neuron 1
+hippocampus-p056-cb_018	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_019	Interneuron
+hippocampus-p056-cb_020	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_021	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_022	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_023	Hippocampal Granule Cell
+hippocampus-p056-cb_024	Microglia Etc.
+hippocampus-p056-cb_025	Microglia Etc.
+hippocampus-p056-cb_027	Hippocampal Granule Cell
+hippocampus-p056-cb_028	Oligodendrocyte Progenitor
+hippocampus-p056-cb_029	Microglia Etc.
+hippocampus-p056-cb_030	Adult Astrocyte
+hippocampus-p056-cb_031	Neonatal Astrocyte
+hippocampus-p056-cb_032	Hippocampal Granule Cell
+hippocampus-p056-cb_033	Mature Oligodendrocyte
+hippocampus-p056-cb_034	Hippocampal Granule Cell
+hippocampus-p056-cb_035	Neonatal Neuron 1
+hippocampus-p056-cb_036	Microglia Etc.
+hippocampus-p056-cb_037	Mature Oligodendrocyte
+hippocampus-p056-cb_038	Oligodendrocyte Progenitor
+hippocampus-p056-cb_039	Mature Oligodendrocyte
+hippocampus-p056-cb_040	Hippocampal Granule Cell
+hippocampus-p056-cb_041	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_042	Hippocampal Granule Cell
+hippocampus-p056-cb_043	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_044	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_045	Mature Oligodendrocyte
+hippocampus-p056-cb_046	Hippocampal Granule Cell
+hippocampus-p056-cb_047	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_048	Hippocampal Granule Cell
+hippocampus-p056-cb_049	Adult Astrocyte
+hippocampus-p056-cb_051	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_052	Hippocampal Granule Cell
+hippocampus-p056-cb_054	Microglia Etc.
+hippocampus-p056-cb_055	Hippocampal Granule Cell
+hippocampus-p056-cb_056	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_057	Hippocampal Granule Cell
+hippocampus-p056-cb_058	Adult Astrocyte
+hippocampus-p056-cb_059	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_060	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_061	Mature Oligodendrocyte
+hippocampus-p056-cb_062	Unknown
+hippocampus-p056-cb_064	Interneuron
+hippocampus-p056-cb_065	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_066	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_067	Adult Astrocyte
+hippocampus-p056-cb_068	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_069	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_070	Hippocampal Granule Cell
+hippocampus-p056-cb_071	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_072	Hippocampal Granule Cell
+hippocampus-p056-cb_073	Mature Oligodendrocyte
+hippocampus-p056-cb_074	Hippocampal Granule Cell
+hippocampus-p056-cb_075	Adult Astrocyte
+hippocampus-p056-cb_076	Hippocampal Granule Cell
+hippocampus-p056-cb_077	Oligodendrocyte Progenitor
+hippocampus-p056-cb_078	Mature Oligodendrocyte
+hippocampus-p056-cb_080	Mature Oligodendrocyte
+hippocampus-p056-cb_081	Adult Astrocyte
+hippocampus-p056-cb_082	Mature Oligodendrocyte
+hippocampus-p056-cb_083	Hippocampal Granule Cell
+hippocampus-p056-cb_084	Mature Oligodendrocyte
+hippocampus-p056-cb_085	Hippocampal Granule Cell
+hippocampus-p056-cb_086	Hippocampal Granule Cell
+hippocampus-p056-cb_087	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_088	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_089	Hippocampal Granule Cell
+hippocampus-p056-cb_090	Adult Astrocyte
+hippocampus-p056-cb_093	Hippocampal Granule Cell
+hippocampus-p056-cb_094	Hippocampal Granule Cell
+hippocampus-p056-cb_095	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_096	Microglia Etc.
+hippocampus-p056-cb_097	Hippocampal Granule Cell
+hippocampus-p056-cb_098	Mature Oligodendrocyte
+hippocampus-p056-cb_099	Mature Oligodendrocyte
+hippocampus-p056-cb_100	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_101	Oligodendrocyte Progenitor
+hippocampus-p056-cb_102	Hippocampal Granule Cell
+hippocampus-p056-cb_103	Oligodendrocyte Progenitor
+hippocampus-p056-cb_104	Neonatal Neuron 1
+hippocampus-p056-cb_105	Microglia Etc.
+hippocampus-p056-cb_106	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_107	Adult Astrocyte
+hippocampus-p056-cb_108	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_109	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_111	Interneuron
+hippocampus-p056-cb_112	Mature Oligodendrocyte
+hippocampus-p056-cb_113	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_114	Microglia Etc.
+hippocampus-p056-cb_115	Hippocampal Granule Cell
+hippocampus-p056-cb_116	Mature Oligodendrocyte
+hippocampus-p056-cb_117	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_118	Mature Oligodendrocyte
+hippocampus-p056-cb_119	Hippocampal Granule Cell
+hippocampus-p056-cb_120	Mature Oligodendrocyte
+hippocampus-p056-cb_121	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_122	Mature Oligodendrocyte
+hippocampus-p056-cb_123	Adult Astrocyte
+hippocampus-p056-cb_124	Interneuron
+hippocampus-p056-cb_126	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_127	Mature Oligodendrocyte
+hippocampus-p056-cb_128	Hippocampal Granule Cell
+hippocampus-p056-cb_129	Hippocampal Granule Cell
+hippocampus-p056-cb_130	Hippocampal Granule Cell
+hippocampus-p056-cb_131	Mature Oligodendrocyte
+hippocampus-p056-cb_132	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_133	Mature Oligodendrocyte
+hippocampus-p056-cb_134	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_135	Hippocampal Granule Cell
+hippocampus-p056-cb_136	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_137	Hippocampal Granule Cell
+hippocampus-p056-cb_138	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_139	Hippocampal Granule Cell
+hippocampus-p056-cb_140	Hippocampal Granule Cell
+hippocampus-p056-cb_141	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_142	Hippocampal Granule Cell
+hippocampus-p056-cb_143	Neonatal Astrocyte
+hippocampus-p056-cb_145	Cortical L6 Pyramidal Cell
+hippocampus-p056-cb_146	Mature Oligodendrocyte
+hippocampus-p056-cb_147	Mature Oligodendrocyte
+hippocampus-p056-cb_149	Hippocampal Granule Cell
+hippocampus-p056-cb_151	Hippocampal Granule Cell
+hippocampus-p056-cb_153	Mature Oligodendrocyte
+hippocampus-p056-cb_154	Mature Oligodendrocyte
+hippocampus-p056-cb_155	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_156	Adult Astrocyte
+hippocampus-p056-cb_157	Neonatal Neuron 1
+hippocampus-p056-cb_158	Interneuron
+hippocampus-p056-cb_159	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_160	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_161	Oligodendrocyte Progenitor
+hippocampus-p056-cb_162	Interneuron
+hippocampus-p056-cb_163	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_164	Mature Oligodendrocyte
+hippocampus-p056-cb_165	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_166	Interneuron
+hippocampus-p056-cb_167	Adult Astrocyte
+hippocampus-p056-cb_168	Hippocampal Granule Cell
+hippocampus-p056-cb_169	Adult Astrocyte
+hippocampus-p056-cb_170	Microglia Etc.
+hippocampus-p056-cb_171	Hippocampal Granule Cell
+hippocampus-p056-cb_172	Adult Astrocyte
+hippocampus-p056-cb_173	Microglia Etc.
+hippocampus-p056-cb_174	Microglia Etc.
+hippocampus-p056-cb_175	Hippocampal Granule Cell
+hippocampus-p056-cb_176	Hippocampal Granule Cell
+hippocampus-p056-cb_177	Hippocampal Granule Cell
+hippocampus-p056-cb_178	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_179	Hippocampal Granule Cell
+hippocampus-p056-cb_180	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_181	Interneuron
+hippocampus-p056-cb_182	Interneuron
+hippocampus-p056-cb_183	Hippocampal Granule Cell
+hippocampus-p056-cb_184	Cortical L2–5 Pyramidal Cell
+hippocampus-p056-cb_186	Hippocampal Granule Cell
+hippocampus-p056-cb_187	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_188	Microglia Etc.
+hippocampus-p056-cb_189	Adult Astrocyte
+hippocampus-p056-cb_190	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_191	Hippocampal Pyramidal Cell
+hippocampus-p056-cb_192	Hippocampal Granule Cell
+hippocampus-p309-bc_001	Hippocampal Granule Cell
+hippocampus-p309-bc_002	Adult Astrocyte
+hippocampus-p309-bc_004	Hippocampal Granule Cell
+hippocampus-p309-bc_006	Hippocampal Granule Cell
+hippocampus-p309-bc_007	Hippocampal Granule Cell
+hippocampus-p309-bc_008	Mature Oligodendrocyte
+hippocampus-p309-bc_009	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_010	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_011	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_012	Adult Astrocyte
+hippocampus-p309-bc_013	Hippocampal Granule Cell
+hippocampus-p309-bc_014	Interneuron
+hippocampus-p309-bc_015	Interneuron
+hippocampus-p309-bc_016	Hippocampal Granule Cell
+hippocampus-p309-bc_017	Microglia Etc.
+hippocampus-p309-bc_018	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_019	Interneuron
+hippocampus-p309-bc_020	Hippocampal Granule Cell
+hippocampus-p309-bc_021	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_022	Hippocampal Granule Cell
+hippocampus-p309-bc_023	Hippocampal Granule Cell
+hippocampus-p309-bc_024	Hippocampal Granule Cell
+hippocampus-p309-bc_026	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_027	Hippocampal Granule Cell
+hippocampus-p309-bc_028	Hippocampal Granule Cell
+hippocampus-p309-bc_029	Hippocampal Granule Cell
+hippocampus-p309-bc_030	Hippocampal Granule Cell
+hippocampus-p309-bc_031	Mature Oligodendrocyte
+hippocampus-p309-bc_032	Hippocampal Granule Cell
+hippocampus-p309-bc_033	Mature Oligodendrocyte
+hippocampus-p309-bc_034	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_035	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_036	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_039	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_040	Hippocampal Granule Cell
+hippocampus-p309-bc_041	Adult Astrocyte
+hippocampus-p309-bc_042	Hippocampal Granule Cell
+hippocampus-p309-bc_043	Adult Astrocyte
+hippocampus-p309-bc_044	Mature Oligodendrocyte
+hippocampus-p309-bc_045	Adult Astrocyte
+hippocampus-p309-bc_046	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_047	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_050	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_052	Hippocampal Granule Cell
+hippocampus-p309-bc_054	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_056	Hippocampal Granule Cell
+hippocampus-p309-bc_057	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_058	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_059	Adult Astrocyte
+hippocampus-p309-bc_060	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_061	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_066	Hippocampal Granule Cell
+hippocampus-p309-bc_067	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_069	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_070	Hippocampal Granule Cell
+hippocampus-p309-bc_071	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_077	Hippocampal Granule Cell
+hippocampus-p309-bc_080	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_081	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_082	Hippocampal Granule Cell
+hippocampus-p309-bc_083	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_084	Hippocampal Granule Cell
+hippocampus-p309-bc_085	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_095	Hippocampal Granule Cell
+hippocampus-p309-bc_097	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_098	Interneuron
+hippocampus-p309-bc_099	Microglia Etc.
+hippocampus-p309-bc_100	Interneuron
+hippocampus-p309-bc_101	Hippocampal Granule Cell
+hippocampus-p309-bc_102	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_103	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_104	Interneuron
+hippocampus-p309-bc_105	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_106	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_107	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_108	Adult Astrocyte
+hippocampus-p309-bc_109	Hippocampal Granule Cell
+hippocampus-p309-bc_110	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_112	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_114	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_115	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_116	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_117	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_118	Interneuron
+hippocampus-p309-bc_119	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_120	Microglia Etc.
+hippocampus-p309-bc_123	Adult Astrocyte
+hippocampus-p309-bc_124	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_125	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_126	Mature Oligodendrocyte
+hippocampus-p309-bc_128	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_129	Mature Oligodendrocyte
+hippocampus-p309-bc_130	Hippocampal Granule Cell
+hippocampus-p309-bc_131	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_132	Hippocampal Granule Cell
+hippocampus-p309-bc_133	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_134	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_136	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_138	Mature Oligodendrocyte
+hippocampus-p309-bc_139	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_140	Oligodendrocyte Progenitor
+hippocampus-p309-bc_141	Interneuron
+hippocampus-p309-bc_142	Interneuron
+hippocampus-p309-bc_143	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_144	Hippocampal Granule Cell
+hippocampus-p309-bc_146	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_150	Mature Oligodendrocyte
+hippocampus-p309-bc_152	Mature Oligodendrocyte
+hippocampus-p309-bc_153	Mature Oligodendrocyte
+hippocampus-p309-bc_154	Cortical L2–5 Pyramidal Cell
+hippocampus-p309-bc_155	Hippocampal Granule Cell
+hippocampus-p309-bc_156	Interneuron
+hippocampus-p309-bc_157	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_158	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_161	Hippocampal Granule Cell
+hippocampus-p309-bc_162	Interneuron
+hippocampus-p309-bc_163	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_164	Mature Oligodendrocyte
+hippocampus-p309-bc_166	Adult Astrocyte
+hippocampus-p309-bc_167	Hippocampal Granule Cell
+hippocampus-p309-bc_168	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_169	Mature Oligodendrocyte
+hippocampus-p309-bc_172	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_173	Cortical L6 Pyramidal Cell
+hippocampus-p309-bc_174	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_175	Interneuron
+hippocampus-p309-bc_176	Mature Oligodendrocyte
+hippocampus-p309-bc_177	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_178	Hippocampal Granule Cell
+hippocampus-p309-bc_179	Hippocampal Pyramidal Cell
+hippocampus-p309-bc_180	Microglia Etc.
+hippocampus-p309-bc_185	Adult Astrocyte
+hippocampus-p309-bc_187	Hippocampal Granule Cell
+hippocampus-p309-bc_192	Hippocampal Granule Cell
+hippocampus-p347-cb_001	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_002	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_003	Hippocampal Granule Cell
+hippocampus-p347-cb_004	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_007	Interneuron
+hippocampus-p347-cb_008	Hippocampal Granule Cell
+hippocampus-p347-cb_009	Oligodendrocyte Progenitor
+hippocampus-p347-cb_010	Interneuron
+hippocampus-p347-cb_012	Hippocampal Granule Cell
+hippocampus-p347-cb_015	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_016	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_018	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_019	Hippocampal Granule Cell
+hippocampus-p347-cb_020	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_021	Hippocampal Granule Cell
+hippocampus-p347-cb_023	Mature Oligodendrocyte
+hippocampus-p347-cb_026	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_028	Interneuron
+hippocampus-p347-cb_030	Interneuron
+hippocampus-p347-cb_031	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_032	Hippocampal Granule Cell
+hippocampus-p347-cb_033	Hippocampal Granule Cell
+hippocampus-p347-cb_034	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_035	Interneuron
+hippocampus-p347-cb_036	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_038	Hippocampal Granule Cell
+hippocampus-p347-cb_039	Microglia Etc.
+hippocampus-p347-cb_040	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_042	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_043	Hippocampal Granule Cell
+hippocampus-p347-cb_044	Oligodendrocyte Progenitor
+hippocampus-p347-cb_045	Hippocampal Granule Cell
+hippocampus-p347-cb_047	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_048	Adult Astrocyte
+hippocampus-p347-cb_050	Hippocampal Granule Cell
+hippocampus-p347-cb_054	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_055	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_056	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_057	Interneuron
+hippocampus-p347-cb_058	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_059	Hippocampal Granule Cell
+hippocampus-p347-cb_060	Hippocampal Granule Cell
+hippocampus-p347-cb_061	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_066	Hippocampal Granule Cell
+hippocampus-p347-cb_067	Adult Astrocyte
+hippocampus-p347-cb_068	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_069	Hippocampal Granule Cell
+hippocampus-p347-cb_070	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_072	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_076	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_079	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_081	Hippocampal Granule Cell
+hippocampus-p347-cb_082	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_083	Hippocampal Granule Cell
+hippocampus-p347-cb_084	Hippocampal Granule Cell
+hippocampus-p347-cb_094	Mature Oligodendrocyte
+hippocampus-p347-cb_095	Microglia Etc.
+hippocampus-p347-cb_097	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_098	Hippocampal Granule Cell
+hippocampus-p347-cb_099	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_100	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_101	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_103	Adult Astrocyte
+hippocampus-p347-cb_104	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_105	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_107	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_108	Hippocampal Granule Cell
+hippocampus-p347-cb_109	Hippocampal Granule Cell
+hippocampus-p347-cb_110	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_111	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_112	Interneuron
+hippocampus-p347-cb_113	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_114	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_115	Hippocampal Granule Cell
+hippocampus-p347-cb_116	Adult Astrocyte
+hippocampus-p347-cb_117	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_118	Hippocampal Granule Cell
+hippocampus-p347-cb_119	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_120	Mature Oligodendrocyte
+hippocampus-p347-cb_121	Interneuron
+hippocampus-p347-cb_122	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_124	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_125	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_127	Adult Astrocyte
+hippocampus-p347-cb_128	Hippocampal Granule Cell
+hippocampus-p347-cb_130	Mature Oligodendrocyte
+hippocampus-p347-cb_131	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_133	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_134	Mature Oligodendrocyte
+hippocampus-p347-cb_137	Hippocampal Granule Cell
+hippocampus-p347-cb_138	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_139	Hippocampal Granule Cell
+hippocampus-p347-cb_140	Mature Oligodendrocyte
+hippocampus-p347-cb_141	Interneuron
+hippocampus-p347-cb_142	Adult Astrocyte
+hippocampus-p347-cb_143	Hippocampal Granule Cell
+hippocampus-p347-cb_144	Adult Astrocyte
+hippocampus-p347-cb_145	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_146	Hippocampal Granule Cell
+hippocampus-p347-cb_147	Mature Oligodendrocyte
+hippocampus-p347-cb_148	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_149	Neonatal Neuron 2
+hippocampus-p347-cb_150	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_151	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_152	Hippocampal Granule Cell
+hippocampus-p347-cb_153	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_155	Hippocampal Granule Cell
+hippocampus-p347-cb_156	Cortical L6 Pyramidal Cell
+hippocampus-p347-cb_157	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_158	Hippocampal Granule Cell
+hippocampus-p347-cb_163	Adult Astrocyte
+hippocampus-p347-cb_164	Hippocampal Granule Cell
+hippocampus-p347-cb_166	Hippocampal Granule Cell
+hippocampus-p347-cb_167	Mature Oligodendrocyte
+hippocampus-p347-cb_168	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_170	Cortical L2–5 Pyramidal Cell
+hippocampus-p347-cb_173	Oligodendrocyte Progenitor
+hippocampus-p347-cb_174	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_175	Hippocampal Granule Cell
+hippocampus-p347-cb_178	Hippocampal Granule Cell
+hippocampus-p347-cb_181	Hippocampal Pyramidal Cell
+hippocampus-p347-cb_184	Interneuron
+hippocampus-p347-cb_187	Mature Oligodendrocyte
+hippocampus-p347-cb_188	Hippocampal Granule Cell
+hippocampus-p347-cb_191	Hippocampal Pyramidal Cell

@@ -1,0 +1,620 @@
+RawPath,Sample Name,source_name
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530987_181102_snm3C_A1_AD002_indexed_contacts.txt.gz,GSM3530987,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530988_181102_snm3C_A1_AD006_indexed_contacts.txt.gz,GSM3530988,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530989_181102_snm3C_A2_AD002_indexed_contacts.txt.gz,GSM3530989,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530990_181102_snm3C_A3_AD004_indexed_contacts.txt.gz,GSM3530990,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530991_181102_snm3C_A3_AD006_indexed_contacts.txt.gz,GSM3530991,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530992_181102_snm3C_B1_AD001_indexed_contacts.txt.gz,GSM3530992,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530993_181102_snm3C_B1_AD002_indexed_contacts.txt.gz,GSM3530993,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530994_181102_snm3C_B3_AD002_indexed_contacts.txt.gz,GSM3530994,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530995_181102_snm3C_C1_AD006_indexed_contacts.txt.gz,GSM3530995,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530996_181102_snm3C_C2_AD006_indexed_contacts.txt.gz,GSM3530996,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530997_181102_snm3C_C3_AD001_indexed_contacts.txt.gz,GSM3530997,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530998_181102_snm3C_C3_AD002_indexed_contacts.txt.gz,GSM3530998,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3530999_181102_snm3C_D1_AD001_indexed_contacts.txt.gz,GSM3530999,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531000_181102_snm3C_D1_AD004_indexed_contacts.txt.gz,GSM3531000,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531001_181102_snm3C_D1_AD006_indexed_contacts.txt.gz,GSM3531001,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531002_181102_snm3C_D2_AD001_indexed_contacts.txt.gz,GSM3531002,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531003_181102_snm3C_D3_AD004_indexed_contacts.txt.gz,GSM3531003,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531004_181102_snm3C_D3_AD006_indexed_contacts.txt.gz,GSM3531004,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531005_181102_snm3C_E2_AD002_indexed_contacts.txt.gz,GSM3531005,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531006_181102_snm3C_E2_AD006_indexed_contacts.txt.gz,GSM3531006,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531007_181102_snm3C_E3_AD001_indexed_contacts.txt.gz,GSM3531007,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531008_181102_snm3C_F1_AD002_indexed_contacts.txt.gz,GSM3531008,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531009_181102_snm3C_F1_AD006_indexed_contacts.txt.gz,GSM3531009,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531010_181102_snm3C_F3_AD001_indexed_contacts.txt.gz,GSM3531010,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531011_181102_snm3C_F3_AD004_indexed_contacts.txt.gz,GSM3531011,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531012_181102_snm3C_G1_AD001_indexed_contacts.txt.gz,GSM3531012,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531013_181102_snm3C_G1_AD004_indexed_contacts.txt.gz,GSM3531013,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531014_181102_snm3C_G1_AD006_indexed_contacts.txt.gz,GSM3531014,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531015_181102_snm3C_G2_AD002_indexed_contacts.txt.gz,GSM3531015,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531016_181102_snm3C_G2_AD004_indexed_contacts.txt.gz,GSM3531016,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531017_181102_snm3C_G3_AD001_indexed_contacts.txt.gz,GSM3531017,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531018_181102_snm3C_G3_AD002_indexed_contacts.txt.gz,GSM3531018,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531019_181102_snm3C_G3_AD006_indexed_contacts.txt.gz,GSM3531019,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531020_181102_snm3C_H1_AD001_indexed_contacts.txt.gz,GSM3531020,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531021_181102_snm3C_H1_AD002_indexed_contacts.txt.gz,GSM3531021,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531022_181102_snm3C_H1_AD004_indexed_contacts.txt.gz,GSM3531022,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531023_181102_snm3C_H1_AD006_indexed_contacts.txt.gz,GSM3531023,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531024_181102_snm3C_H2_AD004_indexed_contacts.txt.gz,GSM3531024,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531025_181102_snm3C_H3_AD001_indexed_contacts.txt.gz,GSM3531025,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531026_181102_snm3C_H3_AD004_indexed_contacts.txt.gz,GSM3531026,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531027_181102_snm3C_H3_AD006_indexed_contacts.txt.gz,GSM3531027,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531028_181102_snm3C_A7_AD006_indexed_contacts.txt.gz,GSM3531028,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531029_181102_snm3C_A8_AD001_indexed_contacts.txt.gz,GSM3531029,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531030_181102_snm3C_A8_AD004_indexed_contacts.txt.gz,GSM3531030,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531031_181102_snm3C_A8_AD006_indexed_contacts.txt.gz,GSM3531031,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531032_181102_snm3C_B8_AD001_indexed_contacts.txt.gz,GSM3531032,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531033_181102_snm3C_B8_AD004_indexed_contacts.txt.gz,GSM3531033,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531034_181102_snm3C_B8_AD006_indexed_contacts.txt.gz,GSM3531034,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531035_181102_snm3C_B9_AD001_indexed_contacts.txt.gz,GSM3531035,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531036_181102_snm3C_B9_AD004_indexed_contacts.txt.gz,GSM3531036,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531037_181102_snm3C_C7_AD001_indexed_contacts.txt.gz,GSM3531037,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531038_181102_snm3C_C7_AD002_indexed_contacts.txt.gz,GSM3531038,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531039_181102_snm3C_D7_AD001_indexed_contacts.txt.gz,GSM3531039,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531040_181102_snm3C_D7_AD002_indexed_contacts.txt.gz,GSM3531040,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531041_181102_snm3C_D9_AD002_indexed_contacts.txt.gz,GSM3531041,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531042_181102_snm3C_E7_AD001_indexed_contacts.txt.gz,GSM3531042,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531043_181102_snm3C_E8_AD004_indexed_contacts.txt.gz,GSM3531043,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531044_181102_snm3C_E9_AD002_indexed_contacts.txt.gz,GSM3531044,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531045_181102_snm3C_F7_AD001_indexed_contacts.txt.gz,GSM3531045,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531046_181102_snm3C_F7_AD004_indexed_contacts.txt.gz,GSM3531046,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531047_181102_snm3C_F8_AD006_indexed_contacts.txt.gz,GSM3531047,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531048_181102_snm3C_F9_AD001_indexed_contacts.txt.gz,GSM3531048,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531049_181102_snm3C_F9_AD006_indexed_contacts.txt.gz,GSM3531049,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531050_181102_snm3C_G7_AD004_indexed_contacts.txt.gz,GSM3531050,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531051_181102_snm3C_G8_AD002_indexed_contacts.txt.gz,GSM3531051,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531052_181102_snm3C_G8_AD004_indexed_contacts.txt.gz,GSM3531052,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531053_181102_snm3C_G8_AD006_indexed_contacts.txt.gz,GSM3531053,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531054_181102_snm3C_G9_AD002_indexed_contacts.txt.gz,GSM3531054,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531055_181102_snm3C_H8_AD001_indexed_contacts.txt.gz,GSM3531055,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531056_181102_snm3C_H9_AD006_indexed_contacts.txt.gz,GSM3531056,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531057_181102_snm3C_A11_AD004_indexed_contacts.txt.gz,GSM3531057,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531058_181102_snm3C_A11_AD006_indexed_contacts.txt.gz,GSM3531058,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531059_181102_snm3C_A12_AD002_indexed_contacts.txt.gz,GSM3531059,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531060_181102_snm3C_A12_AD004_indexed_contacts.txt.gz,GSM3531060,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531061_181102_snm3C_B11_AD001_indexed_contacts.txt.gz,GSM3531061,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531062_181102_snm3C_B11_AD006_indexed_contacts.txt.gz,GSM3531062,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531063_181102_snm3C_B12_AD001_indexed_contacts.txt.gz,GSM3531063,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531064_181102_snm3C_B12_AD006_indexed_contacts.txt.gz,GSM3531064,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531065_181102_snm3C_C11_AD001_indexed_contacts.txt.gz,GSM3531065,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531066_181102_snm3C_C11_AD002_indexed_contacts.txt.gz,GSM3531066,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531067_181102_snm3C_C12_AD001_indexed_contacts.txt.gz,GSM3531067,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531068_181102_snm3C_C12_AD004_indexed_contacts.txt.gz,GSM3531068,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531069_181102_snm3C_D10_AD004_indexed_contacts.txt.gz,GSM3531069,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531070_181102_snm3C_D11_AD006_indexed_contacts.txt.gz,GSM3531070,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531071_181102_snm3C_D12_AD001_indexed_contacts.txt.gz,GSM3531071,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531072_181102_snm3C_D12_AD004_indexed_contacts.txt.gz,GSM3531072,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531073_181102_snm3C_E10_AD002_indexed_contacts.txt.gz,GSM3531073,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531074_181102_snm3C_E10_AD006_indexed_contacts.txt.gz,GSM3531074,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531075_181102_snm3C_E11_AD001_indexed_contacts.txt.gz,GSM3531075,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531076_181102_snm3C_E11_AD002_indexed_contacts.txt.gz,GSM3531076,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531077_181102_snm3C_E12_AD001_indexed_contacts.txt.gz,GSM3531077,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531078_181102_snm3C_F12_AD004_indexed_contacts.txt.gz,GSM3531078,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531079_181102_snm3C_F12_AD006_indexed_contacts.txt.gz,GSM3531079,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531080_181102_snm3C_G10_AD002_indexed_contacts.txt.gz,GSM3531080,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531081_181102_snm3C_G11_AD002_indexed_contacts.txt.gz,GSM3531081,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531082_181102_snm3C_H10_AD004_indexed_contacts.txt.gz,GSM3531082,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531083_181102_snm3C_H11_AD001_indexed_contacts.txt.gz,GSM3531083,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531084_181102_snm3C_H11_AD002_indexed_contacts.txt.gz,GSM3531084,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531085_181102_snm3C_H11_AD004_indexed_contacts.txt.gz,GSM3531085,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531086_181102_snm3C_H12_AD001_indexed_contacts.txt.gz,GSM3531086,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531087_181102_snm3C_H12_AD002_indexed_contacts.txt.gz,GSM3531087,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531088_181102_snm3C_H12_AD004_indexed_contacts.txt.gz,GSM3531088,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531089_181102_snm3C_A4_AD002_indexed_contacts.txt.gz,GSM3531089,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531090_181102_snm3C_A4_AD004_indexed_contacts.txt.gz,GSM3531090,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531091_181102_snm3C_A5_AD001_indexed_contacts.txt.gz,GSM3531091,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531092_181102_snm3C_A5_AD002_indexed_contacts.txt.gz,GSM3531092,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531093_181102_snm3C_A5_AD004_indexed_contacts.txt.gz,GSM3531093,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531094_181102_snm3C_A5_AD006_indexed_contacts.txt.gz,GSM3531094,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531095_181102_snm3C_A6_AD001_indexed_contacts.txt.gz,GSM3531095,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531096_181102_snm3C_A6_AD002_indexed_contacts.txt.gz,GSM3531096,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531097_181102_snm3C_B4_AD006_indexed_contacts.txt.gz,GSM3531097,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531098_181102_snm3C_B5_AD002_indexed_contacts.txt.gz,GSM3531098,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531099_181102_snm3C_B6_AD004_indexed_contacts.txt.gz,GSM3531099,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531100_181102_snm3C_B6_AD006_indexed_contacts.txt.gz,GSM3531100,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531101_181102_snm3C_C4_AD002_indexed_contacts.txt.gz,GSM3531101,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531102_181102_snm3C_C4_AD006_indexed_contacts.txt.gz,GSM3531102,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531103_181102_snm3C_C5_AD002_indexed_contacts.txt.gz,GSM3531103,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531104_181102_snm3C_C5_AD006_indexed_contacts.txt.gz,GSM3531104,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531105_181102_snm3C_C6_AD006_indexed_contacts.txt.gz,GSM3531105,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531106_181102_snm3C_D4_AD001_indexed_contacts.txt.gz,GSM3531106,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531107_181102_snm3C_D5_AD002_indexed_contacts.txt.gz,GSM3531107,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531108_181102_snm3C_D5_AD004_indexed_contacts.txt.gz,GSM3531108,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531109_181102_snm3C_D6_AD002_indexed_contacts.txt.gz,GSM3531109,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531110_181102_snm3C_E4_AD002_indexed_contacts.txt.gz,GSM3531110,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531111_181102_snm3C_E4_AD006_indexed_contacts.txt.gz,GSM3531111,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531112_181102_snm3C_E5_AD002_indexed_contacts.txt.gz,GSM3531112,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531113_181102_snm3C_E5_AD004_indexed_contacts.txt.gz,GSM3531113,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531114_181102_snm3C_E5_AD006_indexed_contacts.txt.gz,GSM3531114,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531115_181102_snm3C_E6_AD001_indexed_contacts.txt.gz,GSM3531115,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531116_181102_snm3C_E6_AD004_indexed_contacts.txt.gz,GSM3531116,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531117_181102_snm3C_F4_AD001_indexed_contacts.txt.gz,GSM3531117,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531118_181102_snm3C_F5_AD001_indexed_contacts.txt.gz,GSM3531118,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531119_181102_snm3C_F5_AD002_indexed_contacts.txt.gz,GSM3531119,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531120_181102_snm3C_F5_AD006_indexed_contacts.txt.gz,GSM3531120,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531121_181102_snm3C_F6_AD006_indexed_contacts.txt.gz,GSM3531121,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531122_181102_snm3C_G4_AD002_indexed_contacts.txt.gz,GSM3531122,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531123_181102_snm3C_G5_AD004_indexed_contacts.txt.gz,GSM3531123,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531124_181102_snm3C_G6_AD001_indexed_contacts.txt.gz,GSM3531124,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531125_181102_snm3C_G6_AD006_indexed_contacts.txt.gz,GSM3531125,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531126_181102_snm3C_H4_AD001_indexed_contacts.txt.gz,GSM3531126,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531127_181102_snm3C_H4_AD002_indexed_contacts.txt.gz,GSM3531127,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531128_181102_snm3C_H5_AD004_indexed_contacts.txt.gz,GSM3531128,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531129_181102_snm3C_H5_AD006_indexed_contacts.txt.gz,GSM3531129,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531130_181102_snm3C_H6_AD002_indexed_contacts.txt.gz,GSM3531130,Human GM12878 Cell Line
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531131_181102_snm3C_A1_AD008_indexed_contacts.txt.gz,GSM3531131,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531132_181102_snm3C_A1_AD010_indexed_contacts.txt.gz,GSM3531132,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531133_181102_snm3C_A2_AD010_indexed_contacts.txt.gz,GSM3531133,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531134_181102_snm3C_A3_AD007_indexed_contacts.txt.gz,GSM3531134,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531135_181102_snm3C_A3_AD008_indexed_contacts.txt.gz,GSM3531135,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531136_181102_snm3C_A3_AD012_indexed_contacts.txt.gz,GSM3531136,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531137_181102_snm3C_B1_AD008_indexed_contacts.txt.gz,GSM3531137,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531138_181102_snm3C_B1_AD010_indexed_contacts.txt.gz,GSM3531138,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531139_181102_snm3C_B1_AD012_indexed_contacts.txt.gz,GSM3531139,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531140_181102_snm3C_B2_AD007_indexed_contacts.txt.gz,GSM3531140,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531141_181102_snm3C_B2_AD008_indexed_contacts.txt.gz,GSM3531141,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531142_181102_snm3C_B3_AD007_indexed_contacts.txt.gz,GSM3531142,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531143_181102_snm3C_B3_AD008_indexed_contacts.txt.gz,GSM3531143,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531144_181102_snm3C_B3_AD012_indexed_contacts.txt.gz,GSM3531144,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531145_181102_snm3C_C1_AD008_indexed_contacts.txt.gz,GSM3531145,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531146_181102_snm3C_C1_AD010_indexed_contacts.txt.gz,GSM3531146,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531147_181102_snm3C_C1_AD012_indexed_contacts.txt.gz,GSM3531147,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531148_181102_snm3C_C2_AD007_indexed_contacts.txt.gz,GSM3531148,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531149_181102_snm3C_C2_AD008_indexed_contacts.txt.gz,GSM3531149,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531150_181102_snm3C_C2_AD010_indexed_contacts.txt.gz,GSM3531150,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531151_181102_snm3C_C2_AD012_indexed_contacts.txt.gz,GSM3531151,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531152_181102_snm3C_C3_AD007_indexed_contacts.txt.gz,GSM3531152,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531153_181102_snm3C_C3_AD008_indexed_contacts.txt.gz,GSM3531153,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531154_181102_snm3C_C3_AD012_indexed_contacts.txt.gz,GSM3531154,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531155_181102_snm3C_D1_AD007_indexed_contacts.txt.gz,GSM3531155,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531156_181102_snm3C_D1_AD008_indexed_contacts.txt.gz,GSM3531156,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531157_181102_snm3C_D1_AD010_indexed_contacts.txt.gz,GSM3531157,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531158_181102_snm3C_D1_AD012_indexed_contacts.txt.gz,GSM3531158,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531159_181102_snm3C_D2_AD007_indexed_contacts.txt.gz,GSM3531159,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531160_181102_snm3C_D2_AD008_indexed_contacts.txt.gz,GSM3531160,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531161_181102_snm3C_D2_AD010_indexed_contacts.txt.gz,GSM3531161,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531162_181102_snm3C_D3_AD007_indexed_contacts.txt.gz,GSM3531162,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531163_181102_snm3C_D3_AD008_indexed_contacts.txt.gz,GSM3531163,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531164_181102_snm3C_D3_AD010_indexed_contacts.txt.gz,GSM3531164,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531165_181102_snm3C_D3_AD012_indexed_contacts.txt.gz,GSM3531165,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531166_181102_snm3C_E1_AD007_indexed_contacts.txt.gz,GSM3531166,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531167_181102_snm3C_E1_AD012_indexed_contacts.txt.gz,GSM3531167,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531168_181102_snm3C_E2_AD007_indexed_contacts.txt.gz,GSM3531168,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531169_181102_snm3C_E2_AD012_indexed_contacts.txt.gz,GSM3531169,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531170_181102_snm3C_E3_AD007_indexed_contacts.txt.gz,GSM3531170,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531171_181102_snm3C_E3_AD008_indexed_contacts.txt.gz,GSM3531171,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531172_181102_snm3C_E3_AD010_indexed_contacts.txt.gz,GSM3531172,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531173_181102_snm3C_E3_AD012_indexed_contacts.txt.gz,GSM3531173,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531174_181102_snm3C_F1_AD007_indexed_contacts.txt.gz,GSM3531174,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531175_181102_snm3C_F1_AD008_indexed_contacts.txt.gz,GSM3531175,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531176_181102_snm3C_F1_AD012_indexed_contacts.txt.gz,GSM3531176,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531177_181102_snm3C_F2_AD007_indexed_contacts.txt.gz,GSM3531177,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531178_181102_snm3C_F2_AD008_indexed_contacts.txt.gz,GSM3531178,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531179_181102_snm3C_F2_AD010_indexed_contacts.txt.gz,GSM3531179,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531180_181102_snm3C_F2_AD012_indexed_contacts.txt.gz,GSM3531180,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531181_181102_snm3C_F3_AD007_indexed_contacts.txt.gz,GSM3531181,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531182_181102_snm3C_G1_AD008_indexed_contacts.txt.gz,GSM3531182,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531183_181102_snm3C_G1_AD012_indexed_contacts.txt.gz,GSM3531183,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531184_181102_snm3C_G2_AD007_indexed_contacts.txt.gz,GSM3531184,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531185_181102_snm3C_G2_AD008_indexed_contacts.txt.gz,GSM3531185,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531186_181102_snm3C_G2_AD012_indexed_contacts.txt.gz,GSM3531186,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531187_181102_snm3C_G3_AD007_indexed_contacts.txt.gz,GSM3531187,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531188_181102_snm3C_G3_AD010_indexed_contacts.txt.gz,GSM3531188,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531189_181102_snm3C_G3_AD012_indexed_contacts.txt.gz,GSM3531189,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531190_181102_snm3C_H1_AD007_indexed_contacts.txt.gz,GSM3531190,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531191_181102_snm3C_H1_AD008_indexed_contacts.txt.gz,GSM3531191,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531192_181102_snm3C_H1_AD010_indexed_contacts.txt.gz,GSM3531192,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531193_181102_snm3C_H1_AD012_indexed_contacts.txt.gz,GSM3531193,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531194_181102_snm3C_H2_AD007_indexed_contacts.txt.gz,GSM3531194,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531195_181102_snm3C_H2_AD008_indexed_contacts.txt.gz,GSM3531195,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531196_181102_snm3C_H2_AD010_indexed_contacts.txt.gz,GSM3531196,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531197_181102_snm3C_H2_AD012_indexed_contacts.txt.gz,GSM3531197,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531198_181102_snm3C_H3_AD007_indexed_contacts.txt.gz,GSM3531198,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531199_181102_snm3C_H3_AD008_indexed_contacts.txt.gz,GSM3531199,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531200_181102_snm3C_H3_AD012_indexed_contacts.txt.gz,GSM3531200,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531201_181102_snm3C_A4_AD008_indexed_contacts.txt.gz,GSM3531201,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531202_181102_snm3C_A4_AD010_indexed_contacts.txt.gz,GSM3531202,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531203_181102_snm3C_A4_AD012_indexed_contacts.txt.gz,GSM3531203,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531204_181102_snm3C_A5_AD008_indexed_contacts.txt.gz,GSM3531204,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531205_181102_snm3C_A5_AD010_indexed_contacts.txt.gz,GSM3531205,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531206_181102_snm3C_A6_AD007_indexed_contacts.txt.gz,GSM3531206,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531207_181102_snm3C_A6_AD008_indexed_contacts.txt.gz,GSM3531207,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531208_181102_snm3C_A6_AD010_indexed_contacts.txt.gz,GSM3531208,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531209_181102_snm3C_A6_AD012_indexed_contacts.txt.gz,GSM3531209,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531210_181102_snm3C_B4_AD007_indexed_contacts.txt.gz,GSM3531210,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531211_181102_snm3C_B4_AD008_indexed_contacts.txt.gz,GSM3531211,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531212_181102_snm3C_B4_AD012_indexed_contacts.txt.gz,GSM3531212,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531213_181102_snm3C_B5_AD007_indexed_contacts.txt.gz,GSM3531213,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531214_181102_snm3C_B5_AD008_indexed_contacts.txt.gz,GSM3531214,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531215_181102_snm3C_B5_AD010_indexed_contacts.txt.gz,GSM3531215,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531216_181102_snm3C_B6_AD007_indexed_contacts.txt.gz,GSM3531216,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531217_181102_snm3C_B6_AD010_indexed_contacts.txt.gz,GSM3531217,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531218_181102_snm3C_C4_AD007_indexed_contacts.txt.gz,GSM3531218,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531219_181102_snm3C_C4_AD008_indexed_contacts.txt.gz,GSM3531219,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531220_181102_snm3C_C4_AD010_indexed_contacts.txt.gz,GSM3531220,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531221_181102_snm3C_C4_AD012_indexed_contacts.txt.gz,GSM3531221,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531222_181102_snm3C_C5_AD007_indexed_contacts.txt.gz,GSM3531222,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531223_181102_snm3C_C5_AD008_indexed_contacts.txt.gz,GSM3531223,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531224_181102_snm3C_C5_AD010_indexed_contacts.txt.gz,GSM3531224,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531225_181102_snm3C_C5_AD012_indexed_contacts.txt.gz,GSM3531225,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531226_181102_snm3C_C6_AD007_indexed_contacts.txt.gz,GSM3531226,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531227_181102_snm3C_C6_AD008_indexed_contacts.txt.gz,GSM3531227,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531228_181102_snm3C_C6_AD010_indexed_contacts.txt.gz,GSM3531228,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531229_181102_snm3C_C6_AD012_indexed_contacts.txt.gz,GSM3531229,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531230_181102_snm3C_D4_AD007_indexed_contacts.txt.gz,GSM3531230,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531231_181102_snm3C_D4_AD008_indexed_contacts.txt.gz,GSM3531231,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531232_181102_snm3C_D4_AD010_indexed_contacts.txt.gz,GSM3531232,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531233_181102_snm3C_D4_AD012_indexed_contacts.txt.gz,GSM3531233,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531234_181102_snm3C_D5_AD007_indexed_contacts.txt.gz,GSM3531234,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531235_181102_snm3C_D5_AD008_indexed_contacts.txt.gz,GSM3531235,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531236_181102_snm3C_D5_AD010_indexed_contacts.txt.gz,GSM3531236,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531237_181102_snm3C_D5_AD012_indexed_contacts.txt.gz,GSM3531237,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531238_181102_snm3C_D6_AD007_indexed_contacts.txt.gz,GSM3531238,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531239_181102_snm3C_D6_AD008_indexed_contacts.txt.gz,GSM3531239,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531240_181102_snm3C_D6_AD010_indexed_contacts.txt.gz,GSM3531240,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531241_181102_snm3C_E4_AD007_indexed_contacts.txt.gz,GSM3531241,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531242_181102_snm3C_E4_AD010_indexed_contacts.txt.gz,GSM3531242,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531243_181102_snm3C_E5_AD007_indexed_contacts.txt.gz,GSM3531243,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531244_181102_snm3C_E5_AD008_indexed_contacts.txt.gz,GSM3531244,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531245_181102_snm3C_E5_AD010_indexed_contacts.txt.gz,GSM3531245,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531246_181102_snm3C_E5_AD012_indexed_contacts.txt.gz,GSM3531246,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531247_181102_snm3C_E6_AD007_indexed_contacts.txt.gz,GSM3531247,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531248_181102_snm3C_E6_AD008_indexed_contacts.txt.gz,GSM3531248,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531249_181102_snm3C_E6_AD010_indexed_contacts.txt.gz,GSM3531249,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531250_181102_snm3C_E6_AD012_indexed_contacts.txt.gz,GSM3531250,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531251_181102_snm3C_F4_AD007_indexed_contacts.txt.gz,GSM3531251,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531252_181102_snm3C_F4_AD008_indexed_contacts.txt.gz,GSM3531252,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531253_181102_snm3C_F4_AD010_indexed_contacts.txt.gz,GSM3531253,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531254_181102_snm3C_F4_AD012_indexed_contacts.txt.gz,GSM3531254,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531255_181102_snm3C_F5_AD008_indexed_contacts.txt.gz,GSM3531255,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531256_181102_snm3C_F5_AD010_indexed_contacts.txt.gz,GSM3531256,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531257_181102_snm3C_F5_AD012_indexed_contacts.txt.gz,GSM3531257,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531258_181102_snm3C_F6_AD007_indexed_contacts.txt.gz,GSM3531258,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531259_181102_snm3C_F6_AD008_indexed_contacts.txt.gz,GSM3531259,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531260_181102_snm3C_F6_AD010_indexed_contacts.txt.gz,GSM3531260,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531261_181102_snm3C_G4_AD007_indexed_contacts.txt.gz,GSM3531261,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531262_181102_snm3C_G4_AD008_indexed_contacts.txt.gz,GSM3531262,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531263_181102_snm3C_G4_AD010_indexed_contacts.txt.gz,GSM3531263,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531264_181102_snm3C_G5_AD007_indexed_contacts.txt.gz,GSM3531264,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531265_181102_snm3C_G5_AD008_indexed_contacts.txt.gz,GSM3531265,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531266_181102_snm3C_G5_AD010_indexed_contacts.txt.gz,GSM3531266,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531267_181102_snm3C_G5_AD012_indexed_contacts.txt.gz,GSM3531267,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531268_181102_snm3C_G6_AD007_indexed_contacts.txt.gz,GSM3531268,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531269_181102_snm3C_G6_AD008_indexed_contacts.txt.gz,GSM3531269,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531270_181102_snm3C_G6_AD010_indexed_contacts.txt.gz,GSM3531270,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531271_181102_snm3C_G6_AD012_indexed_contacts.txt.gz,GSM3531271,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531272_181102_snm3C_H4_AD007_indexed_contacts.txt.gz,GSM3531272,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531273_181102_snm3C_H4_AD008_indexed_contacts.txt.gz,GSM3531273,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531274_181102_snm3C_H4_AD010_indexed_contacts.txt.gz,GSM3531274,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531275_181102_snm3C_H4_AD012_indexed_contacts.txt.gz,GSM3531275,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531276_181102_snm3C_H5_AD007_indexed_contacts.txt.gz,GSM3531276,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531277_181102_snm3C_H5_AD008_indexed_contacts.txt.gz,GSM3531277,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531278_181102_snm3C_H5_AD010_indexed_contacts.txt.gz,GSM3531278,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531279_181102_snm3C_H5_AD012_indexed_contacts.txt.gz,GSM3531279,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531280_181102_snm3C_H6_AD007_indexed_contacts.txt.gz,GSM3531280,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531281_181102_snm3C_H6_AD008_indexed_contacts.txt.gz,GSM3531281,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531282_181102_snm3C_H6_AD012_indexed_contacts.txt.gz,GSM3531282,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531283_181102_snm3C_A1_AD004_indexed_contacts.txt.gz,GSM3531283,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531284_181102_snm3C_A2_AD004_indexed_contacts.txt.gz,GSM3531284,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531285_181102_snm3C_A2_AD006_indexed_contacts.txt.gz,GSM3531285,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531286_181102_snm3C_A3_AD001_indexed_contacts.txt.gz,GSM3531286,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531287_181102_snm3C_A3_AD002_indexed_contacts.txt.gz,GSM3531287,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531288_181102_snm3C_B1_AD006_indexed_contacts.txt.gz,GSM3531288,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531289_181102_snm3C_B2_AD002_indexed_contacts.txt.gz,GSM3531289,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531290_181102_snm3C_B2_AD006_indexed_contacts.txt.gz,GSM3531290,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531291_181102_snm3C_B3_AD001_indexed_contacts.txt.gz,GSM3531291,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531292_181102_snm3C_B3_AD004_indexed_contacts.txt.gz,GSM3531292,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531293_181102_snm3C_B3_AD006_indexed_contacts.txt.gz,GSM3531293,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531294_181102_snm3C_C1_AD004_indexed_contacts.txt.gz,GSM3531294,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531295_181102_snm3C_C2_AD001_indexed_contacts.txt.gz,GSM3531295,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531296_181102_snm3C_C2_AD002_indexed_contacts.txt.gz,GSM3531296,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531297_181102_snm3C_C3_AD004_indexed_contacts.txt.gz,GSM3531297,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531298_181102_snm3C_D1_AD002_indexed_contacts.txt.gz,GSM3531298,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531299_181102_snm3C_D2_AD002_indexed_contacts.txt.gz,GSM3531299,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531300_181102_snm3C_D2_AD006_indexed_contacts.txt.gz,GSM3531300,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531301_181102_snm3C_D3_AD001_indexed_contacts.txt.gz,GSM3531301,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531302_181102_snm3C_D3_AD002_indexed_contacts.txt.gz,GSM3531302,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531303_181102_snm3C_E1_AD001_indexed_contacts.txt.gz,GSM3531303,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531304_181102_snm3C_E1_AD002_indexed_contacts.txt.gz,GSM3531304,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531305_181102_snm3C_E1_AD004_indexed_contacts.txt.gz,GSM3531305,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531306_181102_snm3C_E1_AD006_indexed_contacts.txt.gz,GSM3531306,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531307_181102_snm3C_E2_AD001_indexed_contacts.txt.gz,GSM3531307,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531308_181102_snm3C_E2_AD004_indexed_contacts.txt.gz,GSM3531308,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531309_181102_snm3C_E3_AD002_indexed_contacts.txt.gz,GSM3531309,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531310_181102_snm3C_E3_AD006_indexed_contacts.txt.gz,GSM3531310,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531311_181102_snm3C_F1_AD001_indexed_contacts.txt.gz,GSM3531311,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531312_181102_snm3C_F1_AD004_indexed_contacts.txt.gz,GSM3531312,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531313_181102_snm3C_F2_AD001_indexed_contacts.txt.gz,GSM3531313,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531314_181102_snm3C_F2_AD002_indexed_contacts.txt.gz,GSM3531314,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531315_181102_snm3C_F2_AD004_indexed_contacts.txt.gz,GSM3531315,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531316_181102_snm3C_F2_AD006_indexed_contacts.txt.gz,GSM3531316,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531317_181102_snm3C_F3_AD002_indexed_contacts.txt.gz,GSM3531317,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531318_181102_snm3C_G2_AD001_indexed_contacts.txt.gz,GSM3531318,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531319_181102_snm3C_G3_AD004_indexed_contacts.txt.gz,GSM3531319,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531320_181102_snm3C_H2_AD002_indexed_contacts.txt.gz,GSM3531320,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531321_181102_snm3C_H2_AD006_indexed_contacts.txt.gz,GSM3531321,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531322_181102_snm3C_A7_AD001_indexed_contacts.txt.gz,GSM3531322,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531323_181102_snm3C_A7_AD002_indexed_contacts.txt.gz,GSM3531323,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531324_181102_snm3C_A7_AD004_indexed_contacts.txt.gz,GSM3531324,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531325_181102_snm3C_A8_AD002_indexed_contacts.txt.gz,GSM3531325,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531326_181102_snm3C_A9_AD001_indexed_contacts.txt.gz,GSM3531326,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531327_181102_snm3C_A9_AD002_indexed_contacts.txt.gz,GSM3531327,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531328_181102_snm3C_A9_AD004_indexed_contacts.txt.gz,GSM3531328,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531329_181102_snm3C_A9_AD006_indexed_contacts.txt.gz,GSM3531329,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531330_181102_snm3C_B7_AD001_indexed_contacts.txt.gz,GSM3531330,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531331_181102_snm3C_B7_AD002_indexed_contacts.txt.gz,GSM3531331,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531332_181102_snm3C_B7_AD004_indexed_contacts.txt.gz,GSM3531332,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531333_181102_snm3C_B9_AD006_indexed_contacts.txt.gz,GSM3531333,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531334_181102_snm3C_C7_AD004_indexed_contacts.txt.gz,GSM3531334,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531335_181102_snm3C_C7_AD006_indexed_contacts.txt.gz,GSM3531335,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531336_181102_snm3C_C8_AD001_indexed_contacts.txt.gz,GSM3531336,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531337_181102_snm3C_C8_AD002_indexed_contacts.txt.gz,GSM3531337,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531338_181102_snm3C_C8_AD004_indexed_contacts.txt.gz,GSM3531338,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531339_181102_snm3C_C8_AD006_indexed_contacts.txt.gz,GSM3531339,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531340_181102_snm3C_C9_AD001_indexed_contacts.txt.gz,GSM3531340,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531341_181102_snm3C_C9_AD002_indexed_contacts.txt.gz,GSM3531341,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531342_181102_snm3C_D7_AD004_indexed_contacts.txt.gz,GSM3531342,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531343_181102_snm3C_D7_AD006_indexed_contacts.txt.gz,GSM3531343,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531344_181102_snm3C_D8_AD001_indexed_contacts.txt.gz,GSM3531344,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531345_181102_snm3C_D8_AD002_indexed_contacts.txt.gz,GSM3531345,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531346_181102_snm3C_D8_AD004_indexed_contacts.txt.gz,GSM3531346,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531347_181102_snm3C_D9_AD001_indexed_contacts.txt.gz,GSM3531347,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531348_181102_snm3C_D9_AD004_indexed_contacts.txt.gz,GSM3531348,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531349_181102_snm3C_D9_AD006_indexed_contacts.txt.gz,GSM3531349,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531350_181102_snm3C_E7_AD002_indexed_contacts.txt.gz,GSM3531350,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531351_181102_snm3C_E7_AD004_indexed_contacts.txt.gz,GSM3531351,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531352_181102_snm3C_E7_AD006_indexed_contacts.txt.gz,GSM3531352,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531353_181102_snm3C_E8_AD001_indexed_contacts.txt.gz,GSM3531353,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531354_181102_snm3C_E8_AD002_indexed_contacts.txt.gz,GSM3531354,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531355_181102_snm3C_E8_AD006_indexed_contacts.txt.gz,GSM3531355,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531356_181102_snm3C_F7_AD002_indexed_contacts.txt.gz,GSM3531356,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531357_181102_snm3C_F7_AD006_indexed_contacts.txt.gz,GSM3531357,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531358_181102_snm3C_F8_AD001_indexed_contacts.txt.gz,GSM3531358,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531359_181102_snm3C_F8_AD002_indexed_contacts.txt.gz,GSM3531359,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531360_181102_snm3C_F8_AD004_indexed_contacts.txt.gz,GSM3531360,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531361_181102_snm3C_F9_AD004_indexed_contacts.txt.gz,GSM3531361,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531362_181102_snm3C_G7_AD001_indexed_contacts.txt.gz,GSM3531362,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531363_181102_snm3C_G7_AD002_indexed_contacts.txt.gz,GSM3531363,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531364_181102_snm3C_G8_AD001_indexed_contacts.txt.gz,GSM3531364,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531365_181102_snm3C_G9_AD001_indexed_contacts.txt.gz,GSM3531365,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531366_181102_snm3C_G9_AD004_indexed_contacts.txt.gz,GSM3531366,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531367_181102_snm3C_G9_AD006_indexed_contacts.txt.gz,GSM3531367,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531368_181102_snm3C_H7_AD001_indexed_contacts.txt.gz,GSM3531368,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531369_181102_snm3C_H7_AD002_indexed_contacts.txt.gz,GSM3531369,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531370_181102_snm3C_H7_AD004_indexed_contacts.txt.gz,GSM3531370,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531371_181102_snm3C_H7_AD006_indexed_contacts.txt.gz,GSM3531371,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531372_181102_snm3C_H8_AD002_indexed_contacts.txt.gz,GSM3531372,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531373_181102_snm3C_H8_AD006_indexed_contacts.txt.gz,GSM3531373,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531374_181102_snm3C_H9_AD001_indexed_contacts.txt.gz,GSM3531374,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531375_181102_snm3C_H9_AD002_indexed_contacts.txt.gz,GSM3531375,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531376_181102_snm3C_H9_AD004_indexed_contacts.txt.gz,GSM3531376,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531377_181102_snm3C_A11_AD001_indexed_contacts.txt.gz,GSM3531377,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531378_181102_snm3C_A12_AD001_indexed_contacts.txt.gz,GSM3531378,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531379_181102_snm3C_A12_AD006_indexed_contacts.txt.gz,GSM3531379,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531380_181102_snm3C_B10_AD002_indexed_contacts.txt.gz,GSM3531380,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531381_181102_snm3C_B10_AD004_indexed_contacts.txt.gz,GSM3531381,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531382_181102_snm3C_B10_AD006_indexed_contacts.txt.gz,GSM3531382,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531383_181102_snm3C_B11_AD002_indexed_contacts.txt.gz,GSM3531383,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531384_181102_snm3C_B12_AD002_indexed_contacts.txt.gz,GSM3531384,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531385_181102_snm3C_B12_AD004_indexed_contacts.txt.gz,GSM3531385,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531386_181102_snm3C_C10_AD002_indexed_contacts.txt.gz,GSM3531386,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531387_181102_snm3C_C10_AD004_indexed_contacts.txt.gz,GSM3531387,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531388_181102_snm3C_C10_AD006_indexed_contacts.txt.gz,GSM3531388,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531389_181102_snm3C_C11_AD004_indexed_contacts.txt.gz,GSM3531389,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531390_181102_snm3C_C11_AD006_indexed_contacts.txt.gz,GSM3531390,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531391_181102_snm3C_C12_AD002_indexed_contacts.txt.gz,GSM3531391,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531392_181102_snm3C_C12_AD006_indexed_contacts.txt.gz,GSM3531392,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531393_181102_snm3C_D10_AD001_indexed_contacts.txt.gz,GSM3531393,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531394_181102_snm3C_D10_AD002_indexed_contacts.txt.gz,GSM3531394,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531395_181102_snm3C_D10_AD006_indexed_contacts.txt.gz,GSM3531395,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531396_181102_snm3C_D11_AD002_indexed_contacts.txt.gz,GSM3531396,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531397_181102_snm3C_D11_AD004_indexed_contacts.txt.gz,GSM3531397,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531398_181102_snm3C_D12_AD002_indexed_contacts.txt.gz,GSM3531398,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531399_181102_snm3C_D12_AD006_indexed_contacts.txt.gz,GSM3531399,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531400_181102_snm3C_E10_AD004_indexed_contacts.txt.gz,GSM3531400,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531401_181102_snm3C_E11_AD004_indexed_contacts.txt.gz,GSM3531401,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531402_181102_snm3C_E11_AD006_indexed_contacts.txt.gz,GSM3531402,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531403_181102_snm3C_E12_AD002_indexed_contacts.txt.gz,GSM3531403,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531404_181102_snm3C_E12_AD006_indexed_contacts.txt.gz,GSM3531404,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531405_181102_snm3C_F10_AD001_indexed_contacts.txt.gz,GSM3531405,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531406_181102_snm3C_F10_AD002_indexed_contacts.txt.gz,GSM3531406,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531407_181102_snm3C_F10_AD004_indexed_contacts.txt.gz,GSM3531407,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531408_181102_snm3C_F10_AD006_indexed_contacts.txt.gz,GSM3531408,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531409_181102_snm3C_F11_AD001_indexed_contacts.txt.gz,GSM3531409,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531410_181102_snm3C_F11_AD002_indexed_contacts.txt.gz,GSM3531410,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531411_181102_snm3C_F11_AD004_indexed_contacts.txt.gz,GSM3531411,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531412_181102_snm3C_F11_AD006_indexed_contacts.txt.gz,GSM3531412,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531413_181102_snm3C_F12_AD001_indexed_contacts.txt.gz,GSM3531413,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531414_181102_snm3C_F12_AD002_indexed_contacts.txt.gz,GSM3531414,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531415_181102_snm3C_G10_AD001_indexed_contacts.txt.gz,GSM3531415,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531416_181102_snm3C_G10_AD004_indexed_contacts.txt.gz,GSM3531416,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531417_181102_snm3C_G10_AD006_indexed_contacts.txt.gz,GSM3531417,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531418_181102_snm3C_G11_AD001_indexed_contacts.txt.gz,GSM3531418,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531419_181102_snm3C_G11_AD004_indexed_contacts.txt.gz,GSM3531419,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531420_181102_snm3C_G11_AD006_indexed_contacts.txt.gz,GSM3531420,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531421_181102_snm3C_G12_AD001_indexed_contacts.txt.gz,GSM3531421,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531422_181102_snm3C_G12_AD002_indexed_contacts.txt.gz,GSM3531422,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531423_181102_snm3C_G12_AD004_indexed_contacts.txt.gz,GSM3531423,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531424_181102_snm3C_G12_AD006_indexed_contacts.txt.gz,GSM3531424,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531425_181102_snm3C_H10_AD001_indexed_contacts.txt.gz,GSM3531425,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531426_181102_snm3C_H10_AD006_indexed_contacts.txt.gz,GSM3531426,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531427_181102_snm3C_H11_AD006_indexed_contacts.txt.gz,GSM3531427,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531428_181102_snm3C_H12_AD006_indexed_contacts.txt.gz,GSM3531428,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531429_181102_snm3C_A4_AD001_indexed_contacts.txt.gz,GSM3531429,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531430_181102_snm3C_A4_AD006_indexed_contacts.txt.gz,GSM3531430,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531431_181102_snm3C_A6_AD004_indexed_contacts.txt.gz,GSM3531431,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531432_181102_snm3C_A6_AD006_indexed_contacts.txt.gz,GSM3531432,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531433_181102_snm3C_B4_AD001_indexed_contacts.txt.gz,GSM3531433,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531434_181102_snm3C_B4_AD002_indexed_contacts.txt.gz,GSM3531434,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531435_181102_snm3C_B4_AD004_indexed_contacts.txt.gz,GSM3531435,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531436_181102_snm3C_B5_AD001_indexed_contacts.txt.gz,GSM3531436,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531437_181102_snm3C_B5_AD004_indexed_contacts.txt.gz,GSM3531437,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531438_181102_snm3C_B5_AD006_indexed_contacts.txt.gz,GSM3531438,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531439_181102_snm3C_B6_AD001_indexed_contacts.txt.gz,GSM3531439,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531440_181102_snm3C_B6_AD002_indexed_contacts.txt.gz,GSM3531440,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531441_181102_snm3C_C4_AD001_indexed_contacts.txt.gz,GSM3531441,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531442_181102_snm3C_C4_AD004_indexed_contacts.txt.gz,GSM3531442,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531443_181102_snm3C_C5_AD001_indexed_contacts.txt.gz,GSM3531443,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531444_181102_snm3C_C5_AD004_indexed_contacts.txt.gz,GSM3531444,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531445_181102_snm3C_C6_AD001_indexed_contacts.txt.gz,GSM3531445,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531446_181102_snm3C_C6_AD002_indexed_contacts.txt.gz,GSM3531446,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531447_181102_snm3C_C6_AD004_indexed_contacts.txt.gz,GSM3531447,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531448_181102_snm3C_D4_AD002_indexed_contacts.txt.gz,GSM3531448,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531449_181102_snm3C_D4_AD004_indexed_contacts.txt.gz,GSM3531449,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531450_181102_snm3C_D4_AD006_indexed_contacts.txt.gz,GSM3531450,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531451_181102_snm3C_D5_AD001_indexed_contacts.txt.gz,GSM3531451,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531452_181102_snm3C_D5_AD006_indexed_contacts.txt.gz,GSM3531452,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531453_181102_snm3C_D6_AD001_indexed_contacts.txt.gz,GSM3531453,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531454_181102_snm3C_D6_AD004_indexed_contacts.txt.gz,GSM3531454,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531455_181102_snm3C_D6_AD006_indexed_contacts.txt.gz,GSM3531455,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531456_181102_snm3C_E4_AD001_indexed_contacts.txt.gz,GSM3531456,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531457_181102_snm3C_E4_AD004_indexed_contacts.txt.gz,GSM3531457,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531458_181102_snm3C_E5_AD001_indexed_contacts.txt.gz,GSM3531458,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531459_181102_snm3C_E6_AD002_indexed_contacts.txt.gz,GSM3531459,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531460_181102_snm3C_E6_AD006_indexed_contacts.txt.gz,GSM3531460,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531461_181102_snm3C_F4_AD002_indexed_contacts.txt.gz,GSM3531461,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531462_181102_snm3C_F4_AD004_indexed_contacts.txt.gz,GSM3531462,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531463_181102_snm3C_F4_AD006_indexed_contacts.txt.gz,GSM3531463,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531464_181102_snm3C_F5_AD004_indexed_contacts.txt.gz,GSM3531464,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531465_181102_snm3C_F6_AD001_indexed_contacts.txt.gz,GSM3531465,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531466_181102_snm3C_F6_AD002_indexed_contacts.txt.gz,GSM3531466,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531467_181102_snm3C_F6_AD004_indexed_contacts.txt.gz,GSM3531467,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531468_181102_snm3C_G4_AD001_indexed_contacts.txt.gz,GSM3531468,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531469_181102_snm3C_G4_AD004_indexed_contacts.txt.gz,GSM3531469,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531470_181102_snm3C_G4_AD006_indexed_contacts.txt.gz,GSM3531470,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531471_181102_snm3C_G5_AD001_indexed_contacts.txt.gz,GSM3531471,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531472_181102_snm3C_G5_AD002_indexed_contacts.txt.gz,GSM3531472,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531473_181102_snm3C_G5_AD006_indexed_contacts.txt.gz,GSM3531473,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531474_181102_snm3C_G6_AD002_indexed_contacts.txt.gz,GSM3531474,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531475_181102_snm3C_G6_AD004_indexed_contacts.txt.gz,GSM3531475,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531476_181102_snm3C_H4_AD004_indexed_contacts.txt.gz,GSM3531476,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531477_181102_snm3C_H4_AD006_indexed_contacts.txt.gz,GSM3531477,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531478_181102_snm3C_H5_AD001_indexed_contacts.txt.gz,GSM3531478,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531479_181102_snm3C_H5_AD002_indexed_contacts.txt.gz,GSM3531479,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531480_181102_snm3C_H6_AD001_indexed_contacts.txt.gz,GSM3531480,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531481_181102_snm3C_H6_AD006_indexed_contacts.txt.gz,GSM3531481,Mouse Embryonic Stem Cell Line E14
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531482_181102_snm3C_A11_AD008_indexed_contacts.txt.gz,GSM3531482,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531483_181102_snm3C_A11_AD012_indexed_contacts.txt.gz,GSM3531483,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531484_181102_snm3C_A12_AD008_indexed_contacts.txt.gz,GSM3531484,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531485_181102_snm3C_A12_AD010_indexed_contacts.txt.gz,GSM3531485,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531486_181102_snm3C_B10_AD007_indexed_contacts.txt.gz,GSM3531486,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531487_181102_snm3C_B10_AD010_indexed_contacts.txt.gz,GSM3531487,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531488_181102_snm3C_B10_AD012_indexed_contacts.txt.gz,GSM3531488,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531489_181102_snm3C_B11_AD007_indexed_contacts.txt.gz,GSM3531489,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531490_181102_snm3C_B11_AD010_indexed_contacts.txt.gz,GSM3531490,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531491_181102_snm3C_B12_AD007_indexed_contacts.txt.gz,GSM3531491,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531492_181102_snm3C_B12_AD008_indexed_contacts.txt.gz,GSM3531492,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531493_181102_snm3C_B12_AD010_indexed_contacts.txt.gz,GSM3531493,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531494_181102_snm3C_B12_AD012_indexed_contacts.txt.gz,GSM3531494,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531495_181102_snm3C_C10_AD007_indexed_contacts.txt.gz,GSM3531495,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531496_181102_snm3C_C10_AD012_indexed_contacts.txt.gz,GSM3531496,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531497_181102_snm3C_C11_AD012_indexed_contacts.txt.gz,GSM3531497,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531498_181102_snm3C_C12_AD007_indexed_contacts.txt.gz,GSM3531498,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531499_181102_snm3C_C12_AD008_indexed_contacts.txt.gz,GSM3531499,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531500_181102_snm3C_C12_AD012_indexed_contacts.txt.gz,GSM3531500,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531501_181102_snm3C_D10_AD007_indexed_contacts.txt.gz,GSM3531501,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531502_181102_snm3C_D10_AD010_indexed_contacts.txt.gz,GSM3531502,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531503_181102_snm3C_D10_AD012_indexed_contacts.txt.gz,GSM3531503,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531504_181102_snm3C_D11_AD007_indexed_contacts.txt.gz,GSM3531504,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531505_181102_snm3C_D11_AD008_indexed_contacts.txt.gz,GSM3531505,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531506_181102_snm3C_D11_AD010_indexed_contacts.txt.gz,GSM3531506,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531507_181102_snm3C_D11_AD012_indexed_contacts.txt.gz,GSM3531507,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531508_181102_snm3C_D12_AD007_indexed_contacts.txt.gz,GSM3531508,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531509_181102_snm3C_D12_AD012_indexed_contacts.txt.gz,GSM3531509,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531510_181102_snm3C_E10_AD010_indexed_contacts.txt.gz,GSM3531510,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531511_181102_snm3C_E11_AD008_indexed_contacts.txt.gz,GSM3531511,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531512_181102_snm3C_E11_AD010_indexed_contacts.txt.gz,GSM3531512,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531513_181102_snm3C_E11_AD012_indexed_contacts.txt.gz,GSM3531513,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531514_181102_snm3C_E12_AD007_indexed_contacts.txt.gz,GSM3531514,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531515_181102_snm3C_E12_AD008_indexed_contacts.txt.gz,GSM3531515,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531516_181102_snm3C_E12_AD012_indexed_contacts.txt.gz,GSM3531516,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531517_181102_snm3C_F10_AD007_indexed_contacts.txt.gz,GSM3531517,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531518_181102_snm3C_F10_AD010_indexed_contacts.txt.gz,GSM3531518,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531519_181102_snm3C_F10_AD012_indexed_contacts.txt.gz,GSM3531519,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531520_181102_snm3C_F11_AD007_indexed_contacts.txt.gz,GSM3531520,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531521_181102_snm3C_F11_AD008_indexed_contacts.txt.gz,GSM3531521,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531522_181102_snm3C_F11_AD010_indexed_contacts.txt.gz,GSM3531522,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531523_181102_snm3C_F11_AD012_indexed_contacts.txt.gz,GSM3531523,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531524_181102_snm3C_F12_AD008_indexed_contacts.txt.gz,GSM3531524,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531525_181102_snm3C_F12_AD012_indexed_contacts.txt.gz,GSM3531525,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531526_181102_snm3C_G10_AD007_indexed_contacts.txt.gz,GSM3531526,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531527_181102_snm3C_G10_AD008_indexed_contacts.txt.gz,GSM3531527,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531528_181102_snm3C_G10_AD012_indexed_contacts.txt.gz,GSM3531528,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531529_181102_snm3C_G11_AD007_indexed_contacts.txt.gz,GSM3531529,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531530_181102_snm3C_G11_AD008_indexed_contacts.txt.gz,GSM3531530,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531531_181102_snm3C_G11_AD010_indexed_contacts.txt.gz,GSM3531531,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531532_181102_snm3C_G11_AD012_indexed_contacts.txt.gz,GSM3531532,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531533_181102_snm3C_G12_AD007_indexed_contacts.txt.gz,GSM3531533,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531534_181102_snm3C_G12_AD010_indexed_contacts.txt.gz,GSM3531534,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531535_181102_snm3C_H10_AD007_indexed_contacts.txt.gz,GSM3531535,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531536_181102_snm3C_H11_AD010_indexed_contacts.txt.gz,GSM3531536,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531537_181102_snm3C_H12_AD008_indexed_contacts.txt.gz,GSM3531537,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531538_181102_snm3C_A7_AD007_indexed_contacts.txt.gz,GSM3531538,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531539_181102_snm3C_A8_AD010_indexed_contacts.txt.gz,GSM3531539,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531540_181102_snm3C_A8_AD012_indexed_contacts.txt.gz,GSM3531540,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531541_181102_snm3C_A9_AD007_indexed_contacts.txt.gz,GSM3531541,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531542_181102_snm3C_A9_AD008_indexed_contacts.txt.gz,GSM3531542,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531543_181102_snm3C_A9_AD012_indexed_contacts.txt.gz,GSM3531543,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531544_181102_snm3C_B7_AD007_indexed_contacts.txt.gz,GSM3531544,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531545_181102_snm3C_B7_AD012_indexed_contacts.txt.gz,GSM3531545,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531546_181102_snm3C_B9_AD007_indexed_contacts.txt.gz,GSM3531546,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531547_181102_snm3C_B9_AD008_indexed_contacts.txt.gz,GSM3531547,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531548_181102_snm3C_C7_AD008_indexed_contacts.txt.gz,GSM3531548,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531549_181102_snm3C_C7_AD010_indexed_contacts.txt.gz,GSM3531549,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531550_181102_snm3C_C7_AD012_indexed_contacts.txt.gz,GSM3531550,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531551_181102_snm3C_C8_AD010_indexed_contacts.txt.gz,GSM3531551,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531552_181102_snm3C_C9_AD008_indexed_contacts.txt.gz,GSM3531552,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531553_181102_snm3C_C9_AD010_indexed_contacts.txt.gz,GSM3531553,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531554_181102_snm3C_D7_AD007_indexed_contacts.txt.gz,GSM3531554,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531555_181102_snm3C_D7_AD010_indexed_contacts.txt.gz,GSM3531555,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531556_181102_snm3C_D8_AD010_indexed_contacts.txt.gz,GSM3531556,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531557_181102_snm3C_D8_AD012_indexed_contacts.txt.gz,GSM3531557,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531558_181102_snm3C_D9_AD007_indexed_contacts.txt.gz,GSM3531558,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531559_181102_snm3C_D9_AD012_indexed_contacts.txt.gz,GSM3531559,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531560_181102_snm3C_E7_AD007_indexed_contacts.txt.gz,GSM3531560,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531561_181102_snm3C_E8_AD010_indexed_contacts.txt.gz,GSM3531561,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531562_181102_snm3C_E9_AD007_indexed_contacts.txt.gz,GSM3531562,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531563_181102_snm3C_F7_AD007_indexed_contacts.txt.gz,GSM3531563,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531564_181102_snm3C_F7_AD010_indexed_contacts.txt.gz,GSM3531564,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531565_181102_snm3C_F8_AD007_indexed_contacts.txt.gz,GSM3531565,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531566_181102_snm3C_F9_AD008_indexed_contacts.txt.gz,GSM3531566,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531567_181102_snm3C_F9_AD010_indexed_contacts.txt.gz,GSM3531567,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531568_181102_snm3C_G8_AD007_indexed_contacts.txt.gz,GSM3531568,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531569_181102_snm3C_G8_AD008_indexed_contacts.txt.gz,GSM3531569,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531570_181102_snm3C_G8_AD010_indexed_contacts.txt.gz,GSM3531570,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531571_181102_snm3C_G8_AD012_indexed_contacts.txt.gz,GSM3531571,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531572_181102_snm3C_H7_AD008_indexed_contacts.txt.gz,GSM3531572,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531573_181102_snm3C_H7_AD010_indexed_contacts.txt.gz,GSM3531573,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531574_181102_snm3C_H7_AD012_indexed_contacts.txt.gz,GSM3531574,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531575_181102_snm3C_H8_AD007_indexed_contacts.txt.gz,GSM3531575,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531576_181102_snm3C_H8_AD008_indexed_contacts.txt.gz,GSM3531576,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531577_181102_snm3C_H9_AD012_indexed_contacts.txt.gz,GSM3531577,NMuMG
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531578_181102_snm3C_B1_AD004_indexed_contacts.txt.gz,GSM3531578,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531579_181102_snm3C_B2_AD001_indexed_contacts.txt.gz,GSM3531579,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531580_181102_snm3C_B2_AD004_indexed_contacts.txt.gz,GSM3531580,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531581_181102_snm3C_C1_AD001_indexed_contacts.txt.gz,GSM3531581,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531582_181102_snm3C_C1_AD002_indexed_contacts.txt.gz,GSM3531582,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531583_181102_snm3C_C2_AD004_indexed_contacts.txt.gz,GSM3531583,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531584_181102_snm3C_C3_AD006_indexed_contacts.txt.gz,GSM3531584,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531585_181102_snm3C_D2_AD004_indexed_contacts.txt.gz,GSM3531585,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531586_181102_snm3C_E3_AD004_indexed_contacts.txt.gz,GSM3531586,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531587_181102_snm3C_F3_AD006_indexed_contacts.txt.gz,GSM3531587,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531588_181102_snm3C_G1_AD002_indexed_contacts.txt.gz,GSM3531588,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531589_181102_snm3C_G2_AD006_indexed_contacts.txt.gz,GSM3531589,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531590_181102_snm3C_H2_AD001_indexed_contacts.txt.gz,GSM3531590,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531591_181102_snm3C_H3_AD002_indexed_contacts.txt.gz,GSM3531591,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531592_181102_snm3C_A11_AD002_indexed_contacts.txt.gz,GSM3531592,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531593_181102_snm3C_B10_AD001_indexed_contacts.txt.gz,GSM3531593,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531594_181102_snm3C_B11_AD004_indexed_contacts.txt.gz,GSM3531594,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531595_181102_snm3C_C10_AD001_indexed_contacts.txt.gz,GSM3531595,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531596_181102_snm3C_D11_AD001_indexed_contacts.txt.gz,GSM3531596,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531597_181102_snm3C_E12_AD004_indexed_contacts.txt.gz,GSM3531597,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531598_181102_snm3C_B7_AD006_indexed_contacts.txt.gz,GSM3531598,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531599_181102_snm3C_B8_AD002_indexed_contacts.txt.gz,GSM3531599,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531600_181102_snm3C_C9_AD004_indexed_contacts.txt.gz,GSM3531600,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531601_181102_snm3C_C9_AD006_indexed_contacts.txt.gz,GSM3531601,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531602_181102_snm3C_D8_AD006_indexed_contacts.txt.gz,GSM3531602,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531603_181102_snm3C_F9_AD002_indexed_contacts.txt.gz,GSM3531603,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531604_181102_snm3C_G7_AD006_indexed_contacts.txt.gz,GSM3531604,E14 GM12878 multiplet
+/store/zlwang/Workspace/data/snm3C/pairs/GSM3531605_181102_snm3C_H6_AD004_indexed_contacts.txt.gz,GSM3531605,E14 GM12878 multiplet
