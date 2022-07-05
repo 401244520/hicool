@@ -126,7 +126,7 @@ class AutoLoad():
             # reorder bins is necessary for cooler format # TODO：Time should take into account when matrix is big.
             lowwer_loc = pixels.bin1_id > pixels.bin2_id
             if sum(lowwer_loc) > 0 :
-            pixels["bin1_id"].loc[lowwer_loc],pixels["bin2_id"].loc[lowwer_loc] = \
+                pixels["bin1_id"].loc[lowwer_loc],pixels["bin2_id"].loc[lowwer_loc] = \
                 pixels["bin2_id"].loc[lowwer_loc],pixels["bin1_id"].loc[lowwer_loc]
             pixels = pixels.groupby(["bin1_id","bin2_id"]).sum().reset_index()
             pixels = pixels.sort_values(by = ["bin1_id","bin2_id"]).reset_index(drop = True)
