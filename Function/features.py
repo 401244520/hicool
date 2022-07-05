@@ -6,6 +6,9 @@ import cooler
 from cooltools.api.eigdecomp  import cis_eig
 from cooltools.api.insulation import insulation
 from cooler.core import put,delete,get
+from tqdm import tqdm
+
+from .similarity import pairwise_distances
 
 def _fast_oe(pixels):
     pixels["distance"] = pixels["bin2_id"] - pixels["bin1_id"]
@@ -42,13 +45,17 @@ def fast_oe(path,method='intra',store=False):
             put(grp["pixels"],OE)
     return pd.concat([clr.pixels()[:],OE],axis = 1)
 
-
-
-
-
-
-
-
+def _node_degree(pixels):
+    p1 = pixels.value_counts('bin1_id') 
+    p2 = pixels.value_counts('bin2_id')
+    p = p1.add(p2,fill_value = 0)
+    return p
+def _node_strength(pixels):
+    # node weighted degree
+    p1 = pixels.groupby("bin1_id").sum()['count']
+    p2 = pixels.groupby("bin2_id").sum()['count']
+    p = p1.add(p2,fill_value = 0)
+    return p
 
 
 
@@ -67,7 +74,7 @@ def cal_all_strata(cell_list,chrom = "chr1",n_strata = 20):
     return all_strata
 
 
-def cal_hicrep(chrom = "chr1",n_strata = 20,method = 'hicrep'):
+def cal_hicrep(cell_list,chrom = "chr1",n_strata = 20,method = 'hicrep'):
     all_strata = cal_all_strata(cell_list,chrom,n_strata)
     sim = pairwise_distances(all_strata,method)
     return sim

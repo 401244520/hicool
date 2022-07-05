@@ -1,6 +1,7 @@
+import cooler
 import numpy as np
 from scipy.signal import convolve2d
-import cooler
+
 
 def matrix_operation(mat, operations, **kwargs):
     """

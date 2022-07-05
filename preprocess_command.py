@@ -9,14 +9,14 @@ from Module import plot_stats, quality_control, txt2scool
 @click.command()
 #@click.option('-i','--txt_path', default="./data/GSM*",type=str, help='Support Linux regular format, use quotation mark. ')
 @click.option('-m','--meta_path', default="./data/DipC2021_raw_meta.csv", help='Meta information of txt format. Which need at least three columns: rawpath, sample name, labels. You can use scool_meta create it from SRA RunTable or manually.')
-@click.option('-c','--chromsizes', default="./data/mm10.chrom.sizes.txt", help='Path to chromsizes file download from NCBI.')
+@click.option('-c','--chromsizes', default="./data/hg38.chrom.sizes", help='Path to chromsizes file download from NCBI.')
 @click.option('-o','--save_dir', default="Test", help='Output dir path, all the files produced in this folder.')
 @click.option('-p','--prefix', default="Test", help='Prefix of your Project.')
 
 @click.option('-n','--nproc', default=20, help='Number of cpu process.')
 @click.option('-r','--resolutions', default='1000000,100000,10000', type = str, help='A list of resolutions of scool files you want, spilt using comma.')
 @click.option('-l','--chrom_list', default="chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,\
-chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX", type = str, help='A list of chroms you want analysis, spilt using comma.')
+chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chrX,chrY", type = str, help='A list of chroms you want analysis, spilt using comma.')
 
 @click.option('-cc','--chroms_col', default='1,3', help='chromsome col of pairs txt files.')
 @click.option('-pc','--positions_col', default='2,4', help='position col of pairs txt files.')

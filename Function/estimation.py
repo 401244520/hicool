@@ -1,8 +1,8 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 from matplotlib import pyplot as plt
 from scipy.spatial.distance import cosine
-from sklearn.metrics import roc_curve, auc  ###计算roc和auc
+from sklearn.metrics import adjusted_rand_score, auc, roc_curve
 
 
 def auc_curve(y,prob,name):
@@ -11,8 +11,7 @@ def auc_curve(y,prob,name):
     plt.figure()
     lw = 2
     plt.figure(figsize=(5,5))
-    plt.plot(fpr, tpr, color='darkorange',
-             lw=lw, label='ROC curve (area = %0.3f)' % roc_auc) ###假正率为横坐标，真正率为纵坐标做曲线
+    plt.plot(fpr, tpr, color='darkorange',lw=lw, label='ROC curve (area = %0.3f)' % roc_auc) ###假正率为横坐标，真正率为纵坐标做曲线
     plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
@@ -34,6 +33,5 @@ def cal_acroc(embs,label):
         f_emb = (embs[~y]).mean(axis = 0)
         prob = [softmax([cosine(i,f_emb),cosine(i,t_emb)])[0] for i in embs]
         auc_curve(y,prob,lb)        
-        
-def cal_ari():
-    
+
+

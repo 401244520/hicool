@@ -1,13 +1,23 @@
-import numpy as np
-from time import time
-from scipy.stats import zscore
-import scipy.spatial.distance as dis
 from itertools import product
+from time import time
+from turtle import distance
+import cooler
+import numpy as np
+import scipy.spatial.distance as dis
+from scipy.stats import zscore
+import pandas as pd
 try:
     import multiprocessing as mp
 except:
     mp=None
+try:
+    from datasketch import MinHash 
+except:
+    print("Please install datasketch if you want to use minhash method.")
+from functools import partial
+from multiprocessing import Pool
 
+from tqdm import tqdm
 
 
 def f0(st):
@@ -231,3 +241,70 @@ def pairwise_distances(all_strata, similarity_method,
     else:
         return distance_mat
 
+def cal_all_strata(cell_list,chrom = "chr1",n_strata = 20):
+    all_strata = [[] for i in range(n_strata)]
+    for cell in cell_list:
+        # When resolution is 1KB, the matrix is too large to store in numpy.array. Suggest use MinHash.
+        mat = cooler.Cooler(cell).matrix(balance=False).fetch(chrom)[:]
+        #mat = matrix_operation(mat,['oe','randomwalk','convolution'])
+        for i in range(n_strata):
+            all_strata[i].append(np.diag(mat,i))
+    all_strata = [np.array(strata) for strata in all_strata]
+    return all_strata
+
+def cal_minhash_chrom(cell,chrom = "chr1"):
+    clr = cooler.Cooler(cell)
+    pixels = clr.matrix(as_pixels=True,balance=False).fetch(chrom,chrom)
+    minhash = MinHash()
+    p = pixels.apply(lambda x : (str(x.bin1_id) + "," + str(x.bin2_id)).encode('utf8'),axis = 1)        
+    minhash.update_batch(p)
+    return minhash
+
+def cal_minhash(cell,chroms = ["chr1"],method="intra",n_strata=None,keep_short=True,keep_all_strata=False):
+    pixels = pd.DataFrame()
+    clr = cooler.Cooler(cell)
+    if method == 'intra':
+        for i in chroms:
+            px = clr.matrix(as_pixels=True,balance=False).fetch(i,i)
+            pixels = pd.concat([pixels,px])
+    elif method == "all":
+        for i in chroms:
+            px = clr.matrix(as_pixels=True,balance=False).fetch(i)
+            pixels = pd.concat([pixels,px])
+    else:
+        print('Unrecognize minhash method on chromsomes, apply genomewide global contacts minhash.')
+        pixels = clr.pixels()[:]
+    if n_strata is not None:
+        pixels["distance"] = pixels["bin2_id"] - pixels["bin1_id"]
+        if keep_short:
+            pixels = pixels[pixels["distance"]<n_strata]
+            if keep_all_strata:
+                gr = pixels.groupby("distance")
+                p_list = []
+                for i in range(n_strata):
+                    minhash = MinHash()
+                    try: 
+                        p = gr.get_group(i).apply(lambda x : (str(x.bin1_id) + "," + str(x.bin2_id)).encode('utf8'),axis = 1)
+                        minhash.update_batch(p)
+                    except :
+                        pass
+                    p_list.append(minhash)
+                return p_list
+        else:
+            pixels = pixels[pixels["distance"]>n_strata]
+    minhash = MinHash()
+    p = pixels.apply(lambda x : (str(x.bin1_id) + "," + str(x.bin2_id)).encode('utf8'),axis = 1)        
+    minhash.update_batch(p)
+    return minhash
+
+def minhash_similarity(cell_list,chroms = ["chr1"],method="intra",n_strata=None,keep_short=True):
+    cal_minhash1 = partial(cal_minhash,chroms=chroms,method=method,n_strata=n_strata,keep_short=keep_short)
+    with Pool(processes = 20) as pool:
+        minhash = list(tqdm(pool.imap(cal_minhash1,cell_list), total= len(cell_list)))
+    n_cells = len(cell_list)
+    sim_mat = np.zeros((n_cells,n_cells))
+    col,row = np.triu_indices_from(sim_mat)
+    for i,j in zip(col,row):
+        sim_mat[i,j] = minhash[i].jaccard(minhash[j]) 
+    sim_mat = np.triu(sim_mat,1) + np.triu(sim_mat,1).T
+    return sim_mat

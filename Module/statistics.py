@@ -62,6 +62,61 @@ def preprocess(cool_url):
     return stat
 
 
+def scool_meta(file_list,runtable_path,prefix = 'Test',label_colname = 'Cell_type',save_dir = "."):
+    """
+    scool_meta : Generate meta data for scool from NCBI RunTable informations. Which do not fit all condition, only for some dataset.
+
+    Parameters
+    ----------
+    file_list : list
+        A list or list like of all txt files path.
+    runtable_path : str
+        NCBI SRA RunTable url, which including information. 
+    label_colname : str
+        column name of the label col you need in SRA RunTable. Such as Cell_type, source_name ...
+    Returns
+    -------
+    str
+        Save a DataFrame have at least three columns: RawPath, Sample Name, information including cell type or others.
+        return csv path
+    """    
+    RunTable = pd.read_csv(runtable_path).drop_duplicates("Sample Name")
+    label = pd.DataFrame(columns = ["RawPath"],data = file_list)
+    label["Sample Name"] = label["RawPath"].apply(lambda x : os.path.basename(x).split("_")[0])
+    meta = pd.merge(label,RunTable)
+    meta = meta[['RawPath',"Sample Name",label_colname]]
+    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
+    meta.to_csv(meta_path,index=0)
+    print(f"Create raw meta data transform from {runtable_path} to match all txt files... \nStore raw meta to {meta_path}")
+    return meta_path
+
+def scool_meta_dipc2021(txt_path="/store/zlwang/Workspace/data/Dip-C/pairs/GSM*",runtable_path="/store/zlwang/Workspace/data/Dip-C/GSE146397_metadata.cells_contacts_100k.txt",prefix = 'DipC2021',save_dir = "."):
+    file_list = glob.glob(txt_path)
+    RunTable = pd.read_table(runtable_path,header=None)
+    RunTable[1] = RunTable[1].replace('Unknown',None)
+    RunTable_dict = RunTable.set_index(0).to_dict()[1]
+    label = pd.DataFrame(columns = ["path"],data = file_list)
+    label["SampleName"] = label.path.apply(lambda x : os.path.basename(x).split(".")[0])
+    label['label'] = label["SampleName"].apply(lambda x: RunTable_dict.get(x[11:]))
+    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
+    label.to_csv(meta_path,index=0)
+    print(f"Create raw meta data transform from {runtable_path} to match all txt files... \nStore raw meta to {meta_path}")
+
+def scool_meta_nagano(scool_path = "/store/zlwang/Workspace/data/Nagano2017/nagano_10kb_cell_types.scool", table_path = "/store/zlwang/Workspace/data/Nagano2017/GSE94489_README.txt",prefix = 'Nagano2017',save_dir = "."):
+    cell_list,bins,pixel_list = AutoLoad(scool_path).load_scool()
+    rdm = pd.read_table(table_path)
+    ind = pd.DataFrame(cell_list,columns = ['path'])
+    ind["Five_prime_barcode"] = [i.split("/")[-1].split("_")[2] for i in cell_list]
+    ind["Three_prime_barcode"] = [i.split("/")[-1].split("_")[3] for i in cell_list]
+    ind["Nature_Reference_ID"] = [i.split("/")[-1].split("_")[0] + "_" + i.split("/")[-1].split("_")[1] for i in cell_list]
+    meta = pd.merge(ind,rdm,how="left",on = ["Five_prime_barcode","Three_prime_barcode","Nature_Reference_ID"])
+    meta["label"] = meta.Name.apply(lambda x : x.split("-")[0])
+    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
+    meta = meta[['path','Name','label']]    
+    meta.to_csv(meta_path,index=0)
+    return meta_path
+
+
 def quality_control(scool_path,meta_path,rawpath_col=0,sample_col=1,label_col=2,intra_cutoff=0.5,min_cutoff=10000,nonzero_cutoff=10000,save_pass=True,save_fig=True):
     """
     quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator.
@@ -150,56 +205,37 @@ def plot_stats(qual_path):
     return g
 
 
-def scool_meta(file_list,runtable_path,prefix = 'Test',label_colname = 'Cell_type',save_dir = "."):
-    """
-    scool_meta : Generate meta data for scool from NCBI RunTable informations. Which do not fit all condition, only for some dataset.
-
-    Parameters
-    ----------
-    file_list : list
-        A list or list like of all txt files path.
-    runtable_path : str
-        NCBI SRA RunTable url, which including information. 
-    label_colname : str
-        column name of the label col you need in SRA RunTable. Such as Cell_type, source_name ...
-    Returns
-    -------
-    str
-        Save a DataFrame have at least three columns: RawPath, Sample Name, information including cell type or others.
-        return csv path
-    """    
-    RunTable = pd.read_csv(runtable_path).drop_duplicates("Sample Name")
-    label = pd.DataFrame(columns = ["RawPath"],data = file_list)
-    label["Sample Name"] = label["RawPath"].apply(lambda x : os.path.basename(x).split("_")[0])
-    meta = pd.merge(label,RunTable)
-    meta = meta[['RawPath',"Sample Name",label_colname]]
-    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
-    meta.to_csv(meta_path,index=0)
-    print(f"Create raw meta data transform from {runtable_path} to match all txt files... \nStore raw meta to {meta_path}")
-    return meta_path
-
-def scool_meta_dipc2021(txt_path="/store/zlwang/Workspace/data/Dip-C/pairs/GSM*",runtable_path="/store/zlwang/Workspace/data/Dip-C/GSE146397_metadata.cells_contacts_100k.txt",prefix = 'DipC2021',save_dir = "."):
-    file_list = glob.glob(txt_path)
-    RunTable = pd.read_table(runtable_path,header=None)
-    RunTable[1] = RunTable[1].replace('Unknown',None)
-    RunTable_dict = RunTable.set_index(0).to_dict()[1]
-    label = pd.DataFrame(columns = ["path"],data = file_list)
-    label["SampleName"] = label.path.apply(lambda x : os.path.basename(x).split(".")[0])
-    label['label'] = label["SampleName"].apply(lambda x: RunTable_dict.get(x[11:]))
-    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
-    label.to_csv(meta_path,index=0)
-    print(f"Create raw meta data transform from {runtable_path} to match all txt files... \nStore raw meta to {meta_path}")
-
-def scool_meta_nagano(scool_path = "/store/zlwang/Workspace/data/Nagano2017/nagano_10kb_cell_types.scool", table_path = "/store/zlwang/Workspace/data/Nagano2017/GSE94489_README.txt",prefix = 'Nagano2017',save_dir = "."):
-    cell_list,bins,pixel_list = AutoLoad(scool_path).load_scool()
-    rdm = pd.read_table(table_path)
-    ind = pd.DataFrame(cell_list,columns = ['path'])
-    ind["Five_prime_barcode"] = [i.split("/")[-1].split("_")[2] for i in cell_list]
-    ind["Three_prime_barcode"] = [i.split("/")[-1].split("_")[3] for i in cell_list]
-    ind["Nature_Reference_ID"] = [i.split("/")[-1].split("_")[0] + "_" + i.split("/")[-1].split("_")[1] for i in cell_list]
-    meta = pd.merge(ind,rdm,how="left",on = ["Five_prime_barcode","Three_prime_barcode","Nature_Reference_ID"])
-    meta["label"] = meta.Name.apply(lambda x : x.split("-")[0])
-    meta_path = save_dir + "/" + prefix + "_raw_meta.csv"
-    meta = meta[['path','Name','label']]    
-    meta.to_csv(meta_path,index=0)
-    return meta_path
+def distance_frequency_cruve(cell_list,chrom = "chr1"):
+    # TODO: The curves have some problem in very long range ( > 2/3 chrom length) conditions, need to figure out.
+    distance_mat = []
+    for cell in cell_list:
+        clr = cooler.Cooler(cell)
+        if chrom == "all":
+            pixels = clr.pixels()[:]
+        else:
+            pixels = clr.matrix(as_pixels=True,balance=False).fetch(chrom,chrom)
+        pixels["distance"] = pixels["bin2_id"] - pixels["bin1_id"]
+        gr = pixels.groupby("distance")
+        distance = gr["count"]
+        distance_conatct = distance.sum()
+        distance_freq = distance_conatct/distance_conatct.sum()
+        distance_mat.append(distance_freq)
+    dis_mat = pd.DataFrame(distance_mat)
+    resolution = clr.binsize
+    toMB = resolution/1e6
+    toKB = resolution/1000
+    dis_mat.columns *= toMB
+    ax = plt.figure()
+    m = dis_mat.mean()
+    v = dis_mat.var()
+    plt.plot(m)
+    plt.fill_between(dis_mat.columns,m-v, m+v, alpha=0.2)
+    dis_sum = dis_mat.cumsum(axis=1)
+    plt.plot(dis_sum.mean())
+    plt.fill_between(dis_sum.columns,dis_sum.mean()-dis_sum.var(), dis_sum.mean()+dis_sum.var(), alpha=0.2)
+    plt.xlim(-5,100)
+    plt.legend(["percentage","percentage variance","total percentage","total percentage variance"])
+    plt.title(f"Distance-Frequency curve of {chrom} contacts ({int(toKB)}kb)")
+    plt.xlabel("distance (MB)")
+    plt.ylabel("frequency")
+    return ax

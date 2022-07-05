@@ -14,7 +14,7 @@ except:
 
 
 def scatter(data, dimension="2D", point_size=3, sty='default',
-            label=None, title=None, alpha=None, aes_label=None,
+            label=None, title=None, alpha=None, aes_label=None,legend=True,
             **kwargs):
     """
     This function is to plot scatter plot of embedding points
@@ -73,7 +73,8 @@ def scatter(data, dimension="2D", point_size=3, sty='default',
                                 c='C{!r}'.format(index),
                                 s=point_size, label=l,
                                 alpha=alpha)
-            plt.legend(**kwargs)
+            if legend:
+                plt.legend(**kwargs)
         # Plot without label
         else:
             plt.scatter(data[:,0], data[:,1], s=point_size, alpha=alpha)
@@ -97,7 +98,8 @@ def scatter(data, dimension="2D", point_size=3, sty='default',
                               s=point_size,
                               color='C{!r}'.format(index),
                               label=l)
-            plt.legend(**kwargs)
+            if legend:
+                plt.legend(**kwargs)
         # Plot without label
         else:
             splot.scatter(data[:,0], data[:,1], data[:,2],s=point_size)
@@ -208,17 +210,14 @@ def interactive_scatter(schic, data, out_file, dimension="2D", point_size=3,
 
     fig.write_html(out_file)
 
-def plot_gallery(images, titles,n_row=4, n_col=5,cmap = False, method = plt.imshow ):
+def plot_gallery(images,titles=None,n_row=4,n_col=5,method=plt.imshow,**kwargs ):
     """Helper function to plot a gallery of figures in certain method """
-    plt.figure(figsize=(1.8 * n_col, 2.4 * n_row))
     plt.subplots_adjust(bottom=0, left=.01, right=.99, top=.90, hspace=.35)
     for i in range(n_row * n_col):
         plt.subplot(n_row, n_col, i + 1)
-        if cmap == False:
-            method(images[i])
-        else :
-            method(images[i],cmap = cmap)
-        plt.title(titles[i], size=12)
+        method(images[i],**kwargs)
+        if titles is not None:
+            plt.title(titles[i], size=12)
         plt.xticks(())
         plt.yticks(())
 

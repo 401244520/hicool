@@ -17,7 +17,7 @@ class AutoLoad():
         Now support : txt,scool,cool...
         Input: File path
     '''
-    def _init_(self, path, *args, **kwargs):
+    def __init__(self, path, *args, **kwargs):
         self.path = os.path.abspath(path)
         self.name = os.path.basename(path).split(".")[0]
         self.resolution = 1000000  # TODO: set resolution and other args
@@ -114,7 +114,7 @@ class AutoLoad():
 
         def _call_pixels(contact_txt,off_set):
             contacts = contact_txt.copy()
-            contacts["count"] = 1
+            contacts['count'] = 1
             contacts[["pos1","pos2"]] = (contacts[["pos1","pos2"]] / res).astype(int)
             newcontact = contacts.groupby(["chr1","pos1","chr2","pos2"]).count()
             newcontact = newcontact.reset_index()
@@ -126,9 +126,9 @@ class AutoLoad():
             # reorder bins is necessary for cooler format # TODO：Time should take into account when matrix is big.
             lowwer_loc = pixels.bin1_id > pixels.bin2_id
             if sum(lowwer_loc) > 0 :
-                pixels["bin1_id"].loc[lowwer_loc],pixels["bin2_id"].loc[lowwer_loc] = \
+            pixels["bin1_id"].loc[lowwer_loc],pixels["bin2_id"].loc[lowwer_loc] = \
                 pixels["bin2_id"].loc[lowwer_loc],pixels["bin1_id"].loc[lowwer_loc]
-                pixels = pixels.groupby(["bin1_id","bin2_id"]).sum().reset_index()
+            pixels = pixels.groupby(["bin1_id","bin2_id"]).sum().reset_index()
             pixels = pixels.sort_values(by = ["bin1_id","bin2_id"]).reset_index(drop = True)
             return pixels
         index,bins = _call_bins(chroms,chromsize_txt)
