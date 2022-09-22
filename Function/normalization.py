@@ -7,7 +7,7 @@ def matrix_operation(mat, operations, **kwargs):
     """
     
 
-    Parameters
+    ParametersXinjun Li, Fan Feng, Wai Yan Leung and Jie Liu. "scHiCTools: a computational toolbox for analyzing single cell Hi-C data." bioRxiv (2019): 769513.
     ----------
     mat : numpy.ndarray
         Matrix to apply smoothing operators.

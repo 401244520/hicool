@@ -1,6 +1,5 @@
 from itertools import product
 from time import time
-from turtle import distance
 import cooler
 import numpy as np
 import scipy.spatial.distance as dis
@@ -308,3 +307,11 @@ def minhash_similarity(cell_list,chroms = ["chr1"],method="intra",n_strata=None,
         sim_mat[i,j] = minhash[i].jaccard(minhash[j]) 
     sim_mat = np.triu(sim_mat,1) + np.triu(sim_mat,1).T
     return sim_mat
+
+
+def cal_hicrep(cell_list,chrom = "chr1",n_strata = 20,method = 'hicrep'):
+    all_strata = cal_all_strata(cell_list,chrom,n_strata)
+    sim = pairwise_distances(all_strata,method)
+    return sim
+
+

@@ -26,15 +26,20 @@ class AutoLoad():
         self.contact = None
         self.matrix = None
 
-    def load_txt(self,chroms = [0,2],positions = [1,3],header = None, *args, **kwargs):
+    def load_txt(self,chroms = [0,2],positions = [1,3],value = None,header = None, *args, **kwargs):
         '''  load txt file in 
-            params chroms : the columns index position of two contact chromosomes in txt file
-            params positions : the columns index position of two contact position on chromosomes in txt file
+            params chroms : list, the columns index position of two contact chromosomes in txt file
+            params positions : list, the columns index position of two contact position on chromosomes in txt file
+            params value : int, optional, the column index position of two contact position on chromosomes in txt file
             params sep,header... : details reference <read_csv>
         '''
         data = pd.read_table(self.path,header=header, *args, **kwargs)
-        data = data.iloc[:,chroms + positions]
-        data.columns = ['chr1','chr2','pos1','pos2']
+        if value == None :
+            data = data.iloc[:,chroms + positions]
+            data.columns = ['chr1','chr2','pos1','pos2']
+        else:
+            data = data.iloc[:,chroms + positions + [value]]
+            data.columns = ['chr1','chr2','pos1','pos2',"value"]
         self.contact = data
         self.amount = len(data)
         #print(f'txt data {self.name} loaded... ')
@@ -140,4 +145,7 @@ class AutoLoad():
                 os.makedirs(save_path) 
             cooler.create_cooler(save_path+'/'+prefix+'_'+str(res/1000)+'k.cool',bins,pixels,ordered=True,ensure_sorted=True)
         return bins,pixels
+
+
+
 
