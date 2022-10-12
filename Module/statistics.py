@@ -139,7 +139,7 @@ def quality_control(scool_path,meta_path,rawpath_col=0,sample_col=1,label_col=2,
         reserve total contacts > cutoff,due to incomplete cells, by default 10000
     nonzero_cutoff : int, optional
         reserve non zero bins > cutoff, due to very sparse cells, by default 10000
-    save_pass ： Boolean, optional
+    save_pass : Boolean, optional
         return cells pass quality control csv at the same path of scool, False only return a DataFrame including control results
     save_fig :  Boolean, optional
         save quality control figures at the same path of scool
