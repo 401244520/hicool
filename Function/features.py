@@ -110,7 +110,7 @@ def fast_oe(path,chrom=None,method='intra',gap=False,store=False,newpath=None,ve
                 OE[p.index] = p.values
                 print("chrom",i,"OE balance finished.") if verbose else 0
             except:
-                print("chrom",i,"OE balance failed, Skipping.")
+                print("chrom",i,"OE balance failed, Skipping.") if verbose else 0
     elif method == "all":
         # Apply OE balancing for all chromsomes, including inter-chromsome contacts between two chromsome. Time comsuming, pay attention.
         for i in chroms:
@@ -123,7 +123,7 @@ def fast_oe(path,chrom=None,method='intra',gap=False,store=False,newpath=None,ve
         print('Unrecognize OE balancing method, apply genome wide global OE balancing and do not distinguish chromosomes.')
         pixels = clr.pixels()[:]
         OE = cal_oe(pixels)
-    OE = pd.DataFrame(OE,columns=["OE"])
+    OE = pd.DataFrame(OE,columns=["OE"]).fillna(0)
     if store:        
         if newpath is not None:
             shutil.copyfile(path,newpath)
@@ -136,7 +136,30 @@ def fast_oe(path,chrom=None,method='intra',gap=False,store=False,newpath=None,ve
     return pd.concat([clr.pixels()[:],OE],axis = 1)
 # read OE normalized matrix please use cooler.Cooler(path).matrix(field="OE",balance=False)
 
-def compartment_adj(cool,chrom = None,genome = 'mm10',vec = "E1",fasta = '/store/zlwang/ref/mm10.fa',return_vector=False):
+def compartment_adj(cool,chrom = "chr1",gc_path = ".",genome = 'mm10',vec = "E1",fasta = '/store/zlwang/ref/mm10.fa',return_vector=False):
+    """
+    compartment_adj Calculate compartment adj matrix by cooler.eigs_cis
+
+    Parameters
+    ----------
+    cool : str
+        path
+    chrom : str, optional
+        A chromsome name or chromsome, by default "chr1"
+    gc_path : str, optional
+        Path to , create if not exist, by default 'mm10'
+    vec : str, optional
+        Choose PCA EigVec from ["E1","E2","E3"], by default "E1"
+    fasta : str, optional
+        if genome does not exist, create gc_cov from fasta file, by default '/store/zlwang/ref/mm10.fa'
+    return_vector : bool, optional
+        return adj matrix or vector, by default False
+
+    Returns
+    -------
+    np.matrix or np.array
+        A matrix or array of compartment values.
+    """
     clr = cooler.Cooler(cool)
     gc_path = f'{genome}_gc_cov_{clr.binsize}.tsv'
     try:
@@ -162,7 +185,7 @@ def compartment_adj(cool,chrom = None,genome = 'mm10',vec = "E1",fasta = '/store
     E1[E1<-1] = -1
     return np.outer(E1,E1)
 
-def tad_adj(cool,chrom = None,window_size = 10,return_vector = False):
+def tad_adj(cool,chrom = "chr1",window_size = 10,return_vector = False):
     # TODO: Multiresolution window size
     clr = cooler.Cooler(cool)
     res = clr.binsize

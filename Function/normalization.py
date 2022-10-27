@@ -2,98 +2,6 @@ import cooler
 import numpy as np
 from scipy.signal import convolve2d
 
-
-def matrix_operation(mat, operations, **kwargs):
-    """
-    
-
-    ParametersXinjun Li, Fan Feng, Wai Yan Leung and Jie Liu. "scHiCTools: a computational toolbox for analyzing single cell Hi-C data." bioRxiv (2019): 769513.
-    ----------
-    mat : numpy.ndarray
-        Matrix to apply smoothing operators.
-        
-    operations : list[str]
-        A list of smoothing operators to apply.
-        Now support perators: 'oe_norm', 'vc_norm', 'vc_sqrt_norm',
-        'kr_norm', 'convolution', 'random_walk', 'network_enhancing',
-        'logarithm', 'power'.
-        
-    **kwargs :
-        Arguments for specific smoothing operators.
-        
-        'kr_norm':
-            'maximum_error_rate': error rate to stop iteration, default=1e-4.
-        'convolution':
-            'kernel_shape': shape of kernel ('kernel_shape' ,'kernel_shape'), default=3.
-        'random_walk':
-            'random_walk_ratio': propotion of random walk smooth matrix, default=1.0;
-            't': number of random walk iteration times, default=1.
-        'network_enhancing':
-            'kNN': number of nearest neighbors, default=20;
-            'iterations': number of iterations, default=1.
-        'logarithm':
-            'epsilon': numerator of error term, default=1;
-            'log_base': denominator of error's exponentiation, default=e.
-        'power':
-            'pow': exponent of exponentiation, default=0.5.
-        
-
-    Returns
-    -------
-    mat : numpy.ndarray
-        Matrix after appling smoothing operator.
-
-    """
-    
-    for op in operations:
-        op = op.lower()
-        
-        if op == 'oe_norm':
-            new_mat = np.zeros(mat.shape)
-            averages = np.array([np.mean(mat[i:, :len(mat) - i]) for i in range(len(mat))])
-            averages = np.where(averages == 0, 1, averages)
-            for i in range(len(mat)):
-                for j in range(len(mat)):
-                    d = abs(i - j)
-                    new_mat[i, j] = mat[i, j] / averages[d]
-            mat = new_mat
-            
-        elif op == 'vc_norm':
-            sm = np.sum(mat, axis=0)
-            sm = np.where(sm == 0, 1, sm)
-            sm_v = np.tile(sm, (len(sm), 1))
-            sm_c = sm_v.T
-            mat = mat / sm_c / sm_v
-        
-        elif op == 'vc_sqrt_norm':
-            sm = np.sum(mat, axis=0)
-            sm = np.where(sm == 0, 1, sm)
-            sm = np.sqrt(sm)
-            sm_v = np.tile(sm, (len(sm), 1))
-            sm_c = sm_v.T
-            mat = mat / sm_c / sm_v
-            
-        elif op == 'kr_norm':
-            mat = KR_norm(mat, kwargs.pop('maximum_error_rate', 1e-4))
-            
-        elif op == 'convolution':
-            mat = convolution(mat, kwargs.pop('kernel_shape', 3))
-            
-        elif op == 'random_walk':
-            mat = random_walk(mat, kwargs.pop('random_walk_ratio', 1.0),kwargs.pop('t', 1))
-            
-        elif op == 'network_enhancing':
-            mat = network_enhancing(mat, kwargs.pop('kNN', 20),
-                                    kwargs.pop('iterations', 1), kwargs.pop('alpha', 0.9))
-        
-        elif op == 'logarithm':
-            mat = np.log(mat + kwargs.pop('epsilon', 1)) / np.log(kwargs.pop('log_base', np.e))
-        
-        elif op == 'power':
-            mat = np.power(mat, kwargs.pop('pow', 0.5))
-        
-    return mat
-
 def OE_norm(mat):
     new_mat = np.zeros(mat.shape)
     averages = np.array([np.mean(mat[i:, :len(mat) - i]) for i in range(len(mat))])
@@ -192,7 +100,6 @@ def network_enhancing(mat, kNN=20, iteration=1, alpha=0.9):
         for j in range(kNN):
             pos = argsort[i, j]
             new_mat[i, pos] = mat[i, pos]
-
     sm = np.sum(new_mat, axis=1)
     sm = np.where(sm == 0, 1, sm)
     sm = np.tile(sm, (len(mat), 1)).T
@@ -245,6 +152,96 @@ def get_matrix(cell,chrom='chr1'):
     return matrix
 
 
+# From scHiCTools
+def matrix_operation(mat, operations, **kwargs):
+    """
+    
 
+    Parameters Xinjun Li, Fan Feng, Wai Yan Leung and Jie Liu. "scHiCTools: a computational toolbox for analyzing single cell Hi-C data." bioRxiv (2019): 769513.
+    ----------
+    mat : numpy.ndarray
+        Matrix to apply smoothing operators.
+        
+    operations : list[str]
+        A list of smoothing operators to apply.
+        Now support perators: 'oe_norm', 'vc_norm', 'vc_sqrt_norm',
+        'kr_norm', 'convolution', 'random_walk', 'network_enhancing',
+        'logarithm', 'power'.
+        
+    **kwargs :
+        Arguments for specific smoothing operators.
+        
+        'kr_norm':
+            'maximum_error_rate': error rate to stop iteration, default=1e-4.
+        'convolution':
+            'kernel_shape': shape of kernel ('kernel_shape' ,'kernel_shape'), default=3.
+        'random_walk':
+            'random_walk_ratio': propotion of random walk smooth matrix, default=1.0;
+            't': number of random walk iteration times, default=1.
+        'network_enhancing':
+            'kNN': number of nearest neighbors, default=20;
+            'iterations': number of iterations, default=1.
+        'logarithm':
+            'epsilon': numerator of error term, default=1;
+            'log_base': denominator of error's exponentiation, default=e.
+        'power':
+            'pow': exponent of exponentiation, default=0.5.
+        
+
+    Returns
+    -------
+    mat : numpy.ndarray
+        Matrix after appling smoothing operator.
+
+    """
+    
+    for op in operations:
+        op = op.lower()
+        
+        if op == 'oe_norm':
+            new_mat = np.zeros(mat.shape)
+            averages = np.array([np.mean(mat[i:, :len(mat) - i]) for i in range(len(mat))])
+            averages = np.where(averages == 0, 1, averages)
+            for i in range(len(mat)):
+                for j in range(len(mat)):
+                    d = abs(i - j)
+                    new_mat[i, j] = mat[i, j] / averages[d]
+            mat = new_mat
+            
+        elif op == 'vc_norm':
+            sm = np.sum(mat, axis=0)
+            sm = np.where(sm == 0, 1, sm)
+            sm_v = np.tile(sm, (len(sm), 1))
+            sm_c = sm_v.T
+            mat = mat / sm_c / sm_v
+        
+        elif op == 'vc_sqrt_norm':
+            sm = np.sum(mat, axis=0)
+            sm = np.where(sm == 0, 1, sm)
+            sm = np.sqrt(sm)
+            sm_v = np.tile(sm, (len(sm), 1))
+            sm_c = sm_v.T
+            mat = mat / sm_c / sm_v
+            
+        elif op == 'kr_norm':
+            mat = KR_norm(mat, kwargs.pop('maximum_error_rate', 1e-4))
+            
+        elif op == 'convolution':
+            mat = convolution(mat, kwargs.pop('kernel_shape', 3))
+            
+        elif op == 'random_walk':
+            mat = random_walk(mat, kwargs.pop('random_walk_ratio', 1.0),kwargs.pop('t', 1))
+            
+        elif op == 'network_enhancing':
+            mat = network_enhancing(mat, kwargs.pop('kNN', 20),
+                                    kwargs.pop('iterations', 1), kwargs.pop('alpha', 0.9))
+        
+        elif op == 'logarithm':
+            mat = np.log(mat + kwargs.pop('epsilon', 1)) / np.log(kwargs.pop('log_base', np.e))
+        
+        elif op == 'power':
+            mat = np.power(mat, kwargs.pop('pow', 0.5))
+        
+    return mat
 #fast_oe(cell_list[1],method='quanbu',store=False)
 
