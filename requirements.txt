@@ -1,0 +1,17 @@
+setuptools
+Click
+
+# api
+scipy
+numpy
+pandas
+sklearn
+statsmodels
+scikit-learn
+
+# hic
+cooler
+cooltools
+coolbox
+
+
