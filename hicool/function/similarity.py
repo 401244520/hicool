@@ -32,6 +32,25 @@ def cal_similarity( cell_list,
                     chrom = "chr1", 
                     n_strata = 20, 
                     method = 'hicrep'):
+    """
+    cal_similarity calaculate similarity between cells.
+
+    Parameters
+    ----------
+    cell_list : list
+        A list including cool path
+    chrom : str, optional
+        Which chromosome want to calculate, by default "chr1"
+    n_strata : int, optional
+        If need keep strata(according the diagnal), by default 20
+    method : str, optional
+        which similarity method to use, by default 'hicrep'
+
+    Returns
+    -------
+    np.ndarray or np.matrix
+        A matrix of cell-cell similarity.
+    """
     all_strata = _all_strata(cell_list,chrom,n_strata)
     sim = pairwise_distances(all_strata,method)
     return sim

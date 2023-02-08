@@ -11,6 +11,18 @@ try:
 except:
     print("If you want call compartment or tad, please install cooltools by 'pip install cooltools'. ")
 
+
+def cal_feature(cool_path,
+                ops=["balance"],
+                store=True):
+    if "balance" in ops:
+        clr = cooler.Cooler(cool_path)
+        cooler.balance_cooler(clr=clr,)
+    if "compartment" in ops :
+        clr = []
+    return
+
+
 def _sparse_oe(pixels):
     chr_len = pixels.bin2_id.max() - pixels.bin1_id.min()
     pixels["distance"] = pixels["bin2_id"] - pixels["bin1_id"]
@@ -191,10 +203,12 @@ def compartment_decomposition(  path,
     E1 = comp[vec].values
     if store and chrom is None :        
         with clr.open("r+") as grp:
-            put(grp["bins"],comp[vec])
+            put(grp["bins"],comp['E1'])
+            put(grp["bins"],comp['E2'])
+            put(grp["bins"],comp['E3'])
         print("Writing compartments score to ",path)
     if return_vector:
-        return E1
+        return comp
     E1[E1>1] = 1
     E1[E1<-1] = -1
     return np.outer(E1,E1)
@@ -235,18 +249,20 @@ def tad_insulation( path,
     else :
         ins = insulation(clr,window_bp=[res*window_size])
     score = ins["log2_insulation_score_"+str(res*window_size)]
+    boundary_strength = ins["boundary_strength_"+str(res*window_size)]
     boundary = ins["is_boundary_"+str(res*window_size)]
     if store and chrom is None:
         with clr.open("r+") as grp:
             put(grp["bins"],score)
             put(grp["bins"],boundary)
+            put(grp["bins"],boundary_strength)
         print("Writing insulation score and boundary to ",path)
     boundary = score[ins["is_boundary_"+str(res*window_size)]]
     score = score.values
     score[score>1] = 1
     score[score<-1] = -1
     if return_vector:
-        return score,boundary
+        return ins
     boundary_adj = np.zeros((len(score),len(score)))
     for i in range(len(boundary)-1):
         start,end = boundary.index[i],boundary.index[i+1] 

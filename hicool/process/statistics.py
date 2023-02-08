@@ -207,7 +207,7 @@ def quality_control(scool_path,
     meta = pd.read_csv(meta_path)  
     stats = pd.DataFrame(result,columns = ["cool_url","total_contacts","nonzero_bins","intra","short_range","mitotic","long_range"])
     stats["raw_path"] = meta.iloc[:,rawpath_col].values
-    stats["cell"] = stats["raw_path"].apply(lambda p : p.split("/")[-1].split(".")[0])
+    # stats["cell"] = stats["raw_path"].apply(lambda p : p.split("/")[-1].split(".")[0])
     stats["sample"] = meta.iloc[:,sample_col].values
     stats["label"] = meta.iloc[:,label_col].values
     stats["qualified"] = (stats.intra/stats.total_contacts > intra_cutoff) & (stats.total_contacts > min_cutoff)\
@@ -246,6 +246,20 @@ def quality_control(scool_path,
     return stats
 
 def plot_stats(qual_path):
+    """
+    plot_stats plot statistic after quality control function.
+    Which include fundamentally 
+
+    Parameters
+    ----------
+    qual_path : str
+        path to metadata file after quality_control function.
+
+    Returns
+    -------
+    plt.figure
+        A figure containing all the indicator stats and their correlation.
+    """    
     stats = pd.read_csv(qual_path)
     stats_info = stats[["total_contacts","nonzero_bins","short(%)","mitotic(%)","long(%)","intra(%)","label"]]
     g = sns.PairGrid(stats_info,hue="label")
