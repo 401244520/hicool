@@ -1,5 +1,5 @@
 # hicool
-HiCool is not complete now, just a preliminary development stage, for the time being, only support copying tools to local development, we are developing a complete version that can be installed and detailed documentation, so stay tuned! \
+HiCool is not complete now, just a preliminary development stage, for the time being, only support copying tools to local development, we are developing a complete version that can be installed and detailed documentation, so stay tuned! 
 
 # Data Available
 DipC2019 processed data and scripts [DipC2019](https://pan.baidu.com/s/1P1weJG0J1FdpYmGWQvfgCQ?pwd=dipc) \
@@ -12,13 +12,13 @@ HiCool is a Python package that provides an object-oriented interface for workin
 pip install hicool \
 cp hicool ./ && conda install hicool/requirements.txt -r
 # Usage
-from hicool.tools import compress_matrix,HiCool \
+from hicool.tools import compress_matrix,HiCool 
 
 from hicool.process import AutoLoad \
 from hicool.process.statistics import quality_control \
 from hicool.function.similarity import cal_similarity \
 from hicool.function.features import tad_insulation,compartment_decomposition \
-from hicool.function.estimation import cal_acroc \
+from hicool.function.estimation import cal_acroc 
 
 # Quality control
 ![image](https://user-images.githubusercontent.com/47477490/230857501-c44798f4-0c8f-44bd-83c6-cd904eaed441.png)
@@ -96,7 +96,7 @@ hc.network["bin_degree"] = distance_mat \
 emb_names = list(hc.embedding.keys()) \
 embs_pca,embs_tsne,embs_mds,embs_umap = PCA(2),TSNE(2),MDS(2),UMAP() \
 for emb_name in emb_names:\
-    embs_pca.fit_transform(hc.embedding[emb_name]) \
+    embs_pca.fit_transform(hc.embedding[emb_name]) 
 
 ![image](https://user-images.githubusercontent.com/47477490/230857441-1c4f2680-07cf-4297-9c27-15b3b50fe24b.png)
 acroc = cal_acroc(hc.embedding["bin_degree"],label) \
@@ -113,7 +113,7 @@ hc.info()
 sce = hc.to_scanpy(embedding_name="my_embedding") \
 ![image](https://user-images.githubusercontent.com/47477490/230866067-c0321bbd-bbf7-414c-990b-bd52e90b1f42.png)
 hig = hc.to_higashi() # Pending \
-fast_hig = hc.to_fast_higashi() \
+fast_hig = hc.to_fast_higashi() 
 
 
 
