@@ -1,9 +1,9 @@
 # hicool
 HiCool
-HiCool is a Python package that provides an object-oriented interface for working with HiCool and SCool data files. This package allows you to load, manipulate, and save HiCool and SCool files with ease.
+HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files. This package allows you to load, manipulate, and save HiCool and SCool files with ease.
 
 # Installation
-pip install hicool
+pip install hicool \ 
 cp hicool ./ && conda install hicool/requirements.txt -r
 # Usage
 from hicool.tools import compress_matrix,HiCool
