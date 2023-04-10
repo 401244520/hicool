@@ -1,11 +1,9 @@
-More usage an instance in scripts/(dataset).scool.ipynotebook
+More usage an instance in scripts/(dataset).scool.ipynb
 # hicool
-HiCool
-HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files. This package allows you to load, manipulate, and save HiCool and SCool files with ease.
+HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files, which allows to load, manipulate, and save scHiC data and analysis easily.
 
 # Installation
 pip install hicool \
-
 cp hicool ./ && conda install hicool/requirements.txt -r
 # Usage
 from hicool.tools import compress_matrix,HiCool \
@@ -20,7 +18,7 @@ from hicool.function.estimation import cal_acroc \
 ![image](https://user-images.githubusercontent.com/47477490/230857501-c44798f4-0c8f-44bd-83c6-cd904eaed441.png)
 
 scool_qc,meta_qc = quality_control(scool_path,meta_path) \
-quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator.
+quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator. \
 Default:
     rawpath_col: int = 0,
     sample_col: int = 1,
@@ -34,9 +32,9 @@ Default:
 
 
 # Load a HiCool or Scool file
-hc = HiCool(scool_qc,meta_qc)
-or you can directly loading .hicool file.
-hc = HiCool(hicool_path)
+hc = HiCool(scool_qc,meta_qc)\
+or you can directly loading .hicool file.\
+hc = HiCool(hicool_path)\
 
 
 # Compartment and TAD
@@ -53,18 +51,17 @@ comp_100k = list(pool.imap(compartment_decomposition,cell_list)) \
 sns.clustermap(pd.concat(comp_100k)["E1"],col_cluster=False,cmap="RdBu",figsize=(12,4),row_colors=colors,vmax = 1 ,vmin = -1) \
 
 ![image](https://user-images.githubusercontent.com/47477490/230860952-7ab4fd9a-9353-4087-b65d-215150af1bcb.png)
-hc = HiCool("../../data/DipC2019/DipC2019_100000_qc.scool")
-bd_chr1 = find_boundaries(comp_chr1)
-c_cons,b = compress_matrix(hc,operation="comp_conservation",bin=bd_chr1,chrom="chr1")
+hc = HiCool("../../data/DipC2019/DipC2019_100000_qc.scool")\
+bd_chr1 = find_boundaries(comp_chr1)\
+c_cons,b = compress_matrix(hc,operation="comp_conservation",bin=bd_chr1,chrom="chr1")\
 
 ![chr1_tad50K_cluster](https://user-images.githubusercontent.com/47477490/230863808-fc0a5833-b982-44aa-a17f-96438b2a17ba.png)
 cell_list = AutoLoad("../../data/DipC2019/DipC2019_50000_qc.scool").load_scool_cells() \
-tad_50k = list(pool.imap(tad_insulation,cell_list))
+tad_50k = list(pool.imap(tad_insulation,cell_list))\
 
 # Cell embedding
-compress_matrix is a wrapped function that compresses a HiCool object into a 2D matrix. Each row in the matrix represents a cell, and each column represents a compressed feature.
-
-matrix, features = compress_matrix(hc, chrom="chr1", operation="bin_strength",regions=chrom_regions)
+compress_matrix is a wrapped function that compresses a HiCool object into a 2D matrix. Each row in the matrix represents a cell, and each column represents a compressed feature.\
+matrix, features = compress_matrix(hc, chrom="chr1", operation="bin_strength",regions=chrom_regions)\
 operations: \
 "bin_degree" :  partial(node_degree,chrom=chrom,balance=balance,field=field), \
 "bin_strength" :  partial(node_strength,chrom=chrom,balance=balance,field=field), \
@@ -77,7 +74,7 @@ operations: \
 
 
 # Cell network
-from hicool.function.similarity import cal_similarity
+from hicool.function.similarity import cal_similarity\
 cell_list = AutoLoad(hc_path).load_hicool_cells() \
 hc.network["hicrep_chr1"] = cal_similarity(cell_list,method="hicrep",chrom="chr1") \
 
