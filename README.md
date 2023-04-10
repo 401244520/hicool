@@ -1,5 +1,5 @@
 # hicool
-[HiCool is not complete now, just a preliminary development stage, for the time being, only support copying tools to local development, we are developing a complete version that can be installed and detailed documentation, so stay tuned! ]
+**HiCool is not complete now, just a preliminary development stage, for the time being, only support copying tools to local development, we are developing a complete version that can be installed and detailed documentation, so stay tuned! **
 
 # Data Available
 DipC2019 processed data and scripts [DipC2019](https://pan.baidu.com/s/1P1weJG0J1FdpYmGWQvfgCQ?pwd=dipc) \
@@ -22,7 +22,7 @@ from hicool.function.estimation import cal_acroc
 
 # Quality control
 ![image](https://user-images.githubusercontent.com/47477490/230857501-c44798f4-0c8f-44bd-83c6-cd904eaed441.png)
-
+'''
 scool_qc,meta_qc = quality_control(scool_path,meta_path) \
 quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator. \
 Default:
@@ -35,13 +35,14 @@ Default:
     nproc: int = 20,
     save_pass: bool = True,
     save_fig: bool = True
-
+'''
 
 # Load a HiCool or Scool file
 We provide generate HiCool instance from scool and directly loading hicool file.\
-hc = HiCool(scool_qc,meta_qc)\
+'''
+hc = HiCool(scool_qc,meta_qc)
 hc = HiCool(hicool_path)
-
+'''
 
 # Compartment and TAD
 ![chr1_compartment_E1](https://user-images.githubusercontent.com/47477490/230863478-b08a8caf-45df-4e51-81a9-ab32067e5d4b.png)
