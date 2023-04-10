@@ -14,7 +14,8 @@ from hicool.function.similarity import cal_similarity
 from hicool.function.features import tad_insulation,compartment_decomposition
 
 # Quality control
-![image](https://user-images.githubusercontent.com/47477490/230853452-69784db2-c75e-4ad8-a883-00e08efc8747.png)
+![image](https://user-images.githubusercontent.com/47477490/230857501-c44798f4-0c8f-44bd-83c6-cd904eaed441.png)
+
 scool_qc,meta_qc = quality_control(scool_path,meta_path) \
 quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator.
 Default:
@@ -33,6 +34,38 @@ Default:
 hc = HiCool(scool_qc,meta_qc)
 or you can directly loading .hicool file.
 hc = HiCool(hicool_path)
+
+
+# Compartment and TAD
+comp = compartment_decomposition("../../data/DipC2019/DipC2019_100000_qc_merged.cool")
+MOE,retina = AutoLoad("../../data/DipC2019/DipC2019_100000_qc_cluster.scool").load_scool_cells()
+![image](https://user-images.githubusercontent.com/47477490/230858985-0914d732-5cfb-44dd-9080-a21fa8ac07e4.png)
+
+tad = tad_insulation("../../data/DipC2019/DipC2019_100000_qc_merged.cool")
+![image](https://user-images.githubusercontent.com/47477490/230860117-dc2632ef-89ef-4239-af2f-78d3977a5d34.png)
+
+cell_list = AutoLoad("../../data/DipC2019/DipC2019_100000_qc.scool").load_scool_cells()
+with Pool(processes = 36) as pool:
+    comp_100k = list(tqdm(pool.imap(compartment_decomposition,cell_list), total= len(cell_list)))
+sns.clustermap(pd.concat(comp_100k)["E1"],col_cluster=False,cmap="RdBu",figsize=(12,4),row_colors=colors,vmax = 1.5 ,vmin = -1.5)
+![image](https://user-images.githubusercontent.com/47477490/230857985-c610a4c2-33cc-432a-8f7e-bf49e72c0386.png)
+sns.clustermap(t_conserve,row_cluster=1,cmap="RdBu_r",figsize=(12,4),row_colors=colors,vmax = 1 ,vmin = 0)
+![image](https://user-images.githubusercontent.com/47477490/230860951-66c836da-b419-45f8-a28b-afa2eea4a414.png)
+n_clusters = 4
+cluster = AgglomerativeClustering(n_clusters=n_clusters, affinity='euclidean', linkage='ward')  
+clr = cluster.fit_predict(data_scaled)
+for i in range(n_clusters):
+    plt.subplot(100+n_clusters*10+i+1)
+    sns.heatmap(data_scaled[clr == i].T,cmap="RdBu_r",vmax = 1)
+    plt.title("Cluster "+ str(i))
+![image](https://user-images.githubusercontent.com/47477490/230860952-7ab4fd9a-9353-4087-b65d-215150af1bcb.png)
+
+
+cell_list = AutoLoad("../../data/DipC2019/DipC2019_50000_qc.scool").load_scool_cells()
+with Pool(processes = 36) as pool:
+    tad_50k = list(tqdm(pool.imap(tad_insulation,cell_list), total= len(cell_list)))
+![image](https://user-images.githubusercontent.com/47477490/230858044-8e0b0e07-000f-4d1e-8252-eeae9641180f.png)
+
 
 
 # Cell embedding
@@ -78,7 +111,8 @@ from hicool.function.estimation import cal_acroc,plt
 
 acroc = cal_acroc(hc.embedding["bin_degree"],label)
 plt.title("bin_degree")
-![image](https://user-images.githubusercontent.com/47477490/230857334-a94dd90b-9e00-41c7-a4af-0b6b7c614e89.png)
+![image](https://user-images.githubusercontent.com/47477490/230857441-1c4f2680-07cf-4297-9c27-15b3b50fe24b.png)
+
 
 # Save the HiCool object as a HiCool file
 hc.save_as("path/to/output.hicool")
