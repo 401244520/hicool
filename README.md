@@ -9,8 +9,10 @@ All dataset at 1MB resolution and Embryo data [HiCool](https://pan.baidu.com/s/1
 HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files, which allows to load, manipulate, and save scHiC data and analysis easily.
 
 # Installation
-pip install hicool \
-cp hicool ./ && conda install hicool/requirements.txt -r
+```
+pip install hicool  # Not implement now
+cp hicool ./ && conda install hicool/requirements.txt -r # Please copy or link the hicool floder to current path
+```
 # Usage
 ```
 from hicool.tools import compress_matrix,HiCool 
