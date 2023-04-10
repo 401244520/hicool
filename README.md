@@ -1,4 +1,6 @@
 More usage an instance in scripts/(dataset).scool.ipynb
+DipC2019 processed data in https://pan.baidu.com/s/1P1weJG0J1FdpYmGWQvfgCQ?pwd=dipc
+
 # hicool
 HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files, which allows to load, manipulate, and save scHiC data and analysis easily.
 
