@@ -38,9 +38,9 @@ Default:
 
 
 # Load a HiCool or Scool file
+We provide generate HiCool instance from scool and directly loading hicool file.\
 hc = HiCool(scool_qc,meta_qc)\
-or you can directly loading .hicool file.\
-hc = HiCool(hicool_path)\
+hc = HiCool(hicool_path)
 
 
 # Compartment and TAD
