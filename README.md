@@ -23,8 +23,8 @@ from hicool.function.estimation import cal_acroc
 # Quality control
 ![image](https://user-images.githubusercontent.com/47477490/230857501-c44798f4-0c8f-44bd-83c6-cd904eaed441.png)
 ```
-scool_qc,meta_qc = quality_control(scool_path,meta_path) \
-quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator. \
+scool_qc,meta_qc = quality_control(scool_path,meta_path) 
+quality_control : Calculate single cell statistical indicator and set a cutoff threshold of each indicator. 
 Default:
     rawpath_col: int = 0,
     sample_col: int = 1,
@@ -104,28 +104,35 @@ hc.network["bin_degree"] = distance_mat
 
 # Cell Clustering 
 ![image](https://user-images.githubusercontent.com/47477490/230856825-78feb89b-f6fc-496b-87cb-2ae65b4a5bbb.png)
-emb_names = list(hc.embedding.keys()) \
-embs_pca,embs_tsne,embs_mds,embs_umap = PCA(2),TSNE(2),MDS(2),UMAP() \
-for emb_name in emb_names:\
+```
+emb_names = list(hc.embedding.keys()) 
+embs_pca,embs_tsne,embs_mds,embs_umap = PCA(2),TSNE(2),MDS(2),UMAP() 
+for emb_name in emb_names:
     embs_pca.fit_transform(hc.embedding[emb_name]) 
-
+```
 ![image](https://user-images.githubusercontent.com/47477490/230857441-1c4f2680-07cf-4297-9c27-15b3b50fe24b.png)
-acroc = cal_acroc(hc.embedding["bin_degree"],label) \
-
+```
+acroc = cal_acroc(hc.embedding["bin_degree"],label) 
+```
 
 
 # Save the HiCool object as a HiCool file
+```
 hc.save_as("path/to/output.hicool")
-
+```
 # Get metadata information
+```
 hc.info()
-
+```
 # Convert the HiCool object to a Scanpy AnnData object
-sce = hc.to_scanpy(embedding_name="my_embedding") \
+```
+sce = hc.to_scanpy(embedding_name="my_embedding") 
+```
 ![image](https://user-images.githubusercontent.com/47477490/230866067-c0321bbd-bbf7-414c-990b-bd52e90b1f42.png)
-hig = hc.to_higashi() # Pending \
+```
+hig = hc.to_higashi() # Pending 
 fast_hig = hc.to_fast_higashi() 
-
+```
 
 
 
