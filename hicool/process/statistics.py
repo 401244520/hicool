@@ -136,7 +136,8 @@ def check_meta(scool,meta_path,rawpath_col=0,sample_col=1,label_col=2):
         raise Exception(f"metadata({len(meta)}) is not equal to cells({len(cells)})!")
     cell_set = {c.split("/")[-1] for c in cells}
     meta_set = {m.split("/")[-1].split(".")[0] for m in meta.iloc[:,rawpath_col].values}
-    if not cell_set.issubset(meta_set) :
+    meta_set_full = {m.split("/")[-1] for m in meta.iloc[:,rawpath_col].values}
+    if not (cell_set.issubset(meta_set) or  cell_set.issubset(meta_set_full)):
         inter = meta_set.intersection(cell_set)
         raise Exception(f"metadata({len(meta_set)}) not fully include scool cells({len(cell_set)}), which have {len(inter)} intersect.")
     # Check name duplicate
@@ -145,17 +146,29 @@ def check_meta(scool,meta_path,rawpath_col=0,sample_col=1,label_col=2):
         raise Exception(f"sample name({len(meta)}) is not unique({len(name_set)})!")
     # Check label 
     label_set = meta.iloc[:,label_col].value_counts().to_dict()
-    return cells
+    return meta_set
 
 
-def scool_del_cells(scool,cell_list):
+def scool_del_cells(scool_path,cell_list):
     from cooler.core import delete
-    clr = cooler.Cooler(scool)
+    clr = cooler.Cooler(scool_path)
     for cell in cell_list :
         with clr.open("r+") as grp:
             delete(grp["cells"],cell)
-    return scool
+    return scool_path
 
+def scool_filer_cells(scool_path,cell_list,qual_path=None):
+    if qual_path is None:
+        qual_path = scool_path.replace(".scool","_qc.scool")
+    cooler.fileops.cp(scool_path,qual_path,overwrite = True)
+    all_cells = set(cell.split("/")[-1] for cell in cooler.fileops.list_scool_cells(scool_path))
+    if all_cells.issuperset(set(cell_list)):
+        del_cells = all_cells - set(cell_list)
+    else:
+        raise Exception("Not all cells provided in cell_list in scool file. Double check your cell list and scool cells.")
+    scool_del_cells(qual_path,del_cells)
+    print(f"Saving {len(cell_list)} filtered cells to {qual_path}.")
+    return qual_path
 
 def quality_control(scool_path,
                     meta_path,
@@ -165,6 +178,7 @@ def quality_control(scool_path,
                     intra_cutoff=0.5,
                     min_cutoff=10000,
                     nonzero_cutoff=10000,
+                    nproc = 20,
                     save_pass=True,
                     save_fig=True):
     """
@@ -202,12 +216,12 @@ def quality_control(scool_path,
     """    
     cell_list =  AutoLoad(scool_path).load_scool_cells()
     check_meta(scool_path,meta_path,rawpath_col,sample_col,label_col)
-    with Pool(processes = 20) as pool:
+    with Pool(processes = nproc) as pool:
         result = list(tqdm(pool.imap(preprocess,cell_list), total= len(cell_list)))
     meta = pd.read_csv(meta_path)  
     stats = pd.DataFrame(result,columns = ["cool_url","total_contacts","nonzero_bins","intra","short_range","mitotic","long_range"])
     stats["raw_path"] = meta.iloc[:,rawpath_col].values
-    stats["cell"] = stats["raw_path"].apply(lambda p : p.split("/")[-1].split(".")[0])
+    stats["cell"] =  [cell.split("/")[-1] for cell in cell_list]
     stats["sample"] = meta.iloc[:,sample_col].values
     stats["label"] = meta.iloc[:,label_col].values
     stats["qualified"] = (stats.intra/stats.total_contacts > intra_cutoff) & (stats.total_contacts > min_cutoff)\
@@ -246,6 +260,20 @@ def quality_control(scool_path,
     return stats
 
 def plot_stats(qual_path):
+    """
+    plot_stats plot statistic after quality control function.
+    Which include fundamentally 
+
+    Parameters
+    ----------
+    qual_path : str
+        path to metadata file after quality_control function.
+
+    Returns
+    -------
+    plt.figure
+        A figure containing all the indicator stats and their correlation.
+    """    
     stats = pd.read_csv(qual_path)
     stats_info = stats[["total_contacts","nonzero_bins","short(%)","mitotic(%)","long(%)","intra(%)","label"]]
     g = sns.PairGrid(stats_info,hue="label")

@@ -53,18 +53,15 @@ def KR_norm(mat, maximum_error_rate=1e-4):
         bb = np.diag(x).dot(new_mat).dot(x) - np.ones(x.shape)
         delta = aa.dot(bb)
         new_x = x - delta
-
         max_error = np.max(np.abs(delta))
         # print(f'Iteration: {k}, Max Error: {max_error}')
         if max_error < bias:
             break
         else:
             x = new_x
-
     # Normalization
     dg = np.diag(new_x)
     new_mat = dg.dot(new_mat).dot(dg)
-
     # Put all-zero rows and columns back
     for zero in zeros:
         new_mat = np.insert(new_mat, zero, 0, axis=0)
@@ -104,7 +101,6 @@ def network_enhancing(mat, kNN=20, iteration=1, alpha=0.9):
     sm = np.where(sm == 0, 1, sm)
     sm = np.tile(sm, (len(mat), 1)).T
     walk = new_mat / sm
-
     for k in range(iteration):
         if k == 0:
             new_mat = alpha * walk.T.dot(mat).dot(walk) + (1 - alpha) * mat
@@ -155,9 +151,10 @@ def get_matrix(cell,chrom='chr1'):
 # From scHiCTools
 def matrix_operation(mat, operations, **kwargs):
     """
+    " Liu, J., Lin, D., Yardlmcl, G. G., & Noble, W. S. (2018). 
+    Unsupervised embedding of single-cell Hi-C data. Bioinformatics "
     
-
-    Parameters Xinjun Li, Fan Feng, Wai Yan Leung and Jie Liu. "scHiCTools: a computational toolbox for analyzing single cell Hi-C data." bioRxiv (2019): 769513.
+    Parameters
     ----------
     mat : numpy.ndarray
         Matrix to apply smoothing operators.

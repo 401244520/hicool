@@ -74,6 +74,12 @@ class AutoLoad():
         cell_list = [self.path + "::/cells/" + cell for cell in cells]
         return cell_list
     
+    def load_hicool_cells(self) -> List:  
+        with h5py.File(self.path,'r') as f :
+            cells = list(f['scool/cells'].keys())
+        cell_list = [self.path + "::/scool/cells/" + cell for cell in cells]
+        return cell_list
+    
     def load_scool_bins(self) -> pd.DataFrame:  
         with h5py.File(self.path,'r') as f :
             chroms = f['chroms']['name'][:].astype(str)

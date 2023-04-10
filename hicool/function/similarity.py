@@ -1,6 +1,4 @@
-from itertools import product
 from time import time
-
 import cooler
 import numpy as np
 import pandas as pd
@@ -15,6 +13,35 @@ from functools import partial
 from multiprocessing import Pool
 
 from tqdm import tqdm
+
+
+def matrix_similarity(matrix_list, 
+                      n_strata = 20, 
+                      method = 'hicrep'):
+    """
+    cal_similarity calaculate similarity between cells.
+
+    Parameters
+    ----------
+    cell_list : list
+    n_strata : int, optional
+        If need keep strata(according the diagnal), by default 20
+    method : str, optional
+        which similarity method to use, by default 'hicrep'
+
+    Returns
+    -------
+    np.ndarray or np.matrix
+        A matrix of cell-cell similarity.
+    """
+    all_strata = [[] for i in range(n_strata)]
+    for mat in matrix_list:
+        for i in range(n_strata):
+            all_strata[i].append(np.diag(mat,i))
+    all_strata = [np.array(strata) for strata in all_strata]
+    sim = pairwise_distances(all_strata,method)
+    return sim
+
 
 
 def _all_strata(cell_list,chrom = "chr1",n_strata = 20):
@@ -32,6 +59,25 @@ def cal_similarity( cell_list,
                     chrom = "chr1", 
                     n_strata = 20, 
                     method = 'hicrep'):
+    """
+    cal_similarity calaculate similarity between cells.
+
+    Parameters
+    ----------
+    cell_list : list
+        A list including cool path
+    chrom : str, optional
+        Which chromosome want to calculate, by default "chr1"
+    n_strata : int, optional
+        If need keep strata(according the diagnal), by default 20
+    method : str, optional
+        which similarity method to use, by default 'hicrep'
+
+    Returns
+    -------
+    np.ndarray or np.matrix
+        A matrix of cell-cell similarity.
+    """
     all_strata = _all_strata(cell_list,chrom,n_strata)
     sim = pairwise_distances(all_strata,method)
     return sim
@@ -144,11 +190,12 @@ def pairwise_distances(all_strata,
                        parallelize=False, 
                        n_processes=1):
     """
+    " Liu, J., Lin, D., Yardlmcl, G. G., & Noble, W. S. (2018). 
+    Unsupervised embedding of single-cell Hi-C data. Bioinformatics "
     
     Find the pairwise distace using different similarity method, 
     and return a distance matrix.
     
-
     Parameters
     ----------
     all_strata : list

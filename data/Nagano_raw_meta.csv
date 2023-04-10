@@ -1,4 +1,4 @@
-path,Five_prime_barcode,Three_prime_barcode,Nature_Reference_ID,GEO_Sample_ID,Lane,Name,label
+RawPath,Five_prime_barcode,Three_prime_barcode,Nature_Reference_ID,GEO_Sample_ID,Lane,Name,label
 /store/zlwang/Workspace/data/Nagano2017/nagano_10kb_cell_types.scool::/cells/Diploid_11_ACTCGCTA_CCTAGAGT_R1fastqgz,ACTCGCTA,CCTAGAGT,Diploid_11,Diploid_11,3070,1CDU-12,1CDU
 /store/zlwang/Workspace/data/Nagano2017/nagano_10kb_cell_types.scool::/cells/Diploid_11_ACTCGCTA_CTATTAAG_R1fastqgz,ACTCGCTA,CTATTAAG,Diploid_11,Diploid_11,3070,1CDU-13,1CDU
 /store/zlwang/Workspace/data/Nagano2017/nagano_10kb_cell_types.scool::/cells/Diploid_11_ACTCGCTA_TCGACTAG_R1fastqgz,ACTCGCTA,TCGACTAG,Diploid_11,Diploid_11,3070,1CDU-16,1CDU
