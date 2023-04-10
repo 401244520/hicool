@@ -1,3 +1,4 @@
+More usage an instance in scripts/(dataset).scool.ipynotebook
 # hicool
 HiCool
 HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files. This package allows you to load, manipulate, and save HiCool and SCool files with ease.
