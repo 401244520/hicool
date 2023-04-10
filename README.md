@@ -1,6 +1,6 @@
 More usage an instance in scripts/(dataset).scool.ipynb \
-DipC2019 processed data in [DipC2019](https://pan.baidu.com/s/1P1weJG0J1FdpYmGWQvfgCQ?pwd=dipc) \
-All dataset at 1MB resolution and processed data [HiCool](https://pan.baidu.com/s/147r4oojByKrgVY61Unzr3Q?pwd=hico)
+DipC2019 processed data and scripts [DipC2019](https://pan.baidu.com/s/1P1weJG0J1FdpYmGWQvfgCQ?pwd=dipc) \
+All dataset at 1MB resolution and Embryo data [HiCool](https://pan.baidu.com/s/147r4oojByKrgVY61Unzr3Q?pwd=hico)
 # hicool
 HiCool is a Python package that provides an object-oriented interface for working with HiCool and Scool data files, which allows to load, manipulate, and save scHiC data and analysis easily.
 
