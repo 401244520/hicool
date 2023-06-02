@@ -46,7 +46,7 @@ def pixels_operation(cool_path,
                       "bin_strength" :  partial(node_strength,chrom=chrom,balance=balance,field=field),
                       "region_strength" : partial(strength_region,regions=regions,balance=balance,field=field,**kwargs),
                       "region_conservation" : partial(conservation_region,regions=regions,balance=balance,field=field,**kwargs),
-                      "comp_strength" : partial(_node_aggregation_strength,**kwargs),
+                      # "comp_strength" : partial(_node_aggregation_strength,**kwargs),
                       "comp_conservation" : partial(_node_conservation,**kwargs),
                       "strata_strength" : partial(strata_strength,chrom=chrom,balance=balance,field=field,**kwargs),
     }

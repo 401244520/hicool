@@ -1,6 +1,7 @@
 from typing import *
 import h5py
 import pandas as pd
+import numpy as np
 import cooler
 
 class HiCool():
@@ -26,6 +27,7 @@ class HiCool():
             self.embedding = self._get("embedding")
             self.network = self._get("network")
             self.imputation = self._get("imputation")
+            # self.byte2string(self.meta)
         elif cooler.fileops.is_scool_file(path):
             print("Loading scool file from " + path)
             self.scool_path = path
@@ -109,6 +111,12 @@ class HiCool():
             cells = list(f['scool/cells'].keys())
         cell_list = [self.root + "::/scool/cells/" + cell for cell in cells]
         return cell_list
+    
+    def byte2string(self,d):
+        for k in d.keys():
+            if d[k].dtype == object:
+                d[k] = np.array([item.decode() for item in d[k]],dtype=str)
+        return d
     
     def to_scanpy(self,embedding_name,embedding_index=None):
         try:

@@ -158,6 +158,23 @@ def scool_del_cells(scool_path,cell_list):
     return scool_path
 
 def scool_filer_cells(scool_path,cell_list,qual_path=None):
+    """scool_filter_cells
+
+    Parameters
+    ----------
+    scool_path : str
+        Path to scool file.
+    cell_list : list or listlike
+        A list contain cells you want to reserve.
+    qual_path : str, optional
+        Output file path, by default None
+
+    Returns
+    -------
+    qual_path
+        Output file path
+
+    """    
     if qual_path is None:
         qual_path = scool_path.replace(".scool","_qc.scool")
     cooler.fileops.cp(scool_path,qual_path,overwrite = True)

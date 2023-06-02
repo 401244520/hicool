@@ -39,6 +39,23 @@ def softmax(x):
     return np.exp(x) / np.sum(np.exp(x))
     
 def cal_acroc(embs,label,plot=True):
+    """
+    cal_acroc Calculate Average Circular ROC while ROC can not directly apply on Multi 
+
+    Parameters
+    ----------
+    embs : _type_
+        _description_
+    label : _type_
+        _description_
+    plot : bool, optional
+        _description_, by default True
+
+    Returns
+    -------
+    _type_
+        _description_
+    """
     labels = pd.get_dummies(label)
     acroc,acfpr,actpr = {},{},{}
     n_label = labels.columns
