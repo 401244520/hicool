@@ -238,7 +238,11 @@ def quality_control(scool_path,
     meta = pd.read_csv(meta_path)  
     stats = pd.DataFrame(result,columns = ["cool_url","total_contacts","nonzero_bins","intra","short_range","mitotic","long_range"])
     stats["raw_path"] = meta.iloc[:,rawpath_col].values
+<<<<<<< HEAD
     stats["cell"] =  [cell.split("/")[-1] for cell in cell_list]
+=======
+    # stats["cell"] = stats["raw_path"].apply(lambda p : p.split("/")[-1].split(".")[0])
+>>>>>>> 3ff3f339eb81582e70fa8746a61dc479ce5a29e5
     stats["sample"] = meta.iloc[:,sample_col].values
     stats["label"] = meta.iloc[:,label_col].values
     stats["qualified"] = (stats.intra/stats.total_contacts > intra_cutoff) & (stats.total_contacts > min_cutoff)\
