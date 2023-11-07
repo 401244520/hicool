@@ -1,0 +1,15 @@
+# history
+.idea
+.git
+.pytest_cache
+.vscode
+
+# data
+data
+
+# test
+tests
+scripts
+
+# cache
+**/__pycache__

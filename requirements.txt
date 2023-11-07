@@ -1,0 +1,21 @@
+setuptools
+Click
+
+# api
+scipy
+numpy
+pandas
+scikit-learn
+cooler
+
+# optional on Windows
+cooltools
+coolbox
+
+# optional with gpu
+pytorch
+
+# optional for visualization
+dash
+
+
