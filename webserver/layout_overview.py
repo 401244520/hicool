@@ -3,12 +3,7 @@ import plotly.express as px
 import pandas as pd
 from dash import dash_table, html, dcc, Input, Output, callback, State
 
-try:
-    from hicool.api import HiCool
-except:
-    import sys
-    sys.path.append("/home/wzl/Workspace/HiCool")
-    from hicool.api import HiCool
+from hicool.api import HiCool
 
 
 def hicool_view(datasets):

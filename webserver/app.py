@@ -9,22 +9,28 @@ from layout_diff import hicool_diff
 
 app = Dash(__name__, assets_folder='./assets',
            suppress_callback_exceptions=True)
+datasets = "../data"
+
 
 app.layout = html.Div(className='layui-layout layui-layout-admin', children=[
     html.Div(className='layui-header', children=[
-        html.H1('数据库', className='layui-logo  layui-bg-black'),
+        html.H1('HiCool', className='layui-logo  layui-bg-black'),
         html.Ul(className='layui-nav layui-layout-left', children=[
             html.Li([
-                dcc.Link('首页', href='/home',
+                dcc.Link('Home', href='/home',
                          className='layui-icon layui-icon-home'),
             ], className='layui-nav-item'),
             html.Li([
-                dcc.Link('浏览数据', href='/view',
+                dcc.Link('View', href='/view',
                          className='layui-icon layui-icon-list'),
             ], className='layui-nav-item'),
             html.Li([
-                dcc.Link('搜索数据', href='/search',
+                dcc.Link('Search', href='/search',
                          className='layui-icon layui-icon-search'),
+            ], className='layui-nav-item'),
+            html.Li([
+                dcc.Link('Document', href='/document',
+                         className='layui-icon layui-icon-file'),
             ], className='layui-nav-item'),
         ]),
     ]),
@@ -63,7 +69,6 @@ app.layout = html.Div(className='layui-layout layui-layout-admin', children=[
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
 def render_page_content(pathname):
-    datasets = "../../data"
     if pathname == '/tab-heatmap':
         return hicool_matrix(datasets)
     elif pathname == '/tab-bigwig':

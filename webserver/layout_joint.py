@@ -5,18 +5,12 @@ from tqdm import tqdm
 import numpy as np
 from dash import html, dcc, Input, Output, callback, State, callback_context
 
-try:
-    from hicool.tools import HiCool
-    from hicool.function.dataloader import load_cool_region
-except:
-    import sys
-    sys.path.append("/home/wzl/Workspace/HiCool")
-    from hicool.tools import HiCool
-    from hicool.function.dataloader import load_cool_region
+from hicool.tools import HiCool
+from hicool.function.dataloader import load_cool_region
 
 
-def hicool_matrix(datasets):
-    hicool_list = glob.glob(f"{datasets}/uploads/*hicool")
+def hicool_matrix():
+    hicool_list = glob.glob("datasets/uploads/*hicool")
     # print(str(hicool_list) + " \n")
     return html.Div([
         html.Div([
@@ -27,47 +21,42 @@ def hicool_matrix(datasets):
                         options=hicool_list,
                         value=hicool_list[0],
                     ),
-                ],style={'display': 'inline-block','textAlign': 'center', 'width': '70%'}),
+                ],style={'display': 'inline-block','textAlign': 'center', 'width': '80%'}),
                 html.Div([
                     html.Button(id='hicool_button',
                                 children='Show All Cells', style={'height': '30px'}),
-                ], style={'display': 'inline-block', 'width': '20%','position': 'relative', 'bottom': '14px','margin': '0 2%'}),
+                ], style={'display': 'inline-block', 'width': '20%','position': 'relative', 'bottom': '14px'}),
             ]),
             html.Div([
                 html.Div([
                     dcc.Dropdown(id='hicool_chrom')
-                ], style={'display': 'inline-block','textAlign': 'center', 'height': '22px', 'width': '20%'}),
+                ], style={'display': 'inline-block', 'width': '20%', 'height': '22px'}),
                 html.Div([
-                    dcc.Input(id='hicool_start', placeholder='start:0', 
-                            type='int', min=0, value=0, style={'height': '30px','textAlign': 'center'}),        
-                ], style={'display': 'inline-block', 'width': '20%','margin': '0 2%'}),
-                html.Div([
-                    dcc.Input(id='hicool_end', placeholder='end:', type='int',
-                            style={'height': '30px','textAlign': 'center'}),
-                ], style={'display': 'inline-block', 'width': '20%', 'margin': '0 2%'}),
-                html.Div([
-                    html.Button(id='chrom_button', children='Show Genome Range', 
-                                style={'height': '30px','textAlign': 'center'}),
-                ], style={'display': 'inline-block', 'width': '20%', 'margin': '0 2%'}),
+                    dcc.Input(id='hicool_start', placeholder='start:0',
+                                type='int', min=0, value=0, style={'height': '30px'}),
+                    dcc.Input(id='hicool_end', placeholder='end:',
+                                type='int', style={'height': '30px'}),
+                    html.Button(id='chrom_button',
+                                children='Show Genome Range', style={'height': '30px'}),
+                ], style={'display': 'inline-block', 'width': '80%'}),
             ]),
-                    
             html.Div([
                 html.Div([
                     dcc.RadioItems(id='hicool_field', value='count'),
                 ]),
                 html.Div([
-                    dcc.Slider(id='hicool_zmax', min=0, max=100),
-                ]),
-                html.Div([
                     dcc.Graph(id='hicool_heatmap'),
-                ], style={'display': 'inline-block', 'width': '60%'}),
+                ], style={'display': 'inline-block', 'width': '82%'}),
+                html.Div([
+                    dcc.Slider(id='hicool_zmax', min=0, max=100, vertical=True,verticalHeight=650),
+                ], style={ 'display': 'inline-block','height':'750px'}),
             ]),
-        ],style={'display': 'inline-block', 'width': '60%'}),
+        ],style={'display': 'inline-block', 'width': '70%'}),
         
         html.Div([
             dcc.Dropdown(id='hicool_cell', multi=True, maxHeight=500)
-        ],style={'display': 'inline-block', 'width': '30%', 'margin': '0 5%',
-                 'position': 'relative', 'right': '50px','height':'950px'}),
+        ],style={'display': 'inline-block', 'width': '30%',
+                 'position': 'relative', 'right': '100px','height':'905px'}),
     ])
 
 @callback(
@@ -163,4 +152,4 @@ def update_graph(cells,
                           font=dict(size=14))]
     )
 
-    return fig, int(np.quantile(matrices,0.995))
+    return fig, np.quantile(matrices,0.995)

@@ -2,14 +2,8 @@ from dash import dcc, html, Input, Output, State,callback,ALL
 import inspect
 import textwrap
 
-try:
-    from hicool.tools import HiCool
-    from hicool.function.conformation import compartment_decomposition,tad_insulation
-except:
-    import sys
-    sys.path.append("/home/wzl/Workspace/HiCool")
-    from hicool.tools import HiCool
-    from hicool.function.conformation import compartment_decomposition,tad_insulation
+from hicool.tools import HiCool
+from hicool.function.conformation import compartment_decomposition,tad_insulation
 
 func_api = {
     'compartment':compartment_decomposition,

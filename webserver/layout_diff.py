@@ -6,14 +6,9 @@ from plotly.subplots import make_subplots
 import glob
 import numpy as np
 
-try:
-    from hicool.tools import HiCool
-    from hicool.function.dataloader import load_cool_region
-except:
-    import sys
-    sys.path.append("/home/wzl/Workspace/HiCool")
-    from hicool.tools import HiCool
-    from hicool.function.dataloader import load_cool_region
+from hicool.tools import HiCool
+from hicool.function.dataloader import load_cool_region
+
 
 
 def hicool_diff(datasets):
